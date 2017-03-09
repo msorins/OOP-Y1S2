@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/UBB/OOP/Seminar1/library.c
+library.h
+/Users/so/Desktop/UBB/OOP/Seminar1/library.h
+stdio.h
+-
+
+/Users/so/Desktop/UBB/OOP/Seminar1/library.h
+
