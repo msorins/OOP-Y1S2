@@ -25,7 +25,7 @@ void deleteController(MedController* medController) {
     free(medController);
 }
 
-MedController *addMedicationC(MedController *medController, char *name, double concentration, int quantity, int price) {
+MedController* addMedicationC(MedController *medController, char *name, double concentration, int quantity, int price) {
     Medication* newMedication = createMedication(name, concentration, quantity, price);
 
     if(doesMedExistsR(medController->medRepository, name, concentration) == 0)
@@ -47,15 +47,76 @@ MedController *addMedicationC(MedController *medController, char *name, double c
     return medController;
 }
 
-MedRepository * listMedsC(MedController *medController) {
+MedRepository* listMedsC(MedController *medController) {
     return medController->medRepository;
 }
 
-MedController *deleteMedicationC(MedController *medController, char *name, double concentration) {
+MedController* deleteMedicationC(MedController *medController, char *name, double concentration) {
     if(doesMedExistsR(medController->medRepository, name, concentration) == 1)
         deleteMedicationR(medController->medRepository, name, concentration);
     else {
         printf("Your med does not exist, sorry \n");
         return medController;
     }
+}
+
+MedController* updateMedicationC(MedController *medController, char *name, double concentration, int quantity, int price) {
+
+    if(doesMedExistsR(medController->medRepository, name, concentration) == 0) {
+        printf("Requested med does not exist, sorry \n");
+        return medController;
+    }
+
+    updateMedicationR(medController->medRepository, name, concentration, quantity, price);
+    return medController;
+}
+
+MedRepository *listMedicationByNameC(MedController *medController, char *name) {
+    int i;
+    MedRepository* resMed = createRepository();
+    MedRepository* crtMed = medController->medRepository;
+
+    for(i = 1; i <= crtMed->length; i++)
+        if(strstr(crtMed->medications[i]->name, name)) {
+            addMedicationR(resMed, crtMed->medications[i]);
+        }
+
+    return sortMedicationsC(resMed, sortAscendingByName);
+}
+
+MedRepository *sortMedicationsC(MedRepository *medRepository, int (*cmp)(Medication *, Medication *)) {
+    int i, j;
+    MedRepository* newMedRep = medRepository;
+    Medication* aux;
+
+    for(i = 1; i <= newMedRep->length; i++)
+        for(j = i+1; j<= newMedRep->length; j++)
+            if(cmp(newMedRep->medications[i], newMedRep->medications[j])) {
+                aux = newMedRep -> medications[i];
+                newMedRep -> medications[i] = newMedRep -> medications[j];
+                newMedRep -> medications[j] = aux;
+            }
+
+    return newMedRep;
+}
+
+int sortAscendingByName(Medication *A,Medication *B) {
+    return strcmp(A->name, B->name);
+}
+
+MedRepository *listMedicationByConcentrationC(MedController *medController, double concentration) {
+    int i;
+    MedRepository* resMed = createRepository();
+    MedRepository* crtMed = medController->medRepository;
+
+    for(i = 1; i <= crtMed->length; i++)
+        if(crtMed->medications[i]->concentration <= concentration) {
+            addMedicationR(resMed, crtMed->medications[i]);
+        }
+
+    return sortMedicationsC(resMed, sortAscendingByConcentration);
+}
+
+int sortAscendingByConcentration(Medication *A, Medication *B) {
+    return A->concentration > B->concentration;
 }

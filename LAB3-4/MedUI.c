@@ -30,8 +30,8 @@ void printMenu() {
     printf("1 - add a med\n");
     printf("2 - delete a med\n");
     printf("3 - update a med\n");
-    printf("4 - sell by name\n");
-    printf("5 - sell by price\n");
+    printf("4 - filter by name\n");
+    printf("5 - filter by concentration\n");
     printf("6 - see short supply\n");
     printf("7 - undo .\n");
     printf("8 - redo .\n");
@@ -81,13 +81,13 @@ void decisionTree(MedUi *medUi, int cmd) {
             deleteMedUi(medUi);
             break;
         case 3:
-            //update a med
+            updateMedUI(medUi);
             break;
         case 4:
-            //sel by name
+            listMedUIByName(medUi);
             break;
         case 5:
-            //sell by price
+            listMedUIByConcentration(medUi);
             break;
         case 6:
             //see short supply
@@ -167,5 +167,78 @@ void deleteMedUi(MedUi *medUi) {
     }
 
     deleteMedicationC(medUi->medController, name, concentration);
+}
+
+void updateMedUI(MedUi *medUi) {
+    char* name = (char*) malloc(sizeof(char) * 100);
+    char* aux = (char*) malloc(sizeof(char) * 100);
+    double concentration = 0.0;
+    int quantity = 0;
+    int price = 0;
+
+    //Reading part
+    printf("Med name \n");
+    scanf("%s100", name);
+
+    printf("Concentration \n");
+    scanf("%s100", aux);
+    if(sscanf(aux, "%lf", &concentration) == 0) {
+        printf("Invalid format, sorry :)\n");
+        return;
+    }
+
+    printf("Quantity \n");
+    scanf("%s100", aux);
+    if(sscanf(aux, "%d", &quantity) == 0) {
+        printf("Invalid format, sorry :)\n");
+        return;
+    }
+
+    printf("Price \n");
+    scanf("%s100", aux);
+    if(sscanf(aux, "%d", &price) == 0) {
+        printf("Invalid format, sorry :)\n");
+        return;
+    }
+
+    //Actually call the update function
+    updateMedicationC(medUi->medController, name, concentration, quantity, price);
+}
+
+void listMedUIByName(MedUi *medUi) {
+    int i;
+    char* name = (char*) malloc(sizeof(char) * 100);
+
+    //Reading part
+    printf("Med name \n");
+    scanf("%s100", name);
+
+    MedRepository* crtMedRepository = listMedicationByNameC(medUi->medController, name);
+
+    printf("Name  |  Concentration  |  Quantity  |  Price\n");
+    for(i = 1 ; i <= crtMedRepository->length; i++) {
+        printf("%s    %lf    %d    %d\n", crtMedRepository->medications[i]->name,
+               crtMedRepository->medications[i]->concentration,
+               crtMedRepository->medications[i]->quantity,
+               crtMedRepository->medications[i]->price);
+    }
+}
+
+void listMedUIByConcentration(MedUi *medUi) {
+    int i;
+    double concentration = 0;
+    //R1eading part
+    printf("Max concentration\n");
+    scanf("%lf", &concentration);
+
+    MedRepository* crtMedRepository = listMedicationByConcentrationC(medUi->medController, concentration);
+
+    printf("Name  |  Concentration  |  Quantity  |  Price\n");
+    for(i = 1 ; i <= crtMedRepository->length; i++) {
+        printf("%s    %lf    %d    %d\n", crtMedRepository->medications[i]->name,
+               crtMedRepository->medications[i]->concentration,
+               crtMedRepository->medications[i]->quantity,
+               crtMedRepository->medications[i]->price);
+    }
 }
 

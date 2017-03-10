@@ -27,3 +27,6 @@ void listMedsUi(MedUi* medUi);
 
 void addMedUi(MedUi* medUi);
 void deleteMedUi(MedUi* medUi);
+void updateMedUI(MedUi* medUi);
+void listMedUIByName(MedUi* medUi);
+void listMedUIByConcentration(MedUi *medUi);
