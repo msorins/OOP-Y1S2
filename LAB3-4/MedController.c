@@ -14,6 +14,14 @@ MedController* createController(MedRepository* medRepo) {
     MedController* newController = (MedController*) malloc(sizeof(MedController));
 
     newController->medRepository = medRepo;
+    newController->pastMedRepositories = (MedRepository**) malloc(sizeof(MedRepository*) * 1000);
+
+    newController->pastMedRepositories[1] = medRepo;
+    newController->crtPastIndex = 1;
+    newController->maxPastLength = 1;
+
+    addInitialDataC(newController);
+
     return newController;
 }
 
@@ -44,6 +52,8 @@ MedController* addMedicationC(MedController *medController, char *name, double c
                           foundMed->quantity, foundMed->price);
     }
 
+    //Add a new state to the controller
+    addStateC(medController);
 
     return medController;
 }
@@ -53,8 +63,12 @@ MedRepository* listMedsC(MedController *medController) {
 }
 
 MedController* deleteMedicationC(MedController *medController, char *name, double concentration) {
-    if(doesMedExistsR(medController->medRepository, name, concentration) == 1)
+    if(doesMedExistsR(medController->medRepository, name, concentration) == 1) {
         deleteMedicationR(medController->medRepository, name, concentration);
+
+        //Add a new state to the controller
+        addStateC(medController);
+    }
     else {
         printf("Your med does not exist, sorry \n");
         return medController;
@@ -70,6 +84,10 @@ MedController *updateMedicationC(MedController *medController, char *orgName, do
     }
 
     updateMedicationR(medController->medRepository, orgName, orgConcentration, name, concentration, quantity, price);
+
+    //Add a new state to the controller
+    addStateC(medController);
+
     return medController;
 }
 
@@ -151,3 +169,85 @@ MedRepository *listMedicationByQuantityC(MedController *medController, int quant
 
     return sortedMed;
 }
+
+MedController *addStateC(MedController *medController) {
+    medController->maxPastLength += 1;
+    medController->crtPastIndex = medController->maxPastLength;
+    medController->pastMedRepositories[ medController->maxPastLength ] = deepCopyMedC(medController->medRepository);
+    return medController;
+}
+
+MedController *undoStateC(MedController *medController) {
+    if(medController->crtPastIndex <= 1) {
+        printf("Can't undo anymore ;)\n");
+        return medController;
+    }
+
+    medController->crtPastIndex -= 1;
+    medController->medRepository = medController->pastMedRepositories[ medController->crtPastIndex ];
+    return medController;
+}
+
+MedController *redoStateC(MedController *medController) {
+    if(medController->crtPastIndex >= medController->maxPastLength) {
+        printf("Can't redo anymore ;)\n");
+        return medController;
+    }
+
+    medController->crtPastIndex += 1;
+    medController->medRepository = medController->pastMedRepositories[ medController->crtPastIndex ];
+    return  medController;
+}
+
+MedRepository * deepCopyMedC(MedRepository *medRepository) {
+    int i;
+    MedRepository* newMedRepository = createRepository();
+    Medication* newMedication;
+    newMedRepository->length = medRepository->length;
+
+    for(i=1; i <= medRepository->length; i++) {
+        newMedication = createMedication(medRepository->medications[i]->name, medRepository->medications[i]->concentration, medRepository->medications[i]->quantity, medRepository->medications[i]->price);
+        newMedRepository->medications[i] = newMedication;
+    }
+
+    return newMedRepository;
+}
+
+MedController *addInitialDataC(MedController *medController) {
+    char* aux;
+
+    aux = "synthroid";
+    addMedicationC(medController, aux , 1.5, 5, 10);
+
+    aux = "crestor";
+    addMedicationC(medController, aux , 1.15, 50, 70);
+
+    aux = "ventolin";
+    addMedicationC(medController, aux , 61.5, 1, 100);
+
+    aux = "nexium";
+    addMedicationC(medController, aux , 4.5, 10, 35);
+
+    aux = "paracetamol";
+    addMedicationC(medController, aux , 3.14, 10, 23);
+
+    aux = "nurofen";
+    addMedicationC(medController, aux , 6.5, 105, 300);
+
+    aux = "homeogen";
+    addMedicationC(medController, aux , 0.15, 23, 10);
+
+    aux = "siroup";
+    addMedicationC(medController, aux , 61.5, 50, 60);
+
+    aux = "sb";
+    addMedicationC(medController, aux , 81.5, 5, 80);
+
+    aux = "sa";
+    addMedicationC(medController, aux , 54.3, 60, 60);
+
+    return medController;
+}
+
+
+

@@ -6,6 +6,10 @@
 
 typedef struct {
     MedRepository *medRepository;
+    MedRepository **pastMedRepositories;
+    int crtPastIndex;
+    int maxPastLength;
+
 }MedController;
 
 
@@ -32,6 +36,14 @@ int sortAscendingByName(Medication *A,Medication *B);
 int sortAscendingByConcentration(Medication *A,Medication *B);
 int sortAscendingByQuantity(Medication *A, Medication *B);
 int sortDescendingByQuantity(Medication *A, Medication *B);
+
+MedController* addStateC(MedController *medController);
+MedController* undoStateC(MedController *medController);
+MedController* redoStateC(MedController *medController);
+MedRepository * deepCopyMedC(MedRepository *medRepository);
+
+MedController* addInitialDataC(MedController *medController);
+
 /*
  * Getters & setters
  */

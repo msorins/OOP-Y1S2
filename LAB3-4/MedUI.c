@@ -5,7 +5,9 @@
 #include <cxxabi.h>
 #include <printf.h>
 #include <stdlib.h>
+#include <string.h>
 #include "MedUI.h"
+#include <stdio.h>
 #include "MedRepository.h"
 #include "MedDomain.h"
 
@@ -22,10 +24,16 @@ void deleteUI(MedUi *medUi) {
 
     //then free the object itself
     free(medUi);
+
+    //finally exit the program
+    exit(0);
 }
 
 void printMenu() {
+    printf("\n");
+    printf("\n");
     printf("\####################################################\n");
+    printf("-1 - exit\n");
     printf("0 - list meds\n");
     printf("1 - add a med\n");
     printf("2 - delete a med\n");
@@ -37,6 +45,8 @@ void printMenu() {
     printf("8 - undo .\n");
     printf("9 - redo .\n");
     printf("\####################################################\n");
+    printf("\n");
+    printf("\n");
 }
 
 void startUI(MedUi* medUi) {
@@ -50,7 +60,7 @@ void startUI(MedUi* medUi) {
             exit(0);
 
         if(!validateCommand(cmd)) {
-            printf("Invalid command, must be a number between 1 and 8");
+            printf("Invalid command, must be a number between -1 and 9");
             continue;
         }
 
@@ -65,13 +75,16 @@ int validateCommand(int cmd) {
     /*
      * Returns 1 if command is valid, 0 otherwise
      */
-    if(cmd >= 0 && cmd <= 8)
+    if(cmd >= -1 && cmd <= 9)
         return 1;
     return 0;
 }
 
 void decisionTree(MedUi *medUi, int cmd) {
     switch(cmd) {
+        case -1:
+            deleteMedUi(medUi);
+            break;
         case 0:
             listMedsUi(medUi);
             break;
@@ -97,9 +110,10 @@ void decisionTree(MedUi *medUi, int cmd) {
             listMedUIByQuantity(medUi, 1);
             break;
         case 8:
-            //redo
+            undoMedUI(medUi);
             break;
         default:
+            redoMedUI(medUi);
             break;
     }
 }
@@ -221,13 +235,19 @@ void updateMedUI(MedUi *medUi) {
 
 void listMedUIByName(MedUi *medUi) {
     int i;
-    char* name = (char*) malloc(sizeof(char) * 100);
+    char* name = (char*) malloc(sizeof(char) * 100), x;
+    MedRepository* crtMedRepository;
+
+    int c;
+    while ( (c = getchar()) != EOF && c != '\n') { }
+
 
     //Reading part
     printf("Med name \n");
-    scanf("%s100", name);
+    fgets(name, sizeof(name), stdin);
+    name[strlen(name) - 1] = '\0';
 
-    MedRepository* crtMedRepository = listMedicationByNameC(medUi->medController, name);
+    crtMedRepository = listMedicationByNameC(medUi->medController, name);
 
     printf("Name  |  Concentration  |  Quantity  |  Price\n");
     for(i = 1 ; i <= crtMedRepository->length; i++) {
@@ -272,5 +292,13 @@ void listMedUIByQuantity(MedUi *medUi, int direction) {
                crtMedRepository->medications[i]->quantity,
                crtMedRepository->medications[i]->price);
     }
+}
+
+void undoMedUI(MedUi *medUi) {
+    undoStateC(medUi->medController);
+}
+
+void redoMedUI(MedUi *medUi) {
+    redoStateC(medUi->medController);
 }
 

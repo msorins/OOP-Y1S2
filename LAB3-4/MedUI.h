@@ -31,3 +31,5 @@ void updateMedUI(MedUi* medUi);
 void listMedUIByName(MedUi* medUi);
 void listMedUIByConcentration(MedUi *medUi);
 void listMedUIByQuantity(MedUi *medUi, int direction);
+void undoMedUI(MedUi *medUi);
+void redoMedUI(MedUi *medUi);

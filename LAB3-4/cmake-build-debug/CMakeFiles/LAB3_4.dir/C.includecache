@@ -57,8 +57,12 @@ printf.h
 -
 stdlib.h
 -
+string.h
+-
 MedUI.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedUI.h
+stdio.h
+-
 MedRepository.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
 MedDomain.h
