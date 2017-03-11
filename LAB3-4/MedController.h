@@ -20,15 +20,18 @@ void deleteController(MedController* medController);
  */
 MedController* addMedicationC(MedController *medController, char *name, double concentration, int quantity, int price);
 MedController* deleteMedicationC(MedController *medController, char *name, double concentration);
-MedController* updateMedicationC(MedController *medController, char *name, double concentration, int quantity, int price);
+MedController *updateMedicationC(MedController *medController, char *orgName, double orgConcentration, char *name,
+                                 double concentration, int quantity, int price);
 MedRepository* listMedsC(MedController *medController);
 MedRepository* listMedicationByNameC(MedController *medController, char *name);
 MedRepository* listMedicationByConcentrationC(MedController *medController, double concentration);
+MedRepository *listMedicationByQuantityC(MedController *medController, int quantity, int direction);
 
 MedRepository *sortMedicationsC(MedRepository *medRepository, int (*cmp)(Medication *, Medication *));
 int sortAscendingByName(Medication *A,Medication *B);
 int sortAscendingByConcentration(Medication *A,Medication *B);
-
+int sortAscendingByQuantity(Medication *A, Medication *B);
+int sortDescendingByQuantity(Medication *A, Medication *B);
 /*
  * Getters & setters
  */

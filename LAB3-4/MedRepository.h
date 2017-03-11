@@ -28,6 +28,7 @@ int getLengthR(MedRepository *medRepo);
 
 MedRepository* addMedicationR(MedRepository *medRepo, Medication *medObj);
 int doesMedExistsR(MedRepository *medRepository, char *name, double concentration);
-MedRepository* updateMedicationR(MedRepository *medRepository, char *name, double concentration, int quantity, int price);
+MedRepository *updateMedicationR(MedRepository *medRepository, char *orgName, double orgConcentration, char *name,
+                                 double concentration, int quantity, int price);
 Medication *getMedR(MedRepository *medRepository, char *name, double concentration);
 MedRepository* deleteMedicationR(MedRepository *medRepository, char *name, double concentration);

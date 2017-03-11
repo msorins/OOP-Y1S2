@@ -59,12 +59,12 @@ int doesMedExistsR(MedRepository *medRepository, char *name, double concentratio
     return 0;
 }
 
-MedRepository *updateMedicationR(MedRepository *medRepository, char *name, double concentration, int quantity,
-                                  int price) {
+MedRepository *updateMedicationR(MedRepository *medRepository, char *orgName, double orgConcentration, char *name,
+                                 double concentration, int quantity, int price) {
     int i;
 
     for(i = 1; i <= medRepository ->length; i++)
-        if(strcmp(medRepository->medications[i]->name, name) == 0 && medRepository->medications[i]->concentration == concentration) {
+        if(strcmp(medRepository->medications[i]->name, orgName) == 0 && medRepository->medications[i]->concentration == orgConcentration) {
             medRepository->medications[i] = createMedication(name, concentration, quantity, price);
         }
 

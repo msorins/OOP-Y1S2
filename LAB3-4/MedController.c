@@ -40,7 +40,8 @@ MedController* addMedicationC(MedController *medController, char *name, double c
         foundMed->quantity += quantity;
 
         //Update it
-        updateMedicationR(medController->medRepository, foundMed->name, foundMed->concentration, foundMed->quantity, foundMed->price);
+        updateMedicationR(medController->medRepository, foundMed->name, foundMed->concentration, foundMed->name, foundMed->concentration,
+                          foundMed->quantity, foundMed->price);
     }
 
 
@@ -60,14 +61,15 @@ MedController* deleteMedicationC(MedController *medController, char *name, doubl
     }
 }
 
-MedController* updateMedicationC(MedController *medController, char *name, double concentration, int quantity, int price) {
+MedController *updateMedicationC(MedController *medController, char *orgName, double orgConcentration, char *name,
+                                 double concentration, int quantity, int price) {
 
-    if(doesMedExistsR(medController->medRepository, name, concentration) == 0) {
+    if(doesMedExistsR(medController->medRepository, orgName, orgConcentration) == 0) {
         printf("Requested med does not exist, sorry \n");
         return medController;
     }
 
-    updateMedicationR(medController->medRepository, name, concentration, quantity, price);
+    updateMedicationR(medController->medRepository, orgName, orgConcentration, name, concentration, quantity, price);
     return medController;
 }
 
@@ -81,7 +83,8 @@ MedRepository *listMedicationByNameC(MedController *medController, char *name) {
             addMedicationR(resMed, crtMed->medications[i]);
         }
 
-    return sortMedicationsC(resMed, sortAscendingByName);
+    MedRepository* sortedRepo = sortMedicationsC(resMed, sortAscendingByName);
+    return sortedRepo;
 }
 
 MedRepository *sortMedicationsC(MedRepository *medRepository, int (*cmp)(Medication *, Medication *)) {
@@ -119,4 +122,32 @@ MedRepository *listMedicationByConcentrationC(MedController *medController, doub
 
 int sortAscendingByConcentration(Medication *A, Medication *B) {
     return A->concentration > B->concentration;
+}
+
+int sortAscendingByQuantity(Medication *A, Medication *B) {
+    return A->quantity > B-> quantity;
+}
+
+int sortDescendingByQuantity(Medication *A, Medication *B) {
+    return A->quantity < B-> quantity;
+}
+
+
+MedRepository *listMedicationByQuantityC(MedController *medController, int quantity, int direction) {
+    int i;
+    MedRepository* resMed = createRepository();
+    MedRepository* crtMed = medController->medRepository;
+
+    for(i = 1; i <= crtMed->length; i++)
+        if(crtMed->medications[i]->quantity <= quantity) {
+            addMedicationR(resMed, crtMed->medications[i]);
+        }
+
+    MedRepository* sortedMed;
+    if(direction == 0)
+        sortedMed = sortMedicationsC(resMed, sortAscendingByQuantity);
+    else
+        sortedMed = sortMedicationsC(resMed, sortDescendingByQuantity);
+
+    return sortedMed;
 }
