@@ -51,6 +51,12 @@ MedRepository *addMedicationR(MedRepository *medRepo, Medication *medObj) {
 
 
 int doesMedExistsR(MedRepository *medRepository, char *name, double concentration) {
+    /*
+     *  @param medRepository: pointer to medRepository
+     *  @param name: char pointer
+     *  @param concentration: concentration
+     *  Return 1 if the given med is in repository, 0 otherise
+     */
     int i;
 
     for(i = 1; i <= medRepository->length; i++)
@@ -61,6 +67,16 @@ int doesMedExistsR(MedRepository *medRepository, char *name, double concentratio
 
 MedRepository *updateMedicationR(MedRepository *medRepository, char *orgName, double orgConcentration, char *name,
                                  double concentration, int quantity, int price) {
+    /*
+     *  @param medRepository: pointer to medRepository
+     *  @param orgName: char pointer to old name
+     *  @param orgConcentration: old concentration
+     *  @param name: new name
+     *  @param concentration: new concentration
+     *  @param quantity: new quantity
+     *  @param price: new price
+     *  Updates a medication accordingly
+     */
     int i;
 
     for(i = 1; i <= medRepository ->length; i++)
@@ -72,6 +88,12 @@ MedRepository *updateMedicationR(MedRepository *medRepository, char *orgName, do
 }
 
 Medication *getMedR(MedRepository *medRepository, char *name, double concentration) {
+    /*
+     *  @param medRepository: pointer to medRepository
+     *  @param name: char pointer
+     *  @param concentration: concentration
+     *  Return a Medication object if it is found, zero othwerwise
+     */
     int i;
 
     for(i = 1; i <= medRepository->length; i++)
@@ -83,6 +105,12 @@ Medication *getMedR(MedRepository *medRepository, char *name, double concentrati
 }
 
 MedRepository *deleteMedicationR(MedRepository *medRepository, char *name, double concentration) {
+    /*
+     *  @param medRepository: pointer to medRepository
+     *  @param name: char pointer
+     *  @param concentration: concentration
+     *  Delete a medication from repository
+     */
     int i;
     int ok = 0;
 

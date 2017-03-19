@@ -301,4 +301,3 @@ void undoMedUI(MedUi *medUi) {
 void redoMedUI(MedUi *medUi) {
     redoStateC(medUi->medController);
 }
-

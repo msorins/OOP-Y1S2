@@ -11,6 +11,10 @@
 #include "MedDomain.h"
 
 MedController* createController(MedRepository* medRepo) {
+    /*
+     * @param medRepo: a pointer to the repositorry that is used by the controller
+     * CREATES THE CONTROLLER ( allocates all data)
+     */
     MedController* newController = (MedController*) malloc(sizeof(MedController));
 
     newController->medRepository = medRepo;
@@ -34,6 +38,14 @@ void deleteController(MedController* medController) {
 }
 
 MedController* addMedicationC(MedController *medController, char *name, double concentration, int quantity, int price) {
+    /*
+     * @param medController: a pointer to the controller
+     * @param name: name of the medication
+     * @param concentration: concentration of the medication
+     * @param quantity: quantity of the medicaiton
+     * @param price: price of the medication
+     * Add the medication to repository (from the current coontroller)
+     */
     Medication* newMedication = createMedication(name, concentration, quantity, price);
 
     if(doesMedExistsR(medController->medRepository, name, concentration) == 0)
@@ -59,10 +71,19 @@ MedController* addMedicationC(MedController *medController, char *name, double c
 }
 
 MedRepository* listMedsC(MedController *medController) {
+    /*
+     * @param medController: a pointer to the controller
+     * Return current repository
+     */
     return medController->medRepository;
 }
 
 MedController* deleteMedicationC(MedController *medController, char *name, double concentration) {
+    /*
+     * @param medController: a pointer to the controller
+     * @param name: name of the medication
+     * Deletes a medication from the current controller
+     */
     if(doesMedExistsR(medController->medRepository, name, concentration) == 1) {
         deleteMedicationR(medController->medRepository, name, concentration);
 
@@ -78,6 +99,17 @@ MedController* deleteMedicationC(MedController *medController, char *name, doubl
 MedController *updateMedicationC(MedController *medController, char *orgName, double orgConcentration, char *name,
                                  double concentration, int quantity, int price) {
 
+    /*
+     * @param medController: a pointer to the controller
+     * @param orgName: originalname of the medication
+     * @param orgConcentration: originalConcentration of the medication
+     * @param name: name of the medication
+     * @param concentration: concentration of the medication
+     * @param quantity: quantity of the medicaiton
+     * @param price: price of the medication
+     * Updates a medication
+     */
+
     if(doesMedExistsR(medController->medRepository, orgName, orgConcentration) == 0) {
         printf("Requested med does not exist, sorry \n");
         return medController;
@@ -92,6 +124,11 @@ MedController *updateMedicationC(MedController *medController, char *orgName, do
 }
 
 MedRepository *listMedicationByNameC(MedController *medController, char *name) {
+    /*
+     * @param medController: a pointer to the controller
+     * @param name: name of the medication
+     * List medication by a given name
+     */
     int i;
     MedRepository* resMed = createRepository();
     MedRepository* crtMed = medController->medRepository;
@@ -106,6 +143,10 @@ MedRepository *listMedicationByNameC(MedController *medController, char *name) {
 }
 
 MedRepository *sortMedicationsC(MedRepository *medRepository, int (*cmp)(Medication *, Medication *)) {
+    /*
+     * @param medRepository: pointer to the current repository from the controller
+     * SORTS THE MEDICATION BY A GIVEN POINTER FUNCTION
+     */
     int i, j;
     MedRepository* newMedRep = medRepository;
     Medication* aux;
@@ -122,10 +163,20 @@ MedRepository *sortMedicationsC(MedRepository *medRepository, int (*cmp)(Medicat
 }
 
 int sortAscendingByName(Medication *A,Medication *B) {
+    /*
+     * @param A: a medication object
+     * @param B: a medication object
+     * Return true or false if they are sorted or not
+     */
     return strcmp(A->name, B->name);
 }
 
 MedRepository *listMedicationByConcentrationC(MedController *medController, double concentration) {
+    /*
+     * @param medController: a pointer to the controller
+     * @param concentration: concentration of the medication
+     * Lists medication sorted by upper bound concentration
+     */
     int i;
     MedRepository* resMed = createRepository();
     MedRepository* crtMed = medController->medRepository;
@@ -139,19 +190,40 @@ MedRepository *listMedicationByConcentrationC(MedController *medController, doub
 }
 
 int sortAscendingByConcentration(Medication *A, Medication *B) {
+    /*
+     * @param A: a medication object
+     * @param B: a medication object
+     * Return true or false if they are sorted or not
+     */
     return A->concentration > B->concentration;
 }
 
 int sortAscendingByQuantity(Medication *A, Medication *B) {
+    /*
+     * @param A: a medication object
+     * @param B: a medication object
+     * Return true or false if they are sorted or not
+     */
     return A->quantity > B-> quantity;
 }
 
 int sortDescendingByQuantity(Medication *A, Medication *B) {
+    /*
+     * @param A: a medication object
+     * @param B: a medication object
+     * Return true or false if they are sorted or not
+     */
     return A->quantity < B-> quantity;
 }
 
 
 MedRepository *listMedicationByQuantityC(MedController *medController, int quantity, int direction) {
+    /*
+     * @param medController: a pointer to the controller
+     * @param concentration: concentration of the medication
+     * @param direction: 1 or 0...0 ascending, 1 descending
+     * Lists medication sorted by upper bound quantity
+     */
     int i;
     MedRepository* resMed = createRepository();
     MedRepository* crtMed = medController->medRepository;
@@ -171,6 +243,10 @@ MedRepository *listMedicationByQuantityC(MedController *medController, int quant
 }
 
 MedController *addStateC(MedController *medController) {
+    /*
+     * @param medController: a pointer to the controller
+     * adds new state
+     */
     medController->maxPastLength += 1;
     medController->crtPastIndex = medController->maxPastLength;
     medController->pastMedRepositories[ medController->maxPastLength ] = deepCopyMedC(medController->medRepository);
@@ -178,6 +254,10 @@ MedController *addStateC(MedController *medController) {
 }
 
 MedController *undoStateC(MedController *medController) {
+    /*
+     * @param medController: a pointer to the controller
+     * undo state
+     */
     if(medController->crtPastIndex <= 1) {
         printf("Can't undo anymore ;)\n");
         return medController;
@@ -189,6 +269,10 @@ MedController *undoStateC(MedController *medController) {
 }
 
 MedController *redoStateC(MedController *medController) {
+    /*
+     * @param medController: a pointer to the controller
+     * redo state
+     */
     if(medController->crtPastIndex >= medController->maxPastLength) {
         printf("Can't redo anymore ;)\n");
         return medController;
@@ -200,6 +284,10 @@ MedController *redoStateC(MedController *medController) {
 }
 
 MedRepository * deepCopyMedC(MedRepository *medRepository) {
+    /*
+     * @param medRepository: pointer to a repository object
+     * Deepcopy's it and returns it
+     */
     int i;
     MedRepository* newMedRepository = createRepository();
     Medication* newMedication;
@@ -214,6 +302,10 @@ MedRepository * deepCopyMedC(MedRepository *medRepository) {
 }
 
 MedController *addInitialDataC(MedController *medController) {
+    /*
+     * @param medController: a pointer to the controller
+     * Adds initial data in the Controller
+     */
     char* aux;
 
     aux = "synthroid";
