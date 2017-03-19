@@ -3,10 +3,11 @@
 //
 #pragma once
 #include "MedRepository.h"
+#include "DynamicArray.h"
 
 typedef struct {
     MedRepository *medRepository;
-    MedRepository **pastMedRepositories;
+    DynamicArray *pastMedRepositories;
     int crtPastIndex;
     int maxPastLength;
 

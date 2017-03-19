@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.c">
+			<Option target="LAB3_4"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.h">
+			<Option target="LAB3_4"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/MedController.c">
 			<Option target="LAB3_4"/>
 		</Unit>
@@ -107,6 +113,12 @@
 			<Option target="LAB3_4"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/main.c">
+			<Option target="LAB3_4"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/tests.c">
+			<Option target="LAB3_4"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/tests.h">
 			<Option target="LAB3_4"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/CMakeLists.txt">

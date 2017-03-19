@@ -177,13 +177,63 @@ CMakeFiles/LAB3_4.dir/MedRepository.c.o.provides: CMakeFiles/LAB3_4.dir/MedRepos
 CMakeFiles/LAB3_4.dir/MedRepository.c.o.provides.build: CMakeFiles/LAB3_4.dir/MedRepository.c.o
 
 
+CMakeFiles/LAB3_4.dir/DynamicArray.c.o: CMakeFiles/LAB3_4.dir/flags.make
+CMakeFiles/LAB3_4.dir/DynamicArray.c.o: ../DynamicArray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LAB3_4.dir/DynamicArray.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LAB3_4.dir/DynamicArray.c.o   -c /Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.c
+
+CMakeFiles/LAB3_4.dir/DynamicArray.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LAB3_4.dir/DynamicArray.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.c > CMakeFiles/LAB3_4.dir/DynamicArray.c.i
+
+CMakeFiles/LAB3_4.dir/DynamicArray.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LAB3_4.dir/DynamicArray.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.c -o CMakeFiles/LAB3_4.dir/DynamicArray.c.s
+
+CMakeFiles/LAB3_4.dir/DynamicArray.c.o.requires:
+
+.PHONY : CMakeFiles/LAB3_4.dir/DynamicArray.c.o.requires
+
+CMakeFiles/LAB3_4.dir/DynamicArray.c.o.provides: CMakeFiles/LAB3_4.dir/DynamicArray.c.o.requires
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/DynamicArray.c.o.provides.build
+.PHONY : CMakeFiles/LAB3_4.dir/DynamicArray.c.o.provides
+
+CMakeFiles/LAB3_4.dir/DynamicArray.c.o.provides.build: CMakeFiles/LAB3_4.dir/DynamicArray.c.o
+
+
+CMakeFiles/LAB3_4.dir/tests.c.o: CMakeFiles/LAB3_4.dir/flags.make
+CMakeFiles/LAB3_4.dir/tests.c.o: ../tests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LAB3_4.dir/tests.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LAB3_4.dir/tests.c.o   -c /Users/so/Desktop/UBB/OOP/LAB3-4/tests.c
+
+CMakeFiles/LAB3_4.dir/tests.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LAB3_4.dir/tests.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB3-4/tests.c > CMakeFiles/LAB3_4.dir/tests.c.i
+
+CMakeFiles/LAB3_4.dir/tests.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LAB3_4.dir/tests.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB3-4/tests.c -o CMakeFiles/LAB3_4.dir/tests.c.s
+
+CMakeFiles/LAB3_4.dir/tests.c.o.requires:
+
+.PHONY : CMakeFiles/LAB3_4.dir/tests.c.o.requires
+
+CMakeFiles/LAB3_4.dir/tests.c.o.provides: CMakeFiles/LAB3_4.dir/tests.c.o.requires
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/tests.c.o.provides.build
+.PHONY : CMakeFiles/LAB3_4.dir/tests.c.o.provides
+
+CMakeFiles/LAB3_4.dir/tests.c.o.provides.build: CMakeFiles/LAB3_4.dir/tests.c.o
+
+
 # Object files for target LAB3_4
 LAB3_4_OBJECTS = \
 "CMakeFiles/LAB3_4.dir/main.c.o" \
 "CMakeFiles/LAB3_4.dir/MedUI.c.o" \
 "CMakeFiles/LAB3_4.dir/MedController.c.o" \
 "CMakeFiles/LAB3_4.dir/MedDomain.c.o" \
-"CMakeFiles/LAB3_4.dir/MedRepository.c.o"
+"CMakeFiles/LAB3_4.dir/MedRepository.c.o" \
+"CMakeFiles/LAB3_4.dir/DynamicArray.c.o" \
+"CMakeFiles/LAB3_4.dir/tests.c.o"
 
 # External object files for target LAB3_4
 LAB3_4_EXTERNAL_OBJECTS =
@@ -193,9 +243,11 @@ LAB3_4: CMakeFiles/LAB3_4.dir/MedUI.c.o
 LAB3_4: CMakeFiles/LAB3_4.dir/MedController.c.o
 LAB3_4: CMakeFiles/LAB3_4.dir/MedDomain.c.o
 LAB3_4: CMakeFiles/LAB3_4.dir/MedRepository.c.o
+LAB3_4: CMakeFiles/LAB3_4.dir/DynamicArray.c.o
+LAB3_4: CMakeFiles/LAB3_4.dir/tests.c.o
 LAB3_4: CMakeFiles/LAB3_4.dir/build.make
 LAB3_4: CMakeFiles/LAB3_4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable LAB3_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable LAB3_4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LAB3_4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,6 +260,8 @@ CMakeFiles/LAB3_4.dir/requires: CMakeFiles/LAB3_4.dir/MedUI.c.o.requires
 CMakeFiles/LAB3_4.dir/requires: CMakeFiles/LAB3_4.dir/MedController.c.o.requires
 CMakeFiles/LAB3_4.dir/requires: CMakeFiles/LAB3_4.dir/MedDomain.c.o.requires
 CMakeFiles/LAB3_4.dir/requires: CMakeFiles/LAB3_4.dir/MedRepository.c.o.requires
+CMakeFiles/LAB3_4.dir/requires: CMakeFiles/LAB3_4.dir/DynamicArray.c.o.requires
+CMakeFiles/LAB3_4.dir/requires: CMakeFiles/LAB3_4.dir/tests.c.o.requires
 
 .PHONY : CMakeFiles/LAB3_4.dir/requires
 

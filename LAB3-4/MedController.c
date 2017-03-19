@@ -9,6 +9,7 @@
 #include "MedController.h"
 #include "MedRepository.h"
 #include "MedDomain.h"
+#include "DynamicArray.h"
 
 MedController* createController(MedRepository* medRepo) {
     /*
@@ -18,11 +19,11 @@ MedController* createController(MedRepository* medRepo) {
     MedController* newController = (MedController*) malloc(sizeof(MedController));
 
     newController->medRepository = medRepo;
-    newController->pastMedRepositories = (MedRepository**) malloc(sizeof(MedRepository*) * 1000);
+    newController->pastMedRepositories = createDynamicArray(1000);
 
-    newController->pastMedRepositories[1] = medRepo;
-    newController->crtPastIndex = 1;
-    newController->maxPastLength = 1;
+    addArray(newController->pastMedRepositories, medRepo);
+    newController->crtPastIndex = 0;
+    newController->maxPastLength = 0;
 
     addInitialDataC(newController);
 
@@ -32,6 +33,7 @@ MedController* createController(MedRepository* medRepo) {
 void deleteController(MedController* medController) {
     // 1st free the componenet
     destroyRepo(medController -> medRepository);
+    destroy(medController -> pastMedRepositories);
 
     // then free the object itself
     free(medController);
@@ -249,7 +251,7 @@ MedController *addStateC(MedController *medController) {
      */
     medController->maxPastLength += 1;
     medController->crtPastIndex = medController->maxPastLength;
-    medController->pastMedRepositories[ medController->maxPastLength ] = deepCopyMedC(medController->medRepository);
+    addArray(medController->pastMedRepositories, deepCopyMedC(medController->medRepository));
     return medController;
 }
 
@@ -264,7 +266,8 @@ MedController *undoStateC(MedController *medController) {
     }
 
     medController->crtPastIndex -= 1;
-    medController->medRepository = medController->pastMedRepositories[ medController->crtPastIndex ];
+    medController->medRepository = get(medController->pastMedRepositories, medController->crtPastIndex);
+
     return medController;
 }
 
@@ -279,7 +282,7 @@ MedController *redoStateC(MedController *medController) {
     }
 
     medController->crtPastIndex += 1;
-    medController->medRepository = medController->pastMedRepositories[ medController->crtPastIndex ];
+    medController->medRepository = get(medController->pastMedRepositories, medController->crtPastIndex);
     return  medController;
 }
 

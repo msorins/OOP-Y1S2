@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LAB3_4.dir/MedController.c.o"
   "CMakeFiles/LAB3_4.dir/MedDomain.c.o"
   "CMakeFiles/LAB3_4.dir/MedRepository.c.o"
+  "CMakeFiles/LAB3_4.dir/DynamicArray.c.o"
+  "CMakeFiles/LAB3_4.dir/tests.c.o"
   "LAB3_4.pdb"
   "LAB3_4"
 )

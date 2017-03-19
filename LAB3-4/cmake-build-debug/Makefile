@@ -123,6 +123,33 @@ LAB3_4/fast:
 	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/build
 .PHONY : LAB3_4/fast
 
+DynamicArray.o: DynamicArray.c.o
+
+.PHONY : DynamicArray.o
+
+# target to build an object file
+DynamicArray.c.o:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/DynamicArray.c.o
+.PHONY : DynamicArray.c.o
+
+DynamicArray.i: DynamicArray.c.i
+
+.PHONY : DynamicArray.i
+
+# target to preprocess a source file
+DynamicArray.c.i:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/DynamicArray.c.i
+.PHONY : DynamicArray.c.i
+
+DynamicArray.s: DynamicArray.c.s
+
+.PHONY : DynamicArray.s
+
+# target to generate assembly for a file
+DynamicArray.c.s:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/DynamicArray.c.s
+.PHONY : DynamicArray.c.s
+
 MedController.o: MedController.c.o
 
 .PHONY : MedController.o
@@ -258,6 +285,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/main.c.s
 .PHONY : main.c.s
 
+tests.o: tests.c.o
+
+.PHONY : tests.o
+
+# target to build an object file
+tests.c.o:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/tests.c.o
+.PHONY : tests.c.o
+
+tests.i: tests.c.i
+
+.PHONY : tests.i
+
+# target to preprocess a source file
+tests.c.i:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/tests.c.i
+.PHONY : tests.c.i
+
+tests.s: tests.c.s
+
+.PHONY : tests.s
+
+# target to generate assembly for a file
+tests.c.s:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/tests.c.s
+.PHONY : tests.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,6 +321,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LAB3_4"
+	@echo "... DynamicArray.o"
+	@echo "... DynamicArray.i"
+	@echo "... DynamicArray.s"
 	@echo "... MedController.o"
 	@echo "... MedController.i"
 	@echo "... MedController.s"
@@ -282,6 +339,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tests.o"
+	@echo "... tests.i"
+	@echo "... tests.s"
 .PHONY : help
 
 
