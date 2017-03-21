@@ -258,6 +258,33 @@ MedUI.c.s:
 	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/MedUI.c.s
 .PHONY : MedUI.c.s
 
+Operation.o: Operation.c.o
+
+.PHONY : Operation.o
+
+# target to build an object file
+Operation.c.o:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/Operation.c.o
+.PHONY : Operation.c.o
+
+Operation.i: Operation.c.i
+
+.PHONY : Operation.i
+
+# target to preprocess a source file
+Operation.c.i:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/Operation.c.i
+.PHONY : Operation.c.i
+
+Operation.s: Operation.c.s
+
+.PHONY : Operation.s
+
+# target to generate assembly for a file
+Operation.c.s:
+	$(MAKE) -f CMakeFiles/LAB3_4.dir/build.make CMakeFiles/LAB3_4.dir/Operation.c.s
+.PHONY : Operation.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -336,6 +363,9 @@ help:
 	@echo "... MedUI.o"
 	@echo "... MedUI.i"
 	@echo "... MedUI.s"
+	@echo "... Operation.o"
+	@echo "... Operation.i"
+	@echo "... Operation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 #include "MedRepository.h"
 #include "MedController.h"
 #include "MedUI.h"
@@ -9,7 +9,7 @@ void startProgram() {
      * Bootstrap program core components (Repo, Controller, UI)
      */
 
-    runTests();
+    //runTests();
 
 
     MedRepository* medRepository = createRepository();

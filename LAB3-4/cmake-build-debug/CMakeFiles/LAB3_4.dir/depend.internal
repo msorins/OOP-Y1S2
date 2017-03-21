@@ -12,6 +12,7 @@ CMakeFiles/LAB3_4.dir/MedController.c.o
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
+ /Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h
 CMakeFiles/LAB3_4.dir/MedDomain.c.o
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.c
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
@@ -26,12 +27,21 @@ CMakeFiles/LAB3_4.dir/MedUI.c.o
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedUI.c
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedUI.h
+ /Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h
+CMakeFiles/LAB3_4.dir/Operation.c.o
+ /Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.h
+ /Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
+ /Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
+ /Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
+ /Users/so/Desktop/UBB/OOP/LAB3-4/Operation.c
+ /Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h
 CMakeFiles/LAB3_4.dir/main.c.o
  /Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedUI.h
+ /Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/main.c
  /Users/so/Desktop/UBB/OOP/LAB3-4/tests.h
 CMakeFiles/LAB3_4.dir/tests.c.o
@@ -39,5 +49,6 @@ CMakeFiles/LAB3_4.dir/tests.c.o
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
+ /Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h
  /Users/so/Desktop/UBB/OOP/LAB3-4/tests.c
  /Users/so/Desktop/UBB/OOP/LAB3-4/tests.h

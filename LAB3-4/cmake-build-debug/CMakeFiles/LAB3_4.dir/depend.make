@@ -11,6 +11,7 @@ CMakeFiles/LAB3_4.dir/MedController.c.o: ../MedController.c
 CMakeFiles/LAB3_4.dir/MedController.c.o: ../MedController.h
 CMakeFiles/LAB3_4.dir/MedController.c.o: ../MedDomain.h
 CMakeFiles/LAB3_4.dir/MedController.c.o: ../MedRepository.h
+CMakeFiles/LAB3_4.dir/MedController.c.o: ../Operation.h
 
 CMakeFiles/LAB3_4.dir/MedDomain.c.o: ../MedDomain.c
 CMakeFiles/LAB3_4.dir/MedDomain.c.o: ../MedDomain.h
@@ -25,12 +26,21 @@ CMakeFiles/LAB3_4.dir/MedUI.c.o: ../MedDomain.h
 CMakeFiles/LAB3_4.dir/MedUI.c.o: ../MedRepository.h
 CMakeFiles/LAB3_4.dir/MedUI.c.o: ../MedUI.c
 CMakeFiles/LAB3_4.dir/MedUI.c.o: ../MedUI.h
+CMakeFiles/LAB3_4.dir/MedUI.c.o: ../Operation.h
+
+CMakeFiles/LAB3_4.dir/Operation.c.o: ../DynamicArray.h
+CMakeFiles/LAB3_4.dir/Operation.c.o: ../MedController.h
+CMakeFiles/LAB3_4.dir/Operation.c.o: ../MedDomain.h
+CMakeFiles/LAB3_4.dir/Operation.c.o: ../MedRepository.h
+CMakeFiles/LAB3_4.dir/Operation.c.o: ../Operation.c
+CMakeFiles/LAB3_4.dir/Operation.c.o: ../Operation.h
 
 CMakeFiles/LAB3_4.dir/main.c.o: ../DynamicArray.h
 CMakeFiles/LAB3_4.dir/main.c.o: ../MedController.h
 CMakeFiles/LAB3_4.dir/main.c.o: ../MedDomain.h
 CMakeFiles/LAB3_4.dir/main.c.o: ../MedRepository.h
 CMakeFiles/LAB3_4.dir/main.c.o: ../MedUI.h
+CMakeFiles/LAB3_4.dir/main.c.o: ../Operation.h
 CMakeFiles/LAB3_4.dir/main.c.o: ../main.c
 CMakeFiles/LAB3_4.dir/main.c.o: ../tests.h
 
@@ -38,6 +48,7 @@ CMakeFiles/LAB3_4.dir/tests.c.o: ../DynamicArray.h
 CMakeFiles/LAB3_4.dir/tests.c.o: ../MedController.h
 CMakeFiles/LAB3_4.dir/tests.c.o: ../MedDomain.h
 CMakeFiles/LAB3_4.dir/tests.c.o: ../MedRepository.h
+CMakeFiles/LAB3_4.dir/tests.c.o: ../Operation.h
 CMakeFiles/LAB3_4.dir/tests.c.o: ../tests.c
 CMakeFiles/LAB3_4.dir/tests.c.o: ../tests.h
 

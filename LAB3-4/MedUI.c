@@ -7,9 +7,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "MedUI.h"
-#include <stdio.h>
-#include "MedRepository.h"
-#include "MedDomain.h"
 
 MedUi *createUI(MedController *medController) {
     MedUi* newUI = (MedUi *)malloc(sizeof(MedUi));
@@ -44,6 +41,8 @@ void printMenu() {
     printf("7 - see short supply ( DESC )\n");
     printf("8 - undo .\n");
     printf("9 - redo .\n");
+    printf("10 - undo OP.\n");
+    printf("11 - redo OP.\n");
     printf("\####################################################\n");
     printf("\n");
     printf("\n");
@@ -60,7 +59,7 @@ void startUI(MedUi* medUi) {
             exit(0);
 
         if(!validateCommand(cmd)) {
-            printf("Invalid command, must be a number between -1 and 9");
+            printf("Invalid command, must be a number between -1 and 11");
             continue;
         }
 
@@ -75,7 +74,7 @@ int validateCommand(int cmd) {
     /*
      * Returns 1 if command is valid, 0 otherwise
      */
-    if(cmd >= -1 && cmd <= 9)
+    if(cmd >= -1 && cmd <= 11)
         return 1;
     return 0;
 }
@@ -112,8 +111,14 @@ void decisionTree(MedUi *medUi, int cmd) {
         case 8:
             undoMedUI(medUi);
             break;
-        default:
+        case 9:
             redoMedUI(medUi);
+            break;
+        case 10:
+            undoMedUIOP(medUi);
+            break;
+        case 11:
+            redoMedUIOP(medUi);
             break;
     }
 }
@@ -300,4 +305,14 @@ void undoMedUI(MedUi *medUi) {
 
 void redoMedUI(MedUi *medUi) {
     redoStateC(medUi->medController);
+}
+
+void undoMedUIOP(MedUi *medUi) {
+    undoOperation(medUi->medController);
+}
+
+void redoMedUIOP(MedUi *medUi) {
+
+    redoOperation(medUi->medController);
+
 }

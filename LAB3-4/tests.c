@@ -6,7 +6,6 @@
 #include "MedRepository.h"
 #include "MedController.h"
 #include "tests.h"
-#include "MedDomain.h"
 
 void runTests() {
     MedRepository* medRepository = createRepository();
@@ -148,21 +147,21 @@ void testUndo(MedController *medController) {
 
     assert(medController->medRepository->length == x + 3 );
 
-    undoStateC(medController);
+    undoOperation(medController);
     assert(medController->medRepository->length == x + 2 );
 
-    undoStateC(medController);
+    undoOperation(medController);
     assert(medController->medRepository->length == x + 1 );
 
-    undoStateC(medController);
+    undoOperation(medController);
     assert(medController->medRepository->length == x  );
 
     x = medController->medRepository->length;
     deleteMedicationC(medController, "synthroid", 1.5);
     assert(medController->medRepository->length == x - 1 );
 
-    undoStateC(medController);
-    assert(medController->medRepository->length == 13 );
+    undoOperation(medController);
+    assert(medController->medRepository->length == x );
 }
 
 void testRedo(MedController *medController) {
@@ -173,9 +172,9 @@ void testRedo(MedController *medController) {
     addMedicationC(medController, "X", 1.15, 3, 10);
     addMedicationC(medController, "Y", 1.16, 3, 10);
     addMedicationC(medController, "Z", 1.17, 3, 10);
-    undoStateC(medController);
-    undoStateC(medController);
-    undoStateC(medController);
+    undoOperation(medController);
+    undoOperation(medController);
+    undoOperation(medController);
 
     assert(medController->medRepository->length == x);
 

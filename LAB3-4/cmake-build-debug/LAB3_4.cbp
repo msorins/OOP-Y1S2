@@ -112,6 +112,12 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/MedUI.h">
 			<Option target="LAB3_4"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/Operation.c">
+			<Option target="LAB3_4"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h">
+			<Option target="LAB3_4"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB3-4/main.c">
 			<Option target="LAB3_4"/>
 		</Unit>

@@ -11,8 +11,6 @@ DynamicArray.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.h
 stdlib.h
 -
-assert.h
--
 
 /Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.h
 MedRepository.h
@@ -29,18 +27,18 @@ printf.h
 -
 MedController.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
-MedRepository.h
-/Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
+Operation.h
+/Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h
 MedDomain.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
-DynamicArray.h
-/Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.h
 
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
 MedRepository.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
 DynamicArray.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/DynamicArray.h
+Operation.h
+/Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h
 
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.c
 MedDomain.h
@@ -77,20 +75,28 @@ string.h
 -
 MedUI.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedUI.h
-stdio.h
--
-MedRepository.h
-/Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
-MedDomain.h
-/Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
 
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedUI.h
 MedController.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
 
-/Users/so/Desktop/UBB/OOP/LAB3-4/main.c
-stdio.h
+/Users/so/Desktop/UBB/OOP/LAB3-4/Operation.c
+stdlib.h
 -
+MedDomain.h
+/Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
+MedController.h
+/Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
+
+/Users/so/Desktop/UBB/OOP/LAB3-4/Operation.h
+stdlib.h
+-
+MedDomain.h
+/Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
+MedController.h
+/Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
+
+/Users/so/Desktop/UBB/OOP/LAB3-4/main.c
 MedRepository.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.h
 MedController.h
@@ -109,8 +115,6 @@ MedController.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/MedController.h
 tests.h
 /Users/so/Desktop/UBB/OOP/LAB3-4/tests.h
-MedDomain.h
-/Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.h
 
 /Users/so/Desktop/UBB/OOP/LAB3-4/tests.h
 MedController.h

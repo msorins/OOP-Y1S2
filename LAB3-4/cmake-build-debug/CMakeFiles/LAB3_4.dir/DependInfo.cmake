@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/so/Desktop/UBB/OOP/LAB3-4/MedDomain.c" "/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles/LAB3_4.dir/MedDomain.c.o"
   "/Users/so/Desktop/UBB/OOP/LAB3-4/MedRepository.c" "/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles/LAB3_4.dir/MedRepository.c.o"
   "/Users/so/Desktop/UBB/OOP/LAB3-4/MedUI.c" "/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles/LAB3_4.dir/MedUI.c.o"
+  "/Users/so/Desktop/UBB/OOP/LAB3-4/Operation.c" "/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles/LAB3_4.dir/Operation.c.o"
   "/Users/so/Desktop/UBB/OOP/LAB3-4/main.c" "/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles/LAB3_4.dir/main.c.o"
   "/Users/so/Desktop/UBB/OOP/LAB3-4/tests.c" "/Users/so/Desktop/UBB/OOP/LAB3-4/cmake-build-debug/CMakeFiles/LAB3_4.dir/tests.c.o"
   )

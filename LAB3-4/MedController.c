@@ -7,9 +7,10 @@
 #include <string.h>
 #include <printf.h>
 #include "MedController.h"
-#include "MedRepository.h"
+#include "Operation.h"
 #include "MedDomain.h"
-#include "DynamicArray.h"
+
+int doActivate = 1;
 
 MedController* createController(MedRepository* medRepo) {
     /*
@@ -20,10 +21,11 @@ MedController* createController(MedRepository* medRepo) {
 
     newController->medRepository = medRepo;
     newController->pastMedRepositories = createDynamicArray(1000);
+    newController->pastMedOperations = (Operation**) malloc(sizeof(Operation*) * 1000);
 
     addArray(newController->pastMedRepositories, medRepo);
-    newController->crtPastIndex = 0;
-    newController->maxPastLength = 0;
+    newController->crtPastIndex = newController->crtOpPastIndex = 0;
+    newController->maxPastLength = newController->maxOpPastLength = 0;
 
     addInitialDataC(newController);
 
@@ -68,6 +70,8 @@ MedController* addMedicationC(MedController *medController, char *name, double c
 
     //Add a new state to the controller
     addStateC(medController);
+    if(doActivate)
+        addStateOperation(medController, 1, newMedication);
 
     return medController;
 }
@@ -87,10 +91,15 @@ MedController* deleteMedicationC(MedController *medController, char *name, doubl
      * Deletes a medication from the current controller
      */
     if(doesMedExistsR(medController->medRepository, name, concentration) == 1) {
+
+        if(doActivate)
+            addStateOperation(medController, 2, getMedR(medController->medRepository, name, concentration));
+
         deleteMedicationR(medController->medRepository, name, concentration);
 
         //Add a new state to the controller
         addStateC(medController);
+
     }
     else {
         printf("Your med does not exist, sorry \n");
@@ -121,6 +130,8 @@ MedController *updateMedicationC(MedController *medController, char *orgName, do
 
     //Add a new state to the controller
     addStateC(medController);
+    if(doActivate)
+        addStateOperation(medController, 3, createMedication(name, concentration, quantity, price));
 
     return medController;
 }
@@ -252,6 +263,7 @@ MedController *addStateC(MedController *medController) {
     medController->maxPastLength += 1;
     medController->crtPastIndex = medController->maxPastLength;
     addArray(medController->pastMedRepositories, deepCopyMedC(medController->medRepository));
+
     return medController;
 }
 
@@ -342,6 +354,106 @@ MedController *addInitialDataC(MedController *medController) {
     addMedicationC(medController, aux , 54.3, 60, 60);
 
     return medController;
+}
+
+
+MedController *addStateOperation(MedController *medController, int operationCode, Medication *med) {
+    medController->maxOpPastLength += 1;
+    medController->crtOpPastIndex = medController->maxOpPastLength;
+
+    Operation *op = (Operation*) malloc(sizeof(Operation));
+    op->code = operationCode;
+    op->med = deepCopySingleMedC(med);
+
+    int pos = medController->crtOpPastIndex;
+    medController->pastMedOperations[pos] = op;
+
+    return  medController;
+}
+
+MedController *undoOperation(MedController *medController) {
+    /*
+     * @param medController: a pointer to the controller
+     * undo state
+     */
+    if(medController->crtOpPastIndex <= 1) {
+        printf("Can't undo anymore ;)\n");
+        return medController;
+    }
+    doActivate = 0;
+
+    int op;
+    op = medController->pastMedOperations[ medController->crtOpPastIndex ] -> code;
+
+    if( op == 1) {
+        //Negare la adaugare
+        deleteMedicationC(medController, medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> name, medController->pastMedOperations[ medController->crtOpPastIndex ] -> med-> concentration);
+    } else if ( op == 2 ) {
+        //Negare la stergere
+        addMedicationC(medController, medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> name,
+                                      medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> concentration,
+                                      medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> quantity,
+                                      medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> price);
+    } else if ( op == 3 ) {
+        //Negare la update
+        updateMedicationC(medController, medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> name,
+                                         medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> concentration,
+                                         medController->pastMedOperations[ medController->crtOpPastIndex - 1] -> med -> name,
+                                         medController->pastMedOperations[ medController->crtOpPastIndex - 1] -> med -> concentration,
+                                         medController->pastMedOperations[ medController->crtOpPastIndex - 1] -> med -> quantity,
+                                         medController->pastMedOperations[ medController->crtOpPastIndex - 1] -> med -> price);
+    }
+
+    medController->crtOpPastIndex -= 1;
+
+    doActivate = 1;
+
+    return medController;
+}
+
+MedController *redoOperation(MedController *medController) {
+    doActivate = 0;
+
+    if(medController->crtOpPastIndex >= medController->maxOpPastLength) {
+        printf("Can't redo anymore ;)\n");
+        return medController;
+    }
+
+    medController->crtOpPastIndex += 1;
+
+    int op;
+    op = medController->pastMedOperations[ medController->crtOpPastIndex ] -> code;
+
+    if( op == 1) {
+        //Negare la adaugare
+        addMedicationC(medController, medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> name,
+                       medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> concentration,
+                       medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> quantity,
+                       medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> price);
+    } else if ( op == 2 ) {
+        //Negare la stergere
+        deleteMedicationC(medController, medController->pastMedOperations[ medController->crtOpPastIndex ] -> med -> name, medController->pastMedOperations[ medController->crtOpPastIndex ] -> med-> concentration);
+    } else if ( op == 3 ) {
+        //Negare la update
+        updateMedicationC(medController, medController->pastMedOperations[ medController->crtOpPastIndex - 1] -> med -> name,
+                          medController->pastMedOperations[ medController->crtOpPastIndex - 1 ] -> med -> concentration,
+                          medController->pastMedOperations[ medController->crtOpPastIndex] -> med -> name,
+                          medController->pastMedOperations[ medController->crtOpPastIndex] -> med -> concentration,
+                          medController->pastMedOperations[ medController->crtOpPastIndex] -> med -> quantity,
+                          medController->pastMedOperations[ medController->crtOpPastIndex] -> med -> price);
+    }
+    
+
+    doActivate = 1;
+    return  medController;
+}
+
+
+
+
+Medication * deepCopySingleMedC(Medication *med) {
+    Medication *newMedication = createMedication(med->name, med->concentration, med->quantity, med->price);
+    return newMedication;
 }
 
 

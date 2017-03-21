@@ -4,12 +4,15 @@
 #pragma once
 #include "MedRepository.h"
 #include "DynamicArray.h"
+#include "Operation.h"
 
 typedef struct {
     MedRepository *medRepository;
     DynamicArray *pastMedRepositories;
-    int crtPastIndex;
-    int maxPastLength;
+    Operation **pastMedOperations;
+
+    int crtPastIndex, crtOpPastIndex;
+    int maxPastLength, maxOpPastLength;
 
 }MedController;
 
@@ -42,6 +45,16 @@ MedController* addStateC(MedController *medController);
 MedController* undoStateC(MedController *medController);
 MedController* redoStateC(MedController *medController);
 MedRepository * deepCopyMedC(MedRepository *medRepository);
+Medication * deepCopySingleMedC(Medication *med);
+
+
+MedController * addStateOperation(MedController *medController, int operationCode, Medication *med);
+MedController * undoOperation(MedController *medController);
+MedController * redoOperation(MedController *medController);
+
+
+
+
 
 MedController* addInitialDataC(MedController *medController);
 

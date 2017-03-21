@@ -4,7 +4,6 @@
 
 #include "DynamicArray.h"
 #include <stdlib.h>
-#include <assert.h>
 
 DynamicArray* createDynamicArray(int capacity)
 {

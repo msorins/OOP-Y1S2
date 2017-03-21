@@ -11,8 +11,8 @@ typedef MedRepository* TElement;
 typedef struct
 {
     TElement* elems;
-    int length;			// actual length of the array
-    int capacity;		// maximum capacity of the array
+    int length;			// actual length of the array !!!
+    int capacity;		// maximum capacity of the array !!!
 } DynamicArray;
 
 DynamicArray* createDynamicArray(int capacity);
