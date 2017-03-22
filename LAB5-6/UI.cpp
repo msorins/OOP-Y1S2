@@ -7,14 +7,32 @@
 using namespace std;
 
 UI::UI() {
+    this->mode = "MAIN";
+
     while(1) {
-        this->printAdminUI();
-        this->getInput();
+        if(this->mode == "MAIN") {
+            this->printMainUI();
+            this->getMainInput();
+        } else if(this-> mode == "ADMIN") {
+            this->printAdminUI();
+            this->getAdminInput();
+        } else if(this-> mode == "USER") {
+            this->printUserUI();
+            this->getUserInput();
+        }
+
     }
 }
 
 MovieController & UI::getMovieController() {
     return this->movieController;
+}
+
+void UI::printMainUI() {
+    cout << "\n##########################\n";
+    cout << "0. Admin\n";
+    cout << "1. User\n";
+    cout << "##########################\n";
 }
 
 void UI::printAdminUI() {
@@ -23,19 +41,41 @@ void UI::printAdminUI() {
     cout << "1. Add\n";
     cout << "2. Delete\n";
     cout << "3. Update\n";
+    cout << "9. -Back- \n";
     cout << "##########################\n";
 }
 
 void UI::printUserUI() {
-
+    cout << "\n##########################\n";
+    cout << "0. Watch list\n";
+    cout << "1. See movies\n";
+    cout << "2. Delete from watch list\n";
+    cout << "9. -Back- \n";
+    cout << "##########################\n";
 }
 
-void UI::getInput() {
+void UI::getMainInput() {
     int n;
     cin >> n;
 
-    if(!this->checkCommand(n))
+    if(!(n >= 0 && n <= 1))
         throw("Invalid command");
+
+    switch(n) {
+        case 0:
+            this->mode = "ADMIN";
+            break;
+        case 1:
+            this->mode = "USER";
+            break;
+        default:
+            break;
+    }
+}
+
+void UI::getAdminInput() {
+    int n;
+    cin >> n;
 
     switch(n) {
         case 0:
@@ -51,12 +91,31 @@ void UI::getInput() {
             this->update();
             break;
         default:
-            this->list();
+            this->mode = "MAIN";
             break;
     }
-
-
 }
+
+
+void UI::getUserInput() {
+    int n;
+    cin >> n;
+
+    switch(n) {
+        case 0:
+            break;
+        case 1:
+            break;
+        case 2:
+            break;
+        case 3:
+            break;
+        default:
+            this->mode = "MAIN";
+            break;
+    }
+}
+
 
 bool UI::checkCommand(int cmd) {
     return cmd >= 0 && cmd <=3;
@@ -127,7 +186,3 @@ void UI::list() {
     }
 
 }
-
-
-
-

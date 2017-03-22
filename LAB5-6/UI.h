@@ -9,6 +9,7 @@
 class UI {
 private:
     MovieController movieController;
+    string mode;
 
 public:
 
@@ -21,7 +22,12 @@ public:
     //Functionality
     void printAdminUI();
     void printUserUI();
-    void getInput();
+    void printMainUI();
+
+    void getAdminInput();
+    void getUserInput();
+    void getMainInput();
+
     bool checkCommand(int cmd);
 
     //Admin area
