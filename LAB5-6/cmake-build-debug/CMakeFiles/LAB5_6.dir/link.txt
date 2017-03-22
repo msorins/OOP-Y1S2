@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/LAB5_6.dir/main.cpp.o CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o  -o LAB5_6 

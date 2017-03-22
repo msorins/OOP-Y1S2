@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.cpp
+csignal
+-
+DynamicArray.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.h
+
+/Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.h
+
+/Users/so/Desktop/UBB/OOP/LAB5-6/main.cpp
+iostream
+-
+DynamicArray.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.h
+

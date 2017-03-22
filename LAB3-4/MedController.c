@@ -155,6 +155,7 @@ MedRepository *listMedicationByNameC(MedController *medController, char *name) {
     return sortedRepo;
 }
 
+
 MedRepository *sortMedicationsC(MedRepository *medRepository, int (*cmp)(Medication *, Medication *)) {
     /*
      * @param medRepository: pointer to the current repository from the controller
