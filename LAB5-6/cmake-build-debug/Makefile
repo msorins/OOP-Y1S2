@@ -150,6 +150,141 @@ DynamicArray.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/DynamicArray.cpp.s
 .PHONY : DynamicArray.cpp.s
 
+Movie.o: Movie.cpp.o
+
+.PHONY : Movie.o
+
+# target to build an object file
+Movie.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Movie.cpp.o
+.PHONY : Movie.cpp.o
+
+Movie.i: Movie.cpp.i
+
+.PHONY : Movie.i
+
+# target to preprocess a source file
+Movie.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Movie.cpp.i
+.PHONY : Movie.cpp.i
+
+Movie.s: Movie.cpp.s
+
+.PHONY : Movie.s
+
+# target to generate assembly for a file
+Movie.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Movie.cpp.s
+.PHONY : Movie.cpp.s
+
+MovieController.o: MovieController.cpp.o
+
+.PHONY : MovieController.o
+
+# target to build an object file
+MovieController.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/MovieController.cpp.o
+.PHONY : MovieController.cpp.o
+
+MovieController.i: MovieController.cpp.i
+
+.PHONY : MovieController.i
+
+# target to preprocess a source file
+MovieController.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/MovieController.cpp.i
+.PHONY : MovieController.cpp.i
+
+MovieController.s: MovieController.cpp.s
+
+.PHONY : MovieController.s
+
+# target to generate assembly for a file
+MovieController.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/MovieController.cpp.s
+.PHONY : MovieController.cpp.s
+
+MovieRepository.o: MovieRepository.cpp.o
+
+.PHONY : MovieRepository.o
+
+# target to build an object file
+MovieRepository.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o
+.PHONY : MovieRepository.cpp.o
+
+MovieRepository.i: MovieRepository.cpp.i
+
+.PHONY : MovieRepository.i
+
+# target to preprocess a source file
+MovieRepository.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/MovieRepository.cpp.i
+.PHONY : MovieRepository.cpp.i
+
+MovieRepository.s: MovieRepository.cpp.s
+
+.PHONY : MovieRepository.s
+
+# target to generate assembly for a file
+MovieRepository.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/MovieRepository.cpp.s
+.PHONY : MovieRepository.cpp.s
+
+Tests.o: Tests.cpp.o
+
+.PHONY : Tests.o
+
+# target to build an object file
+Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Tests.cpp.o
+.PHONY : Tests.cpp.o
+
+Tests.i: Tests.cpp.i
+
+.PHONY : Tests.i
+
+# target to preprocess a source file
+Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Tests.cpp.i
+.PHONY : Tests.cpp.i
+
+Tests.s: Tests.cpp.s
+
+.PHONY : Tests.s
+
+# target to generate assembly for a file
+Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Tests.cpp.s
+.PHONY : Tests.cpp.s
+
+UI.o: UI.cpp.o
+
+.PHONY : UI.o
+
+# target to build an object file
+UI.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI.cpp.o
+.PHONY : UI.cpp.o
+
+UI.i: UI.cpp.i
+
+.PHONY : UI.i
+
+# target to preprocess a source file
+UI.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI.cpp.i
+.PHONY : UI.cpp.i
+
+UI.s: UI.cpp.s
+
+.PHONY : UI.s
+
+# target to generate assembly for a file
+UI.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI.cpp.s
+.PHONY : UI.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +324,21 @@ help:
 	@echo "... DynamicArray.o"
 	@echo "... DynamicArray.i"
 	@echo "... DynamicArray.s"
+	@echo "... Movie.o"
+	@echo "... Movie.i"
+	@echo "... Movie.s"
+	@echo "... MovieController.o"
+	@echo "... MovieController.i"
+	@echo "... MovieController.s"
+	@echo "... MovieRepository.o"
+	@echo "... MovieRepository.i"
+	@echo "... MovieRepository.s"
+	@echo "... Tests.o"
+	@echo "... Tests.i"
+	@echo "... Tests.s"
+	@echo "... UI.o"
+	@echo "... UI.i"
+	@echo "... UI.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

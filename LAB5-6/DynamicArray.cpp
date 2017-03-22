@@ -4,6 +4,8 @@
 
 #include <csignal>
 #include "DynamicArray.h"
+#include "Movie.h"
+
 using namespace std;
 #define DEFLENGTH 100
 
@@ -120,7 +122,7 @@ void DynamicArray<TElement>::validatePosition(int position) {
 }
 
 template<class TElement>
-TElement DynamicArray<TElement>::find(TElement elem) {
+int DynamicArray<TElement>::find(TElement elem) {
     /*
      * Find a particular element in an array.
      * If it is found return its index, otherwise return -1
@@ -160,4 +162,5 @@ void DynamicArray<TElement>::insert(TElement element, int pos) {
 
 
 template class DynamicArray<int>;
+template class DynamicArray<Movie>;
 

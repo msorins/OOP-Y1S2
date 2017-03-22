@@ -88,6 +88,36 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.h">
 			<Option target="LAB5_6"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/Movie.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/Movie.h">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.h">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.h">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/Tests.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/Tests.h">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/UI.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/UI.h">
+			<Option target="LAB5_6"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/main.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>

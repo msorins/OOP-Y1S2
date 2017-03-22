@@ -3,7 +3,36 @@
 
 CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o: ../DynamicArray.cpp
 CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o: ../DynamicArray.h
+CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o: ../Movie.h
+
+CMakeFiles/LAB5_6.dir/Movie.cpp.o: ../Movie.cpp
+CMakeFiles/LAB5_6.dir/Movie.cpp.o: ../Movie.h
+
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o: ../DynamicArray.h
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o: ../Movie.h
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o: ../MovieController.cpp
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o: ../MovieController.h
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o: ../MovieRepository.h
+
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o: ../DynamicArray.h
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o: ../Movie.h
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o: ../MovieRepository.cpp
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o: ../MovieRepository.h
+
+CMakeFiles/LAB5_6.dir/Tests.cpp.o: ../Tests.cpp
+CMakeFiles/LAB5_6.dir/Tests.cpp.o: ../Tests.h
+
+CMakeFiles/LAB5_6.dir/UI.cpp.o: ../DynamicArray.h
+CMakeFiles/LAB5_6.dir/UI.cpp.o: ../Movie.h
+CMakeFiles/LAB5_6.dir/UI.cpp.o: ../MovieController.h
+CMakeFiles/LAB5_6.dir/UI.cpp.o: ../MovieRepository.h
+CMakeFiles/LAB5_6.dir/UI.cpp.o: ../UI.cpp
+CMakeFiles/LAB5_6.dir/UI.cpp.o: ../UI.h
 
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../DynamicArray.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: ../Movie.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: ../MovieController.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: ../MovieRepository.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: ../UI.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../main.cpp
 

@@ -105,19 +105,149 @@ CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o.provides: CMakeFiles/LAB5_6.dir/Dynamic
 CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o
 
 
+CMakeFiles/LAB5_6.dir/Movie.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/Movie.cpp.o: ../Movie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LAB5_6.dir/Movie.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/Movie.cpp.o -c /Users/so/Desktop/UBB/OOP/LAB5-6/Movie.cpp
+
+CMakeFiles/LAB5_6.dir/Movie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/Movie.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB5-6/Movie.cpp > CMakeFiles/LAB5_6.dir/Movie.cpp.i
+
+CMakeFiles/LAB5_6.dir/Movie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/Movie.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB5-6/Movie.cpp -o CMakeFiles/LAB5_6.dir/Movie.cpp.s
+
+CMakeFiles/LAB5_6.dir/Movie.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/Movie.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/Movie.cpp.o.provides: CMakeFiles/LAB5_6.dir/Movie.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Movie.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/Movie.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/Movie.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/Movie.cpp.o
+
+
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o: ../MovieRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o -c /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.cpp
+
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/MovieRepository.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.cpp > CMakeFiles/LAB5_6.dir/MovieRepository.cpp.i
+
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/MovieRepository.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.cpp -o CMakeFiles/LAB5_6.dir/MovieRepository.cpp.s
+
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.provides: CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o
+
+
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o: ../MovieController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LAB5_6.dir/MovieController.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/MovieController.cpp.o -c /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.cpp
+
+CMakeFiles/LAB5_6.dir/MovieController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/MovieController.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.cpp > CMakeFiles/LAB5_6.dir/MovieController.cpp.i
+
+CMakeFiles/LAB5_6.dir/MovieController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/MovieController.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.cpp -o CMakeFiles/LAB5_6.dir/MovieController.cpp.s
+
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/MovieController.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o.provides: CMakeFiles/LAB5_6.dir/MovieController.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/MovieController.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/MovieController.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/MovieController.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/MovieController.cpp.o
+
+
+CMakeFiles/LAB5_6.dir/UI.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/UI.cpp.o: ../UI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LAB5_6.dir/UI.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/UI.cpp.o -c /Users/so/Desktop/UBB/OOP/LAB5-6/UI.cpp
+
+CMakeFiles/LAB5_6.dir/UI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/UI.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB5-6/UI.cpp > CMakeFiles/LAB5_6.dir/UI.cpp.i
+
+CMakeFiles/LAB5_6.dir/UI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/UI.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB5-6/UI.cpp -o CMakeFiles/LAB5_6.dir/UI.cpp.s
+
+CMakeFiles/LAB5_6.dir/UI.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/UI.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/UI.cpp.o.provides: CMakeFiles/LAB5_6.dir/UI.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/UI.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/UI.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UI.cpp.o
+
+
+CMakeFiles/LAB5_6.dir/Tests.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/Tests.cpp.o: ../Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LAB5_6.dir/Tests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/Tests.cpp.o -c /Users/so/Desktop/UBB/OOP/LAB5-6/Tests.cpp
+
+CMakeFiles/LAB5_6.dir/Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/Tests.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB5-6/Tests.cpp > CMakeFiles/LAB5_6.dir/Tests.cpp.i
+
+CMakeFiles/LAB5_6.dir/Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/Tests.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB5-6/Tests.cpp -o CMakeFiles/LAB5_6.dir/Tests.cpp.s
+
+CMakeFiles/LAB5_6.dir/Tests.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/Tests.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/Tests.cpp.o.provides: CMakeFiles/LAB5_6.dir/Tests.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Tests.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/Tests.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/Tests.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/Tests.cpp.o
+
+
 # Object files for target LAB5_6
 LAB5_6_OBJECTS = \
 "CMakeFiles/LAB5_6.dir/main.cpp.o" \
-"CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o"
+"CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o" \
+"CMakeFiles/LAB5_6.dir/Movie.cpp.o" \
+"CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o" \
+"CMakeFiles/LAB5_6.dir/MovieController.cpp.o" \
+"CMakeFiles/LAB5_6.dir/UI.cpp.o" \
+"CMakeFiles/LAB5_6.dir/Tests.cpp.o"
 
 # External object files for target LAB5_6
 LAB5_6_EXTERNAL_OBJECTS =
 
 LAB5_6: CMakeFiles/LAB5_6.dir/main.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/Movie.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/MovieController.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/UI.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/Tests.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/build.make
 LAB5_6: CMakeFiles/LAB5_6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LAB5_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable LAB5_6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LAB5_6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +257,11 @@ CMakeFiles/LAB5_6.dir/build: LAB5_6
 
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/main.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Movie.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/MovieController.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UI.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Tests.cpp.o.requires
 
 .PHONY : CMakeFiles/LAB5_6.dir/requires
 

@@ -4,6 +4,7 @@
 #pragma once
 #ifndef LAB5_6_DYNAMICARRAY_H
 #define LAB5_6_DYNAMICARRAY_H
+#include <iostream>
 using namespace std;
 
 template<class TElement>
@@ -24,13 +25,38 @@ public:
     void erase(int pos);
     void resize();
     TElement get(int pos);
-    TElement find(TElement elem);
+    int find(TElement elem);
     void insert(TElement element, int pos);
     void validatePosition(int position);
 
     //Getters
     int getLength();
     TElement* getArray();
+
+    //Operators
+    DynamicArray& operator = (DynamicArray A ) {
+        TElement* newElems = new TElement[A.capacity];
+        for(int i = 1; i<= A.getLength(); i++)
+            newElems[i] = A.getArray()[i];
+
+        this->elems = newElems;
+        this->n = A.n;
+        this->capacity = A.capacity;
+        return *this;
+    }
+
+    DynamicArray(const DynamicArray &A) { //Copy
+
+        TElement* newElems = new TElement[A.capacity];
+        for(int i = 1; i<= A.n; i++)
+            newElems[i] = A.elems[i];
+
+        this->elems = newElems;
+        this->n = A.n;
+        this->capacity = A.capacity;
+    }
+
+
 
 };
 
