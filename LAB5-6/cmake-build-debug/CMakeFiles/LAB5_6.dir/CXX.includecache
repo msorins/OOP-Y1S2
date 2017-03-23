@@ -13,6 +13,8 @@ DynamicArray.h
 /Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.h
 Movie.h
 /Users/so/Desktop/UBB/OOP/LAB5-6/Movie.h
+WatchListItem.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h
 
 /Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.h
 iostream
@@ -29,10 +31,16 @@ iostream
 /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.cpp
 MovieController.h
 /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.h
+WatchListRepository.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.h
 
 /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.h
 MovieRepository.h
 /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.h
+WatchListItem.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h
+WatchListRepository.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.h
 
 /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.cpp
 csignal
@@ -61,6 +69,24 @@ iostream
 /Users/so/Desktop/UBB/OOP/LAB5-6/UI.h
 MovieController.h
 /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.h
+
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.cpp
+WatchListItem.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h
+
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h
+iostream
+-
+
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.cpp
+WatchListRepository.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.h
+
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.h
+DynamicArray.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.h
+WatchListItem.h
+/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h
 
 /Users/so/Desktop/UBB/OOP/LAB5-6/main.cpp
 iostream

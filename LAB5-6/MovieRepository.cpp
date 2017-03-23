@@ -35,11 +35,6 @@ void MovieRepository::add(Movie movie) {
         throw("Movie already exists");
     else
         this->getMovies().push_back(movie);
-
-    cout<<"MovieRepository" << this->getMovies().getLength()<<"\n";
-    int x = 1;
-
-
 }
 
 void MovieRepository::del(Movie movie) {
@@ -69,4 +64,19 @@ void MovieRepository::update(string title, Movie movie) {
         //Then erase it
         this->movies.push_back( movie );
     }
+}
+
+DynamicArray<Movie> MovieRepository::getByGenre(string genre) {
+    if(!genre.length())
+        return this->getMovies();
+
+    DynamicArray<Movie> res;
+
+    for(int i = 1; i <= this->getMovies().getLength(); i++) {
+        Movie crtMovie = this->getMovies().get(i);
+        if(crtMovie.getGenre() == genre)
+            res.push_back(crtMovie);
+    }
+
+    return res;
 }

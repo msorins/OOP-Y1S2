@@ -285,6 +285,60 @@ UI.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI.cpp.s
 .PHONY : UI.cpp.s
 
+WatchListItem.o: WatchListItem.cpp.o
+
+.PHONY : WatchListItem.o
+
+# target to build an object file
+WatchListItem.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o
+.PHONY : WatchListItem.cpp.o
+
+WatchListItem.i: WatchListItem.cpp.i
+
+.PHONY : WatchListItem.i
+
+# target to preprocess a source file
+WatchListItem.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/WatchListItem.cpp.i
+.PHONY : WatchListItem.cpp.i
+
+WatchListItem.s: WatchListItem.cpp.s
+
+.PHONY : WatchListItem.s
+
+# target to generate assembly for a file
+WatchListItem.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/WatchListItem.cpp.s
+.PHONY : WatchListItem.cpp.s
+
+WatchListRepository.o: WatchListRepository.cpp.o
+
+.PHONY : WatchListRepository.o
+
+# target to build an object file
+WatchListRepository.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o
+.PHONY : WatchListRepository.cpp.o
+
+WatchListRepository.i: WatchListRepository.cpp.i
+
+.PHONY : WatchListRepository.i
+
+# target to preprocess a source file
+WatchListRepository.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.i
+.PHONY : WatchListRepository.cpp.i
+
+WatchListRepository.s: WatchListRepository.cpp.s
+
+.PHONY : WatchListRepository.s
+
+# target to generate assembly for a file
+WatchListRepository.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.s
+.PHONY : WatchListRepository.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -339,6 +393,12 @@ help:
 	@echo "... UI.o"
 	@echo "... UI.i"
 	@echo "... UI.s"
+	@echo "... WatchListItem.o"
+	@echo "... WatchListItem.i"
+	@echo "... WatchListItem.s"
+	@echo "... WatchListRepository.o"
+	@echo "... WatchListRepository.i"
+	@echo "... WatchListRepository.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

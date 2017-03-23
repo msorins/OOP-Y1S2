@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o"
   "/Users/so/Desktop/UBB/OOP/LAB5-6/Tests.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests.cpp.o"
   "/Users/so/Desktop/UBB/OOP/LAB5-6/UI.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o"
   "/Users/so/Desktop/UBB/OOP/LAB5-6/main.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -5,6 +5,7 @@
 #include <csignal>
 #include "DynamicArray.h"
 #include "Movie.h"
+#include "WatchListItem.h"
 
 using namespace std;
 #define DEFLENGTH 100
@@ -117,7 +118,7 @@ void DynamicArray<TElement>::validatePosition(int position) {
      * Validates the position...If it is not valid it raises an error
      */
     if(position < 1 || position > this->getLength())
-        raise(1);
+        throw("Invalid delete position (Dynamic Array)");
 
 }
 
@@ -163,4 +164,4 @@ void DynamicArray<TElement>::insert(TElement element, int pos) {
 
 template class DynamicArray<int>;
 template class DynamicArray<Movie>;
-
+template class DynamicArray<WatchListItem>;

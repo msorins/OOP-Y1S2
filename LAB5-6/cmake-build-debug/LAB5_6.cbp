@@ -118,6 +118,18 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/UI.h">
 			<Option target="LAB5_6"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.h">
+			<Option target="LAB5_6"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP/LAB5-6/main.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>

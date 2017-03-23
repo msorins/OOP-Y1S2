@@ -5,10 +5,13 @@
 #ifndef LAB5_6_MOVIECONTROLLER_H
 #define LAB5_6_MOVIECONTROLLER_H
 #include "MovieRepository.h"
+#include "WatchListItem.h"
+#include "WatchListRepository.h"
 
 class MovieController {
 private:
     MovieRepository movieRepository;
+    WatchListRepository watchListRepository;
 
 public:
     // Constructors and Destructors
@@ -17,11 +20,14 @@ public:
 
     //Getters
     MovieRepository & getMovieRepository();
+    WatchListRepository & getWatchListRepository();
+    Movie getByGenreByStep(string genre, int pos);
 
     //Functionality
     void add(string title, string genre, int year, int likes, string trailer);
     void del(string title);
     void update(string titleOld, string titleNew, string genreNew, int yearNew, int likesNew, string trailerNew);
+    void incrementLikes(string title);
 };
 
 

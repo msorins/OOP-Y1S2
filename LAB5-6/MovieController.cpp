@@ -3,6 +3,7 @@
 //
 
 #include "MovieController.h"
+#include "WatchListRepository.h"
 
 MovieController::MovieController() {
 
@@ -18,6 +19,14 @@ MovieRepository & MovieController::getMovieRepository() {
      */
     return this->movieRepository;
 }
+
+WatchListRepository & MovieController::getWatchListRepository() {
+    /*
+     * GETTER for WatchListItem
+     */
+    return this->watchListRepository;
+}
+
 
 void MovieController::add(string title, string genre, int year, int likes, string trailer) {
     /*
@@ -42,3 +51,35 @@ void MovieController::update(string titleOld, string titleNew, string genreNew, 
      */
     this->getMovieRepository().update(titleOld, Movie(titleNew, genreNew, yearNew, likesNew, trailerNew));
 }
+
+Movie MovieController::getByGenreByStep(string genre, int pos) {
+    /*
+     * Returns a single movie by genre
+     */
+    DynamicArray<Movie> moviesByGenre = this->getMovieRepository().getByGenre(genre);
+
+    return moviesByGenre.get( (pos % moviesByGenre.getLength()) + 1);
+
+}
+
+void MovieController::incrementLikes(string title) {
+    /*
+     *  Receives a string title and increase the amount of likes
+     */
+
+    //Get the position in the dynamic array
+    int posMovie = this->getMovieRepository().getMovies().find( Movie(title) );
+
+    //Get the element itself
+    Movie crtMovie = this->getMovieRepository().getMovies().get(posMovie);
+
+    //Increase the number of likes
+    crtMovie.setLikes( crtMovie.getLikes() + 1 );
+
+    //Delete the old object
+    this->getMovieRepository().del( Movie(title) );
+
+    //Now add the new one
+    this->getMovieRepository().add( crtMovie );
+}
+

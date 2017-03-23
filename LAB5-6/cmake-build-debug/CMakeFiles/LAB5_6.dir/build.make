@@ -225,6 +225,54 @@ CMakeFiles/LAB5_6.dir/Tests.cpp.o.provides: CMakeFiles/LAB5_6.dir/Tests.cpp.o.re
 CMakeFiles/LAB5_6.dir/Tests.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/Tests.cpp.o
 
 
+CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o: ../WatchListItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o -c /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.cpp
+
+CMakeFiles/LAB5_6.dir/WatchListItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/WatchListItem.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.cpp > CMakeFiles/LAB5_6.dir/WatchListItem.cpp.i
+
+CMakeFiles/LAB5_6.dir/WatchListItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/WatchListItem.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.cpp -o CMakeFiles/LAB5_6.dir/WatchListItem.cpp.s
+
+CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o.provides: CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o
+
+
+CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o: ../WatchListRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o -c /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.cpp
+
+CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.cpp > CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.i
+
+CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.cpp -o CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.s
+
+CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o.provides: CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o
+
+
 # Object files for target LAB5_6
 LAB5_6_OBJECTS = \
 "CMakeFiles/LAB5_6.dir/main.cpp.o" \
@@ -233,7 +281,9 @@ LAB5_6_OBJECTS = \
 "CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o" \
 "CMakeFiles/LAB5_6.dir/MovieController.cpp.o" \
 "CMakeFiles/LAB5_6.dir/UI.cpp.o" \
-"CMakeFiles/LAB5_6.dir/Tests.cpp.o"
+"CMakeFiles/LAB5_6.dir/Tests.cpp.o" \
+"CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o" \
+"CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o"
 
 # External object files for target LAB5_6
 LAB5_6_EXTERNAL_OBJECTS =
@@ -245,9 +295,11 @@ LAB5_6: CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/MovieController.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/UI.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/Tests.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/build.make
 LAB5_6: CMakeFiles/LAB5_6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable LAB5_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable LAB5_6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LAB5_6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -262,6 +314,8 @@ CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o.requ
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/MovieController.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UI.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Tests.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o.requires
 
 .PHONY : CMakeFiles/LAB5_6.dir/requires
 

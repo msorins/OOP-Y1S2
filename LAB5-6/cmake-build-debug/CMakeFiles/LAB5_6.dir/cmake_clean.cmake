@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LAB5_6.dir/MovieController.cpp.o"
   "CMakeFiles/LAB5_6.dir/UI.cpp.o"
   "CMakeFiles/LAB5_6.dir/Tests.cpp.o"
+  "CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o"
+  "CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o"
   "LAB5_6.pdb"
   "LAB5_6"
 )

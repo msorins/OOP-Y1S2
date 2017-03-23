@@ -20,11 +20,13 @@ public:
 
     //Getters
     DynamicArray<Movie> & getMovies();
+    DynamicArray<Movie> getByGenre(string genre);
 
     //Functionality
     void add(Movie movie);
     void del(Movie movie);
     void update(string title, Movie movie);
+
 
 };
 

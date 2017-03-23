@@ -7,6 +7,12 @@
 using namespace std;
 
 UI::UI() {
+    this->getMovieController().add("Supernatural", "Horror", 2000, 500, "https://www.youtube.com/watch?v=4kmA86_hnbo");
+    this->getMovieController().add("Family guy", "Comedy", 1997, 150, "https://www.youtube.com/watch?v=_ZKpw0SlAfc");
+    this->getMovieController().add("The Blacklist", "Action", 2010, 40, "https://www.youtube.com/watch?v=JGBIimq1I3A");
+    this->getMovieController().add("Person of Interest", "Action", 2012, 350, "https://www.youtube.com/watch?v=WYDWSNMTauQ");
+    this->getMovieController().add("Suits", "Reality", 2012, 5, "https://www.youtube.com/watch?v=6Zu0yYV2uYs");
+
     this->mode = "MAIN";
 
     while(1) {
@@ -103,12 +109,13 @@ void UI::getUserInput() {
 
     switch(n) {
         case 0:
+            this->userSeeWatchList();
             break;
         case 1:
+            this->userSeeMoviesByGenre();
             break;
         case 2:
-            break;
-        case 3:
+            this->userDeleteWatchList();
             break;
         default:
             this->mode = "MAIN";
@@ -185,4 +192,114 @@ void UI::list() {
             cout<<crt.getTitle() <<"  " << crt.getGenre() << " " << crt.getYear() << " " << crt.getLikes() << " " << crt.getTrailer()<<"\n";
     }
 
+}
+
+void UI::userSeeMoviesByGenre() {
+    int pos = 1, cmd, cmd2;
+    string genre;
+    char genreStr[100];
+    Movie crtMovie;
+
+
+    cin.clear();
+    while (cin.get() != '\n') {
+        continue;
+    }
+
+    cout << "Genre: ";
+    cin.getline(genreStr, 100);
+    genre = string(genreStr);
+
+
+
+    while(true) {
+        cout<<"\n\n####  Title              |              Genre          |              Likes              ####\n";
+        cout<<"=============================================================================================\n";
+        crtMovie = this->getMovieController().getByGenreByStep(genre, pos);
+
+        cout << "      " << crtMovie.getTitle() << "        " << crtMovie.getGenre() << "          " << crtMovie.getLikes()<<"\n\n";
+        cout << "---------------------------------------------------------------------------------------------------------\n" ;
+
+        cout << "1. Like trailer\n";
+        cout << "2. Next\n";
+        cout << "3. Back\n";
+
+        cin.sync();
+        cin >> cmd;
+        switch(cmd){
+            case 1:
+                //LIKE -> increment the number of likes
+                //this->getMovieController().incrementLikes( crtMovie.getTitle() );
+
+                cout << "\n---------------------------------------------------------------------------------------------------------  \n" ;
+                cout << "1. Add to watchlist\n";
+                cout << "2. Back\n";
+
+                cin>>cmd2;
+                switch(cmd2) {
+                    case 1:
+                        // ADD to watchlist
+                        this->movieController.getWatchListRepository().add(WatchListItem( crtMovie.getTitle() ));
+                        pos += 1;
+                        break;
+                    default:
+                        break;
+                }
+
+                continue;
+            case 2:
+                //NEXT
+                pos += 1;
+                continue;
+            default:
+                pos = -1;
+                break;
+        }
+
+        //Lame stuff to trick the IDE not to show a warning anymore
+        if( pos == -1)
+            break;
+
+    }
+}
+
+void UI::userSeeWatchList() {
+    WatchListItem crtItem;
+
+    cout<<"\n\n####          Title          ####\n";
+    cout<<"=================================\n";
+    for(int i = 1; i <= this->getMovieController().getWatchListRepository().getWatchList().getLength(); i++) {
+        crtItem = this->getMovieController().getWatchListRepository().getWatchList().get(i);
+        cout<<"    " << crtItem.getTitle() << "\n";
+    }
+}
+
+void UI::userDeleteWatchList() {
+    int cmd;
+    string title;
+
+    cout << "Title: ";
+    cin >> title;
+
+    int pos = this->getMovieController().getWatchListRepository().getWatchList().find(WatchListItem(title));
+    if(pos == -1)
+        throw "Invalid movie name";
+    this->getMovieController().getWatchListRepository().getWatchList().erase(pos);
+
+
+
+
+    cout << "\n---------------------------------------------------------------------------------------------------------  \n" ;
+    cout << "1. Like the movie\n";
+    cout << "2. Back\n";
+
+    cin>>cmd;
+    switch(cmd) {
+        case 1:
+            // Like the movie
+            this->getMovieController().incrementLikes( title );
+            break;
+        default:
+            break;
+    }
 }

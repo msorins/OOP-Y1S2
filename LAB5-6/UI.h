@@ -36,6 +36,11 @@ public:
     void update();
     void list();
 
+    //User area
+    void userSeeMoviesByGenre();
+    void userSeeWatchList();
+    void userDeleteWatchList();
+
 };
 
 
