@@ -4,6 +4,7 @@
 
 #include "UI.h"
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 UI::UI() {
@@ -129,14 +130,21 @@ bool UI::checkCommand(int cmd) {
 }
 
 void UI::add() {
+    char aux[100];
     string title, genre, trailer;
     int year, likes;
 
+    //Flush get line
+    this->flushGetLine();
+
     cout<<"Title: ";
-    cin>>title;
+    cin.getline(aux, 100);
+    title = string(aux);
+
 
     cout<<"Genre: ";
-    cin>>genre;
+    cin.getline(aux, 100);
+    genre = string(aux);
 
     cout<<"Year: ";
     cin>>year;
@@ -152,26 +160,38 @@ void UI::add() {
 }
 
 void UI::del() {
+    char aux[100];
     string title;
 
+    //Flush get line
+    this->flushGetLine();
+
     cout<<"Title: ";
-    cin>>title;
+    cin.getline(aux, 100);
+    title = string(aux);
 
     this->getMovieController().del(title);
 }
 
 void UI::update() {
+    char aux[100];
     string oldTitle, title, genre, trailer;
     int year, likes;
 
+    //Flush get line
+    this->flushGetLine();
+
     cout<<"Old title: ";
-    cin>>oldTitle;
+    cin.getline(aux, 100);
+    oldTitle = string(aux);
 
     cout<<"New title: ";
-    cin>>title;
+    cin.getline(aux, 100);
+    title = string(aux);
 
     cout<<"New genre: ";
-    cin>>genre;
+    cin.getline(aux, 100);
+    genre = string(aux);
 
     cout<<"New year: ";
     cin>>year;
@@ -200,11 +220,8 @@ void UI::userSeeMoviesByGenre() {
     char genreStr[100];
     Movie crtMovie;
 
-
-    cin.clear();
-    while (cin.get() != '\n') {
-        continue;
-    }
+    //Flush get line
+    this->flushGetLine();
 
     cout << "Genre: ";
     cin.getline(genreStr, 100);
@@ -223,6 +240,12 @@ void UI::userSeeMoviesByGenre() {
         cout << "1. Like trailer\n";
         cout << "2. Next\n";
         cout << "3. Back\n";
+
+        //Open a link in chrome
+        string command ("open '/Applications/Google Chrome.app/Contents/Versions/55.0.2883.95/Google Chrome Helper.app'");
+        command += " " + crtMovie.getTrailer();
+        system(command.c_str());
+
 
         cin.sync();
         cin >> cmd;
@@ -275,11 +298,16 @@ void UI::userSeeWatchList() {
 }
 
 void UI::userDeleteWatchList() {
+    char aux[100];
     int cmd;
     string title;
 
+    //Flush get line
+    this->flushGetLine();
+
     cout << "Title: ";
-    cin >> title;
+    cin.getline(aux, 100);
+    title = string(aux);
 
     int pos = this->getMovieController().getWatchListRepository().getWatchList().find(WatchListItem(title));
     if(pos == -1)
@@ -302,4 +330,12 @@ void UI::userDeleteWatchList() {
         default:
             break;
     }
+}
+
+void UI::flushGetLine() {
+    cin.clear();
+    while (cin.get() != '\n') {
+        continue;
+    }
+
 }

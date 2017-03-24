@@ -91,7 +91,7 @@ void Movie::setLikes(int likes) {
     this->likes = likes;
 }
 
-void Movie::setTrailer(string Trailer) {
+void Movie::setTrailer(string trailer) {
     /*
     * SETTER for trailer
     */

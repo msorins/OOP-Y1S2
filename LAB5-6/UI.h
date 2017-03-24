@@ -41,6 +41,8 @@ public:
     void userSeeWatchList();
     void userDeleteWatchList();
 
+    void flushGetLine();
+
 };
 
 

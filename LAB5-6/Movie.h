@@ -35,7 +35,7 @@ public:
     void setGenre(string genre);
     void setYear(int year);
     void setLikes(int likes);
-    void setTrailer(string Trailer);
+    void setTrailer(string trailer);
 
     //Operators
     bool operator==( Movie  A) {

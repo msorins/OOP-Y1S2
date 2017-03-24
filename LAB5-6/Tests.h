@@ -6,8 +6,18 @@
 #define LAB5_6_TESTS_H
 
 
-class Tests {
+#include "MovieController.h"
 
+class Tests {
+private:
+    MovieController movieController;
+public:
+    Tests();
+    void testAdminAdd();
+    void testAdminDel();
+    void testAdminUpdate();
+    void testUserAdd();
+    void testUserDel();
 };
 
 
