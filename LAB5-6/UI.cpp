@@ -209,12 +209,13 @@ void UI::update() {
 
 void UI::list() {
 
-    cout<<"\n\n####  Title              |              Genre          |              Year             |              Likes               ####\n";
-    cout<<setw(75)<<"==============\n";
+    cout<<"\n\nTitle"<<setw(25)<<"Genre"<<setw(25)<<"Year"<<setw(25)<<"Likes"<<"\n";
+    cout << setfill('#') << std::setw(90) << " \n";
+
 
     for(int i=1; i<=this->getMovieController().getMovieRepository().getMovies().getLength(); i++) {
             Movie crt = this->getMovieController().getMovieRepository().getMovies().get(i);
-            cout<<setw(25)<< left <<setw(25) << crt.getTitle() << setw(25) << crt.getGenre() << setw(25) << crt.getYear() << setw(25) << crt.getLikes() << "\n";
+            cout<<setfill(' ')<<setw(25)<< left <<setw(25) << crt.getTitle() << setw(25) << crt.getGenre() << setw(25) << crt.getYear() << setw(25) << crt.getLikes() << "\n";
     }
 
 }
@@ -235,16 +236,19 @@ void UI::userSeeMoviesByGenre() {
 
 
     while(true) {
-        cout<<"\n\n####  Title              |              Genre          |              Likes              ####\n";
-        cout<<"=============================================================================================\n";
+        cout<<"\n"<<setfill(' ')<<"Title"<<setw(25)<<"Genre"<<setw(25)<<"Year"<<setw(25)<<"Likes"<<"\n";
+        cout << setfill('#') << std::setw(90) << "\n";
+
         crtMovie = this->getMovieController().getByGenreByStep(genre, pos);
 
-        cout << "      " << crtMovie.getTitle() << "        " << crtMovie.getGenre() << "          " << crtMovie.getLikes()<<"\n\n";
-        cout << "---------------------------------------------------------------------------------------------------------\n" ;
+        cout<<setfill(' ')<< "\n"<< setw(25)<< left <<setw(25) << crtMovie.getTitle() << setw(25) << crtMovie.getGenre() << setw(25) << crtMovie.getYear() << setw(25) << crtMovie.getLikes() << "\n";
 
-        cout << "1. Like trailer\n";
-        cout << "2. Next\n";
-        cout << "3. Back\n";
+        cout << setfill('-') << std::setw(90) << " \n";
+
+        cout << "\n"<<setfill(' ') << setw(25) << "1. Like trailer";
+        cout << "\n"<<setfill(' ') << setw(25) << "2. Next";
+        cout << "\n"<<setfill(' ') << setw(25) << "3. Back";
+        cout << "\n"<<setfill(' ') << setw(25) ;
 
         //Open a link in chrome
         string command ("open '/Applications/Google Chrome.app/Contents/Versions/55.0.2883.95/Google Chrome Helper.app'");
@@ -259,9 +263,9 @@ void UI::userSeeMoviesByGenre() {
                 //LIKE -> increment the number of likes
                 //this->getMovieController().incrementLikes( crtMovie.getTitle() );
 
-                cout << "\n---------------------------------------------------------------------------------------------------------  \n" ;
-                cout << "1. Add to watchlist\n";
-                cout << "2. Back\n";
+                cout << "\n\n"<< setfill('-') << setw(75);
+                cout << "\n" <<setfill(' ') << setw(25) << "1. Add to watchlist";
+                cout << "\n" << setfill(' ') << setw(25) << "2. Back";
 
                 cin>>cmd2;
                 switch(cmd2) {
@@ -284,6 +288,8 @@ void UI::userSeeMoviesByGenre() {
                 break;
         }
 
+        cout << "\n" << setfill(' ') << setw(25);
+
         //Lame stuff to trick the IDE not to show a warning anymore
         if( pos == -1)
             break;
@@ -294,11 +300,13 @@ void UI::userSeeMoviesByGenre() {
 void UI::userSeeWatchList() {
     WatchListItem crtItem;
 
-    cout<<"\n\n####          Title          ####\n";
-    cout<<"=================================\n";
+    cout<<"\n\nTitle"<<setw(25)<<"\n";
+    cout << setfill('#') << std::setw(25) << " \n";
+    cout<<"\n";
+
     for(int i = 1; i <= this->getMovieController().getWatchListRepository().getWatchList().getLength(); i++) {
         crtItem = this->getMovieController().getWatchListRepository().getWatchList().get(i);
-        cout<<"    " << crtItem.getTitle() << "\n";
+        cout<<setfill(' ')<<setw(25)<< left <<setw(25) << crtItem.getTitle()  << "\n";
     }
 }
 
