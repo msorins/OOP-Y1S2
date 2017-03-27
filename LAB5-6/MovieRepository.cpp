@@ -34,7 +34,8 @@ void MovieRepository::add(Movie movie) {
     if(this->movies.find(movie) != -1)
         throw("Movie already exists");
     else
-        this->getMovies().push_back(movie);
+        this->getMovies() = this->getMovies() + movie;
+        //this->getMovies().push_back(movie);
 }
 
 void MovieRepository::del(Movie movie) {
@@ -62,7 +63,8 @@ void MovieRepository::update(string title, Movie movie) {
         this->movies.erase( this -> movies.find(Movie(title) ) );
 
         //Then erase it
-        this->movies.push_back( movie );
+        this->movies = this->movies + movie;
+        //this->movies.push_back( movie );
     }
 }
 
@@ -75,7 +77,8 @@ DynamicArray<Movie> MovieRepository::getByGenre(string genre) {
     for(int i = 1; i <= this->getMovies().getLength(); i++) {
         Movie crtMovie = this->getMovies().get(i);
         if(crtMovie.getGenre() == genre)
-            res.push_back(crtMovie);
+            res = res + crtMovie;
+            //res.push_back(crtMovie);
     }
 
     return res;

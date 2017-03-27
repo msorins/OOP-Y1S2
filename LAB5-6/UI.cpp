@@ -5,6 +5,8 @@
 #include "UI.h"
 #include <iostream>
 #include <stdlib.h>
+#include <iomanip>
+
 using namespace std;
 
 UI::UI() {
@@ -207,9 +209,12 @@ void UI::update() {
 
 void UI::list() {
 
+    cout<<"\n\n####  Title              |              Genre          |              Year             |              Likes               ####\n";
+    cout<<setw(75)<<"==============\n";
+
     for(int i=1; i<=this->getMovieController().getMovieRepository().getMovies().getLength(); i++) {
             Movie crt = this->getMovieController().getMovieRepository().getMovies().get(i);
-            cout<<crt.getTitle() <<"  " << crt.getGenre() << " " << crt.getYear() << " " << crt.getLikes() << " " << crt.getTrailer()<<"\n";
+            cout<<setw(25)<< left <<setw(25) << crt.getTitle() << setw(25) << crt.getGenre() << setw(25) << crt.getYear() << setw(25) << crt.getLikes() << "\n";
     }
 
 }

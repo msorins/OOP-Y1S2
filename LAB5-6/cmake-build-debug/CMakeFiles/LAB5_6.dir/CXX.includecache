@@ -73,6 +73,8 @@ iostream
 -
 stdlib.h
 -
+iomanip
+-
 
 /Users/so/Desktop/UBB/OOP/LAB5-6/UI.h
 MovieController.h

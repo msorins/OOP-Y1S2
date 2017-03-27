@@ -5,8 +5,18 @@
 
 using namespace std;
 
+
 int main() {
     Tests tests;
+
+    DynamicArray<int> a;
+    a.push_back(1);
+    a = a + 2;
+    a = 3 + a;
+
+    for(int i = 1; i<=a.getLength(); i++)
+        cout<< a.get(i)<<" ";
+
 
     while(true) {
         try {
@@ -18,6 +28,8 @@ int main() {
             std::cerr << e;
         }
     }
+
+
 
 
 }

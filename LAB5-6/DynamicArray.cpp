@@ -24,6 +24,11 @@ DynamicArray<TElement>::DynamicArray() {
 }
 
 template<class TElement>
+DynamicArray<TElement>::DynamicArray(TElement t) {
+    this->push_back(t);
+}
+
+template<class TElement>
 DynamicArray<TElement>::~DynamicArray() {
     /*
      * Destructor
@@ -160,6 +165,9 @@ void DynamicArray<TElement>::insert(TElement element, int pos) {
     //Insert that element
     this->elems[pos] = element;
 }
+
+
+
 
 
 template class DynamicArray<int>;

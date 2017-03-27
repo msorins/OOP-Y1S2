@@ -17,6 +17,7 @@ private:
 
 public:
     //Constructors and Destructors
+    DynamicArray(TElement t);
     DynamicArray();
     ~DynamicArray();
 
@@ -57,8 +58,32 @@ public:
     }
 
 
+    DynamicArray operator+(const TElement& b) {
+        DynamicArray newDyn;
+
+        newDyn.capacity = this->capacity;
+        for(int i = 1; i<= this->n; i++)
+            newDyn.push_back(this->get(i));
+
+        newDyn.push_back(b);
+
+        return newDyn;
+    }
 
 };
+
+template<class TElement>
+DynamicArray<TElement> operator+(TElement a, DynamicArray<TElement> b) {
+
+    DynamicArray<TElement> newDyn;
+
+    for(int i = 1; i<= b.getLength(); i++)
+        newDyn.push_back(b.get(i));
+
+    newDyn.push_back(a);
+    return newDyn;
+}
+
 
 
 
