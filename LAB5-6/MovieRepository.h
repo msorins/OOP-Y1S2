@@ -27,6 +27,10 @@ public:
     void del(Movie movie);
     void update(string title, Movie movie);
 
+    //ForIterators
+    Movie * begin();
+    Movie * end();
+
 
 };
 

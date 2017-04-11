@@ -57,10 +57,10 @@ Movie MovieController::getByGenreByStep(string genre, int pos) {
      */
     DynamicArray<Movie> moviesByGenre = this->getMovieRepository().getByGenre(genre);
 
-    if(moviesByGenre.getLength() == 0)
+    if(moviesByGenre.size() == 0)
         throw ("No movies with given genre ");
 
-    return moviesByGenre.get( (pos % moviesByGenre.getLength()) + 1);
+    return moviesByGenre.get( (pos % moviesByGenre.size()) + 1);
 
 }
 

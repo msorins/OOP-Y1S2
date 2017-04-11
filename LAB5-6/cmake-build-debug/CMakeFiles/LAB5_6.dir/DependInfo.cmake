@@ -4,19 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/DynamicArray.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/DynamicArray.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/IDynamicArray.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/IDynamicArray.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/Movie.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Movie.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/MovieController.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/MovieController.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/MovieRepository.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/MovieRepository.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/STLVector.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/STLVector.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/Tests.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/UI.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/WatchListItem.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/WatchListItem.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/WatchListRepository.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.obj"
-  "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/main.cpp" "C:/Users/z003swax/Desktop/OOP-Y1S2-master/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.obj"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/DynamicArray.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/IDynamicArray.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/IDynamicArray.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/Iterator.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Iterator.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/Movie.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Movie.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/MovieController.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/STLVector.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/STLVector.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/Tests.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/UI.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o"
+  "/Users/so/Desktop/UBB/OOP/LAB5-6/main.cpp" "/Users/so/Desktop/UBB/OOP/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -27,8 +27,12 @@ public:
     void validatePosition(int position);
 
     //Getters
-    virtual int getLength();
+    virtual int size();
     virtual TElement* getArray();
+
+    //ForIterators
+    TElement * begin();
+    TElement * end();
 };
 
 

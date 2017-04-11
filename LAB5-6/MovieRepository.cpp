@@ -74,7 +74,7 @@ DynamicArray<Movie> MovieRepository::getByGenre(string genre) {
 
     DynamicArray<Movie> res;
 
-    for(int i = 1; i <= this->getMovies().getLength(); i++) {
+    for(int i = 1; i <= this->getMovies().size(); i++) {
         Movie crtMovie = this->getMovies().get(i);
         if(crtMovie.getGenre() == genre)
             res = res + crtMovie;
@@ -82,4 +82,12 @@ DynamicArray<Movie> MovieRepository::getByGenre(string genre) {
     }
 
     return res;
+}
+
+Movie * MovieRepository::begin() {
+    return this->getMovies().begin();
+}
+
+Movie * MovieRepository::end() {
+    return this->getMovies().end();
 }

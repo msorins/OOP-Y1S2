@@ -24,7 +24,7 @@ public:
     virtual void validatePosition(int position) = 0;
 
     //Getters
-    virtual int getLength() = 0;
+    virtual int size() = 0;
     virtual TElement* getArray() = 0;
 };
 

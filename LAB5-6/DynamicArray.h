@@ -32,13 +32,17 @@ public:
     void validatePosition(int position);
 
     //Getters
-    int getLength();
+    int size();
     TElement* getArray();
+
+    //ForIterators
+    TElement * begin();
+    TElement * end();
 
     //Operators
     DynamicArray& operator = (DynamicArray A ) {
         TElement* newElems = new TElement[A.capacity];
-        for(int i = 1; i<= A.getLength(); i++)
+        for(int i = 1; i<= A.size(); i++)
             newElems[i] = A.getArray()[i];
 
         this->elems = newElems;
@@ -78,7 +82,7 @@ DynamicArray<TElement> operator+(TElement a, DynamicArray<TElement> b) {
 
     DynamicArray<TElement> newDyn;
 
-    for(int i = 1; i<= b.getLength(); i++)
+    for(int i = 1; i<= b.size(); i++)
         newDyn.push_back(b.get(i));
 
     newDyn.push_back(a);

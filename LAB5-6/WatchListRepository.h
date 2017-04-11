@@ -21,6 +21,10 @@ public:
     void add(WatchListItem item);
     void del(WatchListItem item);
 
+    //ForIterators
+    WatchListItem * begin();
+    WatchListItem * end();
+
 };
 
 

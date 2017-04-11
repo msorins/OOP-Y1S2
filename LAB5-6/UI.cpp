@@ -3,6 +3,7 @@
 //
 
 #include "UI.h"
+#include "Iterator.h"
 #include <iostream>
 #include <stdlib.h>
 #include <iomanip>
@@ -212,10 +213,13 @@ void UI::list() {
     cout<<"\n\nTitle"<<setw(25)<<"Genre"<<setw(25)<<"Year"<<setw(25)<<"Likes"<<"\n";
     cout << setfill('#') << std::setw(90) << " \n";
 
+    Iterator< Movie> st1( this->movieController.getMovieRepository().begin() );
+    Iterator< Movie> dr1( this->movieController.getMovieRepository().end() );
 
-    for(int i=1; i<=this->getMovieController().getMovieRepository().getMovies().getLength(); i++) {
-            Movie crt = this->getMovieController().getMovieRepository().getMovies().get(i);
-            cout<<setfill(' ')<<setw(25)<< left <<setw(25) << crt.getTitle() << setw(25) << crt.getGenre() << setw(25) << crt.getYear() << setw(25) << crt.getLikes() << "\n";
+
+    for (Iterator< Movie > it=st1; it!=dr1; it++) {
+        Movie crt = *it;
+        cout<<setfill(' ')<<setw(25)<< left <<setw(25) << crt.getTitle() << setw(25) << crt.getGenre() << setw(25) << crt.getYear() << setw(25) << crt.getLikes() << "\n";
     }
 
 }
@@ -304,9 +308,13 @@ void UI::userSeeWatchList() {
     cout << setfill('#') << std::setw(25) << " \n";
     cout<<"\n";
 
-    for(int i = 1; i <= this->getMovieController().getWatchListRepository().getWatchList().getLength(); i++) {
-        crtItem = this->getMovieController().getWatchListRepository().getWatchList().get(i);
-        cout<<setfill(' ')<<setw(25)<< left <<setw(25) << crtItem.getTitle()  << "\n";
+    Iterator< WatchListItem > st1( this->movieController.getWatchListRepository().begin() );
+    Iterator< WatchListItem > dr1( this->movieController.getWatchListRepository().end() );
+
+
+    for (Iterator< WatchListItem > it=st1; it!=dr1; it++) {
+        WatchListItem crt = *it;
+        cout<<setfill(' ')<<setw(25)<< left <<setw(25) << crt.getTitle()  << "\n";
     }
 }
 

@@ -37,3 +37,11 @@ void WatchListRepository::del(WatchListItem item) {
 
     this->getWatchList().erase( this->getWatchList().find(item) );
 }
+
+WatchListItem * WatchListRepository::begin() {
+    return this->getWatchList().begin();
+}
+
+WatchListItem * WatchListRepository::end() {
+    return this->getWatchList().end();
+}

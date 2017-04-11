@@ -81,7 +81,7 @@ void DynamicArray<TElement>::erase(int pos) {
     this->validatePosition(pos);
 
     //Remove the element at that position
-    for(int i = pos; i<= this->getLength(); i++)
+    for(int i = pos; i<= this->size(); i++)
         this->elems[i] = this->elems[i+1];
 
     //Decrease the length
@@ -102,7 +102,7 @@ TElement DynamicArray<TElement>::get(int pos) {
 }
 
 template<class TElement>
-int DynamicArray<TElement>::getLength() {
+int DynamicArray<TElement>::size() {
     /*
      * GETTER FOR THE LENGTH OF ARRAY
      */
@@ -122,7 +122,7 @@ void DynamicArray<TElement>::validatePosition(int position) {
     /*
      * Validates the position...If it is not valid it raises an error
      */
-    if(position < 1 || position > this->getLength())
+    if(position < 1 || position > this->size())
         throw("Invalid delete position (Dynamic Array)");
 
 }
@@ -133,7 +133,7 @@ int DynamicArray<TElement>::find(TElement elem) {
      * Find a particular element in an array.
      * If it is found return its index, otherwise return -1
      */
-    for(int i = 1; i<= this->getLength(); i++)
+    for(int i = 1; i<= this->size(); i++)
         if(this->elems[i] == elem)
             return i;
 
@@ -166,8 +166,17 @@ void DynamicArray<TElement>::insert(TElement element, int pos) {
     this->elems[pos] = element;
 }
 
+template<class TElement>
+TElement * DynamicArray<TElement>::begin() {
+    TElement* res = this->elems;
+    return res;
+}
 
-
+template<class TElement>
+TElement * DynamicArray<TElement>::end() {
+    TElement* res = this->elems + this->n + 1;
+    return res;
+}
 
 
 template class DynamicArray<int>;
