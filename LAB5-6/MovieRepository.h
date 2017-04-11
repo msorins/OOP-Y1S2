@@ -7,10 +7,12 @@
 
 #include "DynamicArray.h"
 #include "Movie.h"
+#include "STLVector.h"
 
 class MovieRepository {
 private:
-    DynamicArray<Movie> movies;
+    //DynamicArray<Movie> movies;
+    STLVector<Movie> movies;
 
 public:
 

@@ -33,7 +33,34 @@ public:
     //ForIterators
     TElement * begin();
     TElement * end();
+
+    STLVector operator+(const TElement& b) {
+        STLVector newVector;
+
+        for(int i = 0; i < this->elems.size(); i++)
+            newVector.elems.push_back(this->elems[i]);
+
+        newVector.push_back(b);
+
+        return newVector;
+    }
+
 };
+
+template<class TElement>
+STLVector<TElement> operator+(TElement a, STLVector<TElement> b) {
+
+    STLVector<TElement> newVector;
+
+    for(int i = 0; i < b.elems.size(); i++)
+        newVector.elems.push_back(b.elems[i]);
+
+    newVector.push_back(a);
+
+    return newVector;
+}
+
+
 
 
 

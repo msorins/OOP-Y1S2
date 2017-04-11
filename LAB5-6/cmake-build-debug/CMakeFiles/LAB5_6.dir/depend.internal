@@ -29,6 +29,7 @@ CMakeFiles/LAB5_6.dir/MovieController.cpp.o
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.cpp
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.h
+ /Users/so/Desktop/UBB/OOP/LAB5-6/STLVector.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListRepository.h
 CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o
@@ -37,6 +38,7 @@ CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o
  /Users/so/Desktop/UBB/OOP/LAB5-6/Movie.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.cpp
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.h
+ /Users/so/Desktop/UBB/OOP/LAB5-6/STLVector.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h
 CMakeFiles/LAB5_6.dir/STLVector.cpp.o
  /Users/so/Desktop/UBB/OOP/LAB5-6/IDynamicArray.h
@@ -50,6 +52,7 @@ CMakeFiles/LAB5_6.dir/Tests.cpp.o
  /Users/so/Desktop/UBB/OOP/LAB5-6/Movie.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.h
+ /Users/so/Desktop/UBB/OOP/LAB5-6/STLVector.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/Tests.cpp
  /Users/so/Desktop/UBB/OOP/LAB5-6/Tests.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h
@@ -61,6 +64,7 @@ CMakeFiles/LAB5_6.dir/UI.cpp.o
  /Users/so/Desktop/UBB/OOP/LAB5-6/Movie.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieController.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/MovieRepository.h
+ /Users/so/Desktop/UBB/OOP/LAB5-6/STLVector.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/UI.cpp
  /Users/so/Desktop/UBB/OOP/LAB5-6/UI.h
  /Users/so/Desktop/UBB/OOP/LAB5-6/WatchListItem.h

@@ -23,7 +23,8 @@ DynamicArray<Movie> & MovieRepository::getMovies() {
     /*
      * GETTER for movies
      */
-    return this->movies;
+    //return this->movies;
+    //return this->movies;
 }
 
 void MovieRepository::add(Movie movie) {
@@ -34,7 +35,8 @@ void MovieRepository::add(Movie movie) {
     if(this->movies.find(movie) != -1)
         throw("Movie already exists");
     else
-        this->getMovies() = this->getMovies() + movie;
+        this->movies = this->movies + movie;
+        //this->movies.push_back(movie);
         //this->getMovies().push_back(movie);
 }
 
@@ -69,6 +71,7 @@ void MovieRepository::update(string title, Movie movie) {
 }
 
 DynamicArray<Movie> MovieRepository::getByGenre(string genre) {
+    /*
     if(!genre.length())
         return this->getMovies();
 
@@ -82,12 +85,13 @@ DynamicArray<Movie> MovieRepository::getByGenre(string genre) {
     }
 
     return res;
+     */
 }
 
 Movie * MovieRepository::begin() {
-    return this->getMovies().begin();
+    return this->movies.begin();
 }
 
 Movie * MovieRepository::end() {
-    return this->getMovies().end();
+    return this->movies.end();
 }
