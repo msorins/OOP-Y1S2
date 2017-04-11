@@ -5,10 +5,11 @@
 #ifndef LAB5_6_DYNAMICARRAY_H
 #define LAB5_6_DYNAMICARRAY_H
 #include <iostream>
+#include "IDynamicArray.h"
 using namespace std;
 
 template<class TElement>
-class DynamicArray {
+class DynamicArray:  IDynamicArray<TElement> {
 protected:
     TElement* elems;
 private:
