@@ -2,6 +2,7 @@
 #include "DynamicArray.h"
 #include "UI.h"
 #include "Tests.h"
+#include "STLVector.h"
 
 using namespace std;
 
@@ -17,6 +18,8 @@ int main() {
     for(int i = 1; i<=a.getLength(); i++)
         cout<< a.get(i)<<" ";
 
+
+    STLVector<int> da;
 
     while(true) {
         try {
