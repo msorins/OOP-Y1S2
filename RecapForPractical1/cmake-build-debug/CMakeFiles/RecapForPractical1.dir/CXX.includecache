@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/UBB/OOP/RecapForPractical1/DynamicArray.cpp
+iostream
+-
+DynamicArray.h
+/Users/so/Desktop/UBB/OOP/RecapForPractical1/DynamicArray.h
+
+/Users/so/Desktop/UBB/OOP/RecapForPractical1/DynamicArray.h
+iostream
+-
+
+/Users/so/Desktop/UBB/OOP/RecapForPractical1/main.cpp
+iostream
+-
+DynamicArray.h
+/Users/so/Desktop/UBB/OOP/RecapForPractical1/DynamicArray.h
+
