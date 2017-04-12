@@ -13,7 +13,7 @@ MovieController::~MovieController() {
 
 }
 
-MovieRepository & MovieController::getMovieRepository() {
+MovieRepository<STLVector<Movie>> & MovieController::getMovieRepository() {
     /*
      * GETTER for movieRepository
      */
@@ -55,7 +55,7 @@ Movie MovieController::getByGenreByStep(string genre, int pos) {
     /*
      * Returns a single movie by genre
      */
-    DynamicArray<Movie> moviesByGenre = this->getMovieRepository().getByGenre(genre);
+    auto moviesByGenre = this->getMovieRepository().getByGenre(genre);
 
     if(moviesByGenre.size() == 0)
         throw ("No movies with given genre ");

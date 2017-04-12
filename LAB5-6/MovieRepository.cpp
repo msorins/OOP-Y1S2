@@ -4,30 +4,35 @@
 
 #include <csignal>
 #include "MovieRepository.h"
+#include "STLVector.h"
+
 using namespace std;
 
-MovieRepository::MovieRepository() {
+template<class TVector>
+MovieRepository<TVector>::MovieRepository() {
     /*
      * CONSTRUCTOR
      */
 }
 
-MovieRepository::~MovieRepository() {
+template<class TVector>
+MovieRepository<TVector>::~MovieRepository() {
     /*
      * DESTRUCTOR
      * Freeing the space is done automatically
      */
 }
 
-DynamicArray<Movie> & MovieRepository::getMovies() {
+template<class TVector>
+TVector & MovieRepository<TVector>::getMovies() {
     /*
      * GETTER for movies
      */
-    //return this->movies;
-    //return this->movies;
+    return this->movies;
 }
 
-void MovieRepository::add(Movie movie) {
+template<class TVector>
+void MovieRepository<TVector>::add(Movie movie) {
     /*
      * Add a new movie
      * If the movie already exists throw an error
@@ -40,7 +45,8 @@ void MovieRepository::add(Movie movie) {
         //this->getMovies().push_back(movie);
 }
 
-void MovieRepository::del(Movie movie) {
+template<class TVector>
+void MovieRepository<TVector>::del(Movie movie) {
     /*
      * Delete a movie
      * If the movie already exists throw an error
@@ -52,7 +58,8 @@ void MovieRepository::del(Movie movie) {
 
 }
 
-void MovieRepository::update(string title, Movie movie) {
+template<class TVector>
+void MovieRepository<TVector>::update(string title, Movie movie) {
     /*
      * Update a movie
      * If the movie does not exists, throw an error
@@ -70,28 +77,33 @@ void MovieRepository::update(string title, Movie movie) {
     }
 }
 
-DynamicArray<Movie> MovieRepository::getByGenre(string genre) {
-    /*
+template<class TVector>
+TVector MovieRepository<TVector>::getByGenre(string genre) {
+
     if(!genre.length())
         return this->getMovies();
 
-    DynamicArray<Movie> res;
+    TVector res;
 
     for(int i = 1; i <= this->getMovies().size(); i++) {
         Movie crtMovie = this->getMovies().get(i);
         if(crtMovie.getGenre() == genre)
             res = res + crtMovie;
-            //res.push_back(crtMovie);
     }
 
     return res;
-     */
+
 }
 
-Movie * MovieRepository::begin() {
+template<class TVector>
+Movie * MovieRepository<TVector>::begin() {
     return this->movies.begin();
 }
 
-Movie * MovieRepository::end() {
+template<class TVector>
+Movie * MovieRepository<TVector>::end() {
     return this->movies.end();
 }
+
+template class MovieRepository< DynamicArray<Movie> >;
+template class MovieRepository< STLVector<Movie> >;

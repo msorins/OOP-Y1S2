@@ -9,10 +9,11 @@
 #include "Movie.h"
 #include "STLVector.h"
 
+template<class TVector>
 class MovieRepository {
 private:
     //DynamicArray<Movie> movies;
-    STLVector<Movie> movies;
+    TVector movies;
 
 public:
 
@@ -21,8 +22,8 @@ public:
     ~MovieRepository();
 
     //Getters
-    DynamicArray<Movie> & getMovies();
-    DynamicArray<Movie> getByGenre(string genre);
+    TVector & getMovies();
+    TVector getByGenre(string genre);
 
     //Functionality
     void add(Movie movie);

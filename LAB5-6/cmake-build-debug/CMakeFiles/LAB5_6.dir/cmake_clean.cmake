@@ -12,7 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LAB5_6.dir/STLVector.cpp.o"
   "CMakeFiles/LAB5_6.dir/Iterator.cpp.o"
   "LAB5_6.pdb"
-  "LAB5_6"
+  "LAB5_6.exe"
+  "libLAB5_6.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

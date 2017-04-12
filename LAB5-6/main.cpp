@@ -50,7 +50,7 @@ int main() {
 
 
     //Iterating over a repository
-    MovieRepository mp = MovieRepository();
+    MovieRepository<DynamicArray<Movie>> mp = MovieRepository<DynamicArray<Movie>>();
     mp.add(Movie("Sorinium1", "Horror", 2017, 10, "https://no"));
     mp.add(Movie("Sorinium2", "Horror", 2017, 10, "https://no"));
     mp.add(Movie("Sorinium3", "Horror", 2017, 10, "https://no"));

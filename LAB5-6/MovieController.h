@@ -10,7 +10,7 @@
 
 class MovieController {
 private:
-    MovieRepository movieRepository;
+    MovieRepository<STLVector<Movie>> movieRepository = MovieRepository<STLVector<Movie>>();
     WatchListRepository watchListRepository;
 
 public:
@@ -19,7 +19,7 @@ public:
     ~MovieController();
 
     //Getters
-    MovieRepository & getMovieRepository();
+    MovieRepository<STLVector<Movie>> & getMovieRepository();
     WatchListRepository & getWatchListRepository();
     Movie getByGenreByStep(string genre, int pos);
 

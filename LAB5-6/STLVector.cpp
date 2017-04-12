@@ -107,7 +107,7 @@ TElement *STLVector<TElement>::begin() {
 
 template<class TElement>
 TElement *STLVector<TElement>::end() {
-    return &this->elems[this->elems.size() -1];
+    return &this->elems[this->elems.size()];
 }
 
 template class STLVector<int>;
