@@ -3,6 +3,7 @@
 //
 
 #include "WatchListRepository.h"
+#include "Exception.h"
 
 WatchListRepository::WatchListRepository() {
     /*
@@ -22,7 +23,7 @@ void WatchListRepository::add(WatchListItem item) {
      * Add a new item to the Watch List
      */
     if(this->getWatchList().find(item) != -1)
-        throw("Movie already in the watch list");
+        throw Exception("Movie already in the watch list");
 
     this->getWatchList().push_back(item);
 }
@@ -33,7 +34,7 @@ void WatchListRepository::del(WatchListItem item) {
      *
      */
     if(this->getWatchList().find(item) == -1)
-        throw("Can't delete movie from the watch list. It does not exists");
+        throw Exception("Can't delete movie from the watch list. It does not exists");
 
     this->getWatchList().erase( this->getWatchList().find(item) );
 }

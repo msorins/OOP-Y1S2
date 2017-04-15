@@ -4,6 +4,7 @@
 
 #include "UI.h"
 #include "Iterator.h"
+#include "Exception.h"
 #include <iostream>
 #include <stdlib.h>
 #include <iomanip>
@@ -69,7 +70,7 @@ void UI::getMainInput() {
     cin >> n;
 
     if(!(n >= 0 && n <= 1))
-        throw("Invalid command");
+        throw Exception("Invalid command");
 
     switch(n) {
         case 0:

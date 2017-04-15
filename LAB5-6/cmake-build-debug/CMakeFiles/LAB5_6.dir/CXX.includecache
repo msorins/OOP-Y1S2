@@ -6,111 +6,129 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.cpp
 csignal
 -
 DynamicArray.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.h
 Movie.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.h
 WatchListItem.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.h
+Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.h
 iostream
 -
 IDynamicArray.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/IDynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/IDynamicArray.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/IDynamicArray.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.cpp
+Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
+
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
+iostream
+-
+
+/Users/so/Desktop/UBB/OOP2/LAB5-6/IDynamicArray.cpp
 IDynamicArray.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/IDynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/IDynamicArray.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/IDynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/IDynamicArray.h
 WatchListItem.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.h
 Movie.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Iterator.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Iterator.cpp
 Iterator.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Iterator.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Iterator.h
 Movie.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.h
 WatchListItem.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.h
 DynamicArray.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Iterator.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Iterator.h
 iostream
 -
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.cpp
 Movie.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.h
+Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.h
 iostream
 -
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieController.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieController.cpp
 MovieController.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieController.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieController.h
 WatchListRepository.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListRepository.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieController.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieController.h
 MovieRepository.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieRepository.h
 WatchListItem.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.h
 WatchListRepository.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListRepository.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieRepository.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieRepository.cpp
 csignal
 -
 MovieRepository.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieRepository.h
 STLVector.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/STLVector.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/STLVector.h
+Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieRepository.h
 DynamicArray.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.h
 Movie.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.h
 STLVector.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/STLVector.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/STLVector.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/STLVector.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/STLVector.cpp
 STLVector.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/STLVector.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/STLVector.h
+Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/STLVector.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/STLVector.h
 vector
 -
 IDynamicArray.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/IDynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/IDynamicArray.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Tests.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Tests.cpp
 assert.h
 -
 Tests.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Tests.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Tests.h
 MovieController.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieController.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieController.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Tests.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Tests.h
 MovieController.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieController.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieController.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/UI.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/UI.cpp
 UI.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/UI.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/UI.h
 Iterator.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Iterator.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Iterator.h
+Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
 iostream
 -
 stdlib.h
@@ -118,39 +136,43 @@ stdlib.h
 iomanip
 -
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/UI.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/UI.h
 MovieController.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieController.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieController.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.cpp
 WatchListItem.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.h
 iostream
 -
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListRepository.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListRepository.cpp
 WatchListRepository.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListRepository.h
+Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListRepository.h
 DynamicArray.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.h
 WatchListItem.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.h
 
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/main.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-6/main.cpp
 iostream
 -
 DynamicArray.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.h
 UI.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/UI.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/UI.h
 Tests.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Tests.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Tests.h
 STLVector.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/STLVector.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/STLVector.h
 Iterator.h
-/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Iterator.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Iterator.h
+Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h
 

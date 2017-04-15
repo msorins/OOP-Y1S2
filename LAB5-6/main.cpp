@@ -4,6 +4,8 @@
 #include "Tests.h"
 #include "STLVector.h"
 #include "Iterator.h"
+#include "Exception.h"
+
 using namespace std;
 
 
@@ -21,7 +23,7 @@ int main() {
 
 
     STLVector<int> da;
-    */
+
 
     int numbers[]={10,20,30,40,50};
     Iterator<int> from(numbers);
@@ -72,15 +74,15 @@ int main() {
 
 
 
+    */
 
     while(true) {
         try {
             UI UIObj;
 
 
-        } catch (const char* e) {
-            // catch anything thrown within try block that derives from std::exception
-            std::cerr << e;
+        } catch(Exception ex) {
+            std::cerr<<ex.what();
         }
     }
 

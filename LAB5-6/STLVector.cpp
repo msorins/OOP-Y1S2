@@ -3,6 +3,7 @@
 //
 
 #include "STLVector.h"
+#include "Exception.h"
 
 template<class TElement>
 STLVector<TElement>::~STLVector() {
@@ -83,7 +84,7 @@ void STLVector<TElement>::validatePosition(int position) {
     * Validates the position...If it is not valid it raises an error
     */
     if(position < 0 || position >= this->size())
-        throw("Invalid delete position (Dynamic Array)");
+        throw Exception("Invalid delete position (Dynamic Array)");
 }
 
 template<class TElement>

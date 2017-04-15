@@ -3,6 +3,7 @@
 //
 
 #include "Movie.h"
+#include "Exception.h"
 
 Movie::Movie(string title, string genre, int year, int likes, string trailer) {
     this->setTitle(title);
@@ -67,6 +68,10 @@ void Movie::setTitle(string title) {
     /*
     * SETTER for title
     */
+
+    if(!title.length())
+        throw Exception("Title length must not be zero");
+
     this->title = title;
 }
 
@@ -74,6 +79,10 @@ void Movie::setGenre(string genre) {
     /*
     * SETTER for genre
     */
+
+    if(!genre.length())
+        throw Exception("Genre length must not be zero");
+
     this->genre = genre;
 }
 
@@ -81,6 +90,10 @@ void Movie::setYear(int year) {
     /*
     * SETTER for year
     */
+
+    if(year < 1900 || year > 2017)
+        throw Exception("Year is not correct");
+
     this->year = year;
 }
 

@@ -5,6 +5,7 @@
 #include <csignal>
 #include "MovieRepository.h"
 #include "STLVector.h"
+#include "Exception.h"
 
 using namespace std;
 
@@ -38,7 +39,7 @@ void MovieRepository<TVector>::add(Movie movie) {
      * If the movie already exists throw an error
      */
     if(this->movies.find(movie) != -1)
-        throw("Movie already exists");
+        throw Exception("Movie already exists");
     else
         this->movies = this->movies + movie;
         //this->movies.push_back(movie);
@@ -52,7 +53,7 @@ void MovieRepository<TVector>::del(Movie movie) {
      * If the movie already exists throw an error
      */
     if(this->movies.find(movie) == -1)
-        throw("Movie does not exists");
+        throw Exception("Movie does not exists");
     else
         this->movies.erase( this->movies.find(movie) );
 
@@ -66,7 +67,7 @@ void MovieRepository<TVector>::update(string title, Movie movie) {
      */
 
     if(this->movies.find(Movie(title)) == -1)
-        throw("Movie does not exists");
+        throw Exception("Movie does not exists");
     else {
         //First delete it
         this->movies.erase( this -> movies.find(Movie(title) ) );
@@ -79,7 +80,7 @@ void MovieRepository<TVector>::update(string title, Movie movie) {
 
 template<class TVector>
 TVector MovieRepository<TVector>::getByGenre(string genre) {
-
+    /*
     if(!genre.length())
         return this->getMovies();
 
@@ -90,6 +91,25 @@ TVector MovieRepository<TVector>::getByGenre(string genre) {
         if(crtMovie.getGenre() == genre)
             res = res + crtMovie;
     }
+
+    return res;*/
+
+    if(!genre.length())
+        return this->getMovies();
+
+    TVector res;
+    res.push_back(Movie());
+
+    const auto& tmp = genre;
+    copy_if(this->getMovies().begin(),
+            this->getMovies().end(),
+            res.begin(),
+            [&tmp](Movie el){
+                if( el.getGenre() == tmp )
+                    return true;
+                return false;
+            });
+
 
     return res;
 

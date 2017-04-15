@@ -6,6 +6,7 @@
 #include "DynamicArray.h"
 #include "Movie.h"
 #include "WatchListItem.h"
+#include "Exception.h"
 
 using namespace std;
 #define DEFLENGTH 100
@@ -123,7 +124,7 @@ void DynamicArray<TElement>::validatePosition(int position) {
      * Validates the position...If it is not valid it raises an error
      */
     if(position < 1 || position > this->size())
-        throw("Invalid delete position (Dynamic Array)");
+        throw Exception("Invalid delete position (Dynamic Array)");
 
 }
 

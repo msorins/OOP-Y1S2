@@ -60,7 +60,7 @@ Movie MovieController::getByGenreByStep(string genre, int pos) {
     if(moviesByGenre.size() == 0)
         throw ("No movies with given genre ");
 
-    return moviesByGenre.get( (pos % moviesByGenre.size()) + 1);
+    return moviesByGenre.get( (pos % moviesByGenre.size()) );
 
 }
 

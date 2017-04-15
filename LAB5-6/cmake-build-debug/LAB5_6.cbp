@@ -8,148 +8,156 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug"/>
+				<Option working_dir="/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug"/>
+				<Option working_dir="/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug"/>
+				<Option working_dir="/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LAB5_6">
-				<Option output="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/LAB5_6.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug"/>
+				<Option output="/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/LAB5_6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB5_6"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB5_6"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LAB5_6/fast">
-				<Option output="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/LAB5_6.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug"/>
+				<Option output="/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/LAB5_6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB5_6/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB5_6/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/DynamicArray.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/DynamicArray.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/IDynamicArray.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/IDynamicArray.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Exception.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Iterator.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/IDynamicArray.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Iterator.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/IDynamicArray.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Iterator.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Movie.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Iterator.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieController.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieController.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Movie.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieRepository.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieController.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/MovieRepository.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieController.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/STLVector.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieRepository.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/STLVector.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/MovieRepository.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Tests.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/STLVector.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/Tests.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/STLVector.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/UI.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Tests.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/UI.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Tests.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/UI.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListItem.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/UI.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListRepository.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/WatchListRepository.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListItem.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/main.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListRepository.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/z003swax/Desktop/OOP/LAB5-6/CMakeLists.txt">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/WatchListRepository.h">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/main.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
