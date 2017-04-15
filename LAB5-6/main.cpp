@@ -1,10 +1,10 @@
 #include <iostream>
-#include "DynamicArray.h"
-#include "UI.h"
-#include "Tests.h"
-#include "STLVector.h"
-#include "Iterator.h"
-#include "Exception.h"
+#include "List/DynamicArray.h"
+#include "UI/UI.h"
+#include "Tests/Tests.h"
+#include "List/STLVector.h"
+#include "Others/Iterator.h"
+#include "Others/Exception.h"
 
 using namespace std;
 
@@ -73,8 +73,8 @@ int main() {
 
 
 
-
     */
+
 
     while(true) {
         try {
@@ -85,6 +85,8 @@ int main() {
             std::cerr<<ex.what();
         }
     }
+
+
 
 
 
