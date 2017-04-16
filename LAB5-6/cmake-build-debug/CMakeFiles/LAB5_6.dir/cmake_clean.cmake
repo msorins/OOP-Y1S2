@@ -7,7 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LAB5_6.dir/UI/UI.cpp.o"
   "CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o"
   "CMakeFiles/LAB5_6.dir/Model/WatchListItem.cpp.o"
-  "CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o"
+  "CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o"
   "CMakeFiles/LAB5_6.dir/List/IDynamicArray.cpp.o"
   "CMakeFiles/LAB5_6.dir/List/STLVector.cpp.o"
   "CMakeFiles/LAB5_6.dir/Others/Iterator.cpp.o"
@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o"
   "CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o"
   "CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o"
+  "CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o"
+  "CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o"
   "LAB5_6.pdb"
   "LAB5_6"
 )

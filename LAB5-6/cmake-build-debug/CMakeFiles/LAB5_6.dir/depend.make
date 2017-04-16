@@ -8,11 +8,13 @@ CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../List/IDynamicArray.h
 CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../List/STLVector.h
 CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Model/Movie.h
 CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Model/WatchListItem.h
+CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Repository/CSVWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Repository/FileMovieRepository.h
+CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Repository/HTMLWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Repository/IMovieRepository.h
+CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Repository/IWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Repository/MemoryMovieRepository.h
 CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Repository/MovieRepository.h
-CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o: ../Repository/WatchListRepository.h
 
 CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o: ../List/DynamicArray.cpp
 CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o: ../List/DynamicArray.h
@@ -37,6 +39,7 @@ CMakeFiles/LAB5_6.dir/Model/Movie.cpp.o: ../Model/Movie.cpp
 CMakeFiles/LAB5_6.dir/Model/Movie.cpp.o: ../Model/Movie.h
 CMakeFiles/LAB5_6.dir/Model/Movie.cpp.o: ../Others/Exception.h
 
+CMakeFiles/LAB5_6.dir/Model/WatchListItem.cpp.o: ../Model/Movie.h
 CMakeFiles/LAB5_6.dir/Model/WatchListItem.cpp.o: ../Model/WatchListItem.cpp
 CMakeFiles/LAB5_6.dir/Model/WatchListItem.cpp.o: ../Model/WatchListItem.h
 
@@ -50,6 +53,15 @@ CMakeFiles/LAB5_6.dir/Others/Iterator.cpp.o: ../Model/WatchListItem.h
 CMakeFiles/LAB5_6.dir/Others/Iterator.cpp.o: ../Others/Iterator.cpp
 CMakeFiles/LAB5_6.dir/Others/Iterator.cpp.o: ../Others/Iterator.h
 
+CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o: ../List/DynamicArray.h
+CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o: ../List/IDynamicArray.h
+CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o: ../Model/Movie.h
+CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o: ../Model/WatchListItem.h
+CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o: ../Others/Iterator.h
+CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o: ../Repository/CSVWatchListRepository.cpp
+CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o: ../Repository/CSVWatchListRepository.h
+CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o: ../Repository/IWatchListRepository.h
+
 CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o: ../List/DynamicArray.h
 CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o: ../List/IDynamicArray.h
 CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o: ../List/STLVector.h
@@ -61,6 +73,15 @@ CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o: ../Repository/FileMo
 CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o: ../Repository/FileMovieRepository.h
 CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o: ../Repository/IMovieRepository.h
 
+CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o: ../List/DynamicArray.h
+CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o: ../List/IDynamicArray.h
+CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o: ../Model/Movie.h
+CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o: ../Model/WatchListItem.h
+CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o: ../Others/Iterator.h
+CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o: ../Repository/HTMLWatchListRepository.cpp
+CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o: ../Repository/HTMLWatchListRepository.h
+CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o: ../Repository/IWatchListRepository.h
+
 CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o: ../List/DynamicArray.h
 CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o: ../List/IDynamicArray.h
 CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o: ../List/STLVector.h
@@ -69,6 +90,15 @@ CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o: ../Model/WatchListItem.
 CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o: ../Others/Exception.h
 CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o: ../Repository/IMovieRepository.cpp
 CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o: ../Repository/IMovieRepository.h
+
+CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o: ../List/DynamicArray.h
+CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o: ../List/IDynamicArray.h
+CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o: ../Model/Movie.h
+CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o: ../Model/WatchListItem.h
+CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o: ../Others/Exception.h
+CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o: ../Others/Iterator.h
+CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o: ../Repository/IWatchListRepository.cpp
+CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o: ../Repository/IWatchListRepository.h
 
 CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o: ../List/DynamicArray.h
 CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o: ../List/IDynamicArray.h
@@ -89,24 +119,18 @@ CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o: ../Others/Exception.h
 CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o: ../Repository/MovieRepository.cpp
 CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o: ../Repository/MovieRepository.h
 
-CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o: ../List/DynamicArray.h
-CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o: ../List/IDynamicArray.h
-CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o: ../Model/Movie.h
-CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o: ../Model/WatchListItem.h
-CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o: ../Others/Exception.h
-CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o: ../Repository/WatchListRepository.cpp
-CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o: ../Repository/WatchListRepository.h
-
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Controller/MovieController.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../List/DynamicArray.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../List/IDynamicArray.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../List/STLVector.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Model/Movie.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Model/WatchListItem.h
+CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/CSVWatchListRepository.h
+CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/HTMLWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/IMovieRepository.h
+CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/IWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/MemoryMovieRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/MovieRepository.h
-CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/WatchListRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Tests/Tests.cpp
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Tests/Tests.h
 
@@ -118,11 +142,13 @@ CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Model/Movie.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Model/WatchListItem.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Others/Exception.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Others/Iterator.h
+CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Repository/CSVWatchListRepository.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Repository/FileMovieRepository.h
+CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Repository/HTMLWatchListRepository.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Repository/IMovieRepository.h
+CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Repository/IWatchListRepository.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Repository/MemoryMovieRepository.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Repository/MovieRepository.h
-CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Repository/WatchListRepository.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../UI/UI.cpp
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../UI/UI.h
 
@@ -134,11 +160,13 @@ CMakeFiles/LAB5_6.dir/main.cpp.o: ../Model/Movie.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Model/WatchListItem.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Others/Exception.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Others/Iterator.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/CSVWatchListRepository.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/FileMovieRepository.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/HTMLWatchListRepository.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/IMovieRepository.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/IWatchListRepository.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/MemoryMovieRepository.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/MovieRepository.h
-CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/WatchListRepository.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Tests/Tests.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../UI/UI.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../main.cpp

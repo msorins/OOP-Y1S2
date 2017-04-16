@@ -6,23 +6,29 @@
 #define LAB5_6_MOVIECONTROLLER_H
 #include "../Repository/MovieRepository.h"
 #include "../Model/WatchListItem.h"
-#include "../Repository/WatchListRepository.h"
+#include "../Repository/IWatchListRepository.h"
+#include "../Repository/CSVWatchListRepository.h"
+#include "../Repository/HTMLWatchListRepository.h"
 
 template<class TRepo>
 class MovieController {
 private:
     TRepo movieRepository = TRepo();
-    WatchListRepository watchListRepository;
+    IWatchListRepository* watchListRepository;
 
 public:
     // Constructors and Destructors
     MovieController();
+    MovieController(IWatchListRepository* watchListRepo);
     ~MovieController();
 
     //Getters
     TRepo & getMovieRepository();
-    WatchListRepository & getWatchListRepository();
+    IWatchListRepository* getWatchListRepository();
     Movie getByGenreByStep(string genre, int pos);
+
+    //Setters
+    void setWatchListRepository(IWatchListRepository *watchListRepository);
 
     //Functionality
     void add(string title, string genre, int year, int likes, string trailer);

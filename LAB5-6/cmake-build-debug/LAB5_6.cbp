@@ -130,16 +130,34 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Iterator.h">
 			<Option target="LAB5_6"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.h">
+			<Option target="LAB5_6"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.h">
 			<Option target="LAB5_6"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.h">
+			<Option target="LAB5_6"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h">
 			<Option target="LAB5_6"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.cpp">
@@ -152,12 +170,6 @@
 			<Option target="LAB5_6"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.h">
-			<Option target="LAB5_6"/>
-		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/WatchListRepository.cpp">
-			<Option target="LAB5_6"/>
-		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/WatchListRepository.h">
 			<Option target="LAB5_6"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.cpp">

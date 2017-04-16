@@ -15,8 +15,10 @@
 
 class UI {
 public:
-    MovieController< FSTL > movieController;
+    MovieController<FSTL>* movieController;
     string mode;
+public:
+    bool watchListType = 0;
 
 public:
 
@@ -31,6 +33,7 @@ public:
     void getAdminInput();
     void getUserInput();
     void getMainInput();
+    void printWatchListType();
 
     bool checkCommand(int cmd);
 
@@ -39,11 +42,13 @@ public:
     void del();
     void update();
     void list();
+    void userWatchListType(int cmd);
 
     //User area
     void userSeeMoviesByGenre();
     void userSeeWatchList();
     void userDeleteWatchList();
+    void userSeeFormatedWatchList();
 
     void flushGetLine();
 

@@ -3,7 +3,7 @@
 //
 
 #include "MovieController.h"
-#include "../Repository/WatchListRepository.h"
+#include "../Repository/IWatchListRepository.h"
 #include "../Repository/MemoryMovieRepository.h"
 #include "../Repository/FileMovieRepository.h"
 
@@ -15,6 +15,13 @@ MovieController<TRepo>::MovieController() {
 
     this->getMovieRepository().load();
 }
+
+template<class TRepo>
+MovieController<TRepo>::MovieController(IWatchListRepository *watchListRepo) {
+    this->getMovieRepository().load();
+    this->setWatchListRepository(watchListRepo);
+}
+
 
 template<class TRepo>
 MovieController<TRepo>::~MovieController() {
@@ -30,7 +37,7 @@ TRepo & MovieController<TRepo>::getMovieRepository() {
 }
 
 template<class TRepo>
-WatchListRepository & MovieController<TRepo>::getWatchListRepository() {
+IWatchListRepository *MovieController<TRepo>::getWatchListRepository() {
     /*
      * GETTER for WatchListItem
      */
@@ -45,6 +52,7 @@ void MovieController<TRepo>::add(string title, string genre, int year, int likes
     this->movieRepository.add(Movie(title, genre, year, likes, trailer));
 
     this->getMovieRepository().save();
+
 }
 
 template<class TRepo>
@@ -104,6 +112,12 @@ void MovieController<TRepo>::incrementLikes(string title) {
     //Now add the new one
     this->getMovieRepository().add( crtMovie );
 }
+
+template<class TRepo>
+void MovieController<TRepo>::setWatchListRepository(IWatchListRepository *watchListRepository) {
+    this->watchListRepository = watchListRepository;
+}
+
 
 template class MovieController< MemoryMovieRepository<STLVector<Movie>> >;
 template class MovieController< FileMovieRepository<STLVector<Movie>> >;

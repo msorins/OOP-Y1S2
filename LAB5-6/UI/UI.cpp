@@ -9,6 +9,9 @@
 #include <stdlib.h>
 #include <iomanip>
 
+#define CHROME "open '/Applications/Google Chrome.app/Contents/Versions/57.0.2987.133/Google Chrome Helper.app'"
+#define ATOM "atom"
+
 using namespace std;
 
 UI::UI() {
@@ -20,6 +23,8 @@ UI::UI() {
     this->movieController.add("Suits", "Reality", 2012, 5, "https://www.youtube.com/watch?v=6Zu0yYV2uYs");
     this->movieController.getMovieRepository().save();*/
     this->mode = "MAIN";
+
+    this->printWatchListType();
 
     while(1) {
         if(this->mode == "MAIN") {
@@ -59,6 +64,7 @@ void UI::printUserUI() {
     cout << "0. Watch list\n";
     cout << "1. See movies\n";
     cout << "2. Delete from watch list\n";
+    cout << "3. SEE FORMATTED WATCH LIST\n";
     cout << "9. -Back- \n";
     cout << "##########################\n";
 }
@@ -120,10 +126,16 @@ void UI::getUserInput() {
         case 2:
             this->userDeleteWatchList();
             break;
+        case 3:
+            this->userSeeFormatedWatchList();
+            break;
         default:
             this->mode = "MAIN";
             break;
     }
+
+    this->movieController->getWatchListRepository()->save();
+    this->movieController->getWatchListRepository()->saveCustom();
 }
 
 
@@ -158,7 +170,7 @@ void UI::add() {
     cin>>trailer;
 
 
-    this->movieController.add(title, genre, likes, year, trailer);
+    this->movieController->add(title, genre, likes, year, trailer);
 }
 
 void UI::del() {
@@ -172,7 +184,7 @@ void UI::del() {
     cin.getline(aux, 100);
     title = string(aux);
 
-    this->movieController.del(title);
+    this->movieController->del(title);
 }
 
 void UI::update() {
@@ -204,7 +216,7 @@ void UI::update() {
     cout<<"New trailer: ";
     cin>>trailer;
 
-    this->movieController.update(oldTitle, title, genre, likes, year, trailer);
+    this->movieController->update(oldTitle, title, genre, likes, year, trailer);
 }
 
 void UI::list() {
@@ -212,8 +224,8 @@ void UI::list() {
     cout<<"\n\nTitle"<<setw(25)<<"Genre"<<setw(25)<<"Year"<<setw(25)<<"Likes"<<"\n";
     cout << setfill('#') << std::setw(90) << " \n";
 
-    Iterator< Movie> st1( this->movieController.getMovieRepository().begin() );
-    Iterator< Movie> dr1( this->movieController.getMovieRepository().end() );
+    Iterator< Movie> st1( this->movieController->getMovieRepository().begin() );
+    Iterator< Movie> dr1( this->movieController->getMovieRepository().end() );
 
 
     for (Iterator< Movie > it=st1; it!=dr1; it++) {
@@ -242,7 +254,7 @@ void UI::userSeeMoviesByGenre() {
         cout<<"\n"<<setfill(' ')<<"Title"<<setw(25)<<"Genre"<<setw(25)<<"Year"<<setw(25)<<"Likes"<<"\n";
         cout << setfill('#') << std::setw(90) << "\n";
 
-        crtMovie = this->movieController.getByGenreByStep(genre, pos);
+        crtMovie = this->movieController->getByGenreByStep(genre, pos);
 
         cout<<setfill(' ')<< "\n"<< setw(25)<< left <<setw(25) << crtMovie.getTitle() << setw(25) << crtMovie.getGenre() << setw(25) << crtMovie.getYear() << setw(25) << crtMovie.getLikes() << "\n";
 
@@ -254,7 +266,7 @@ void UI::userSeeMoviesByGenre() {
         cout << "\n"<<setfill(' ') << setw(25) ;
 
         //Open a link in chrome
-        string command ("open '/Applications/Google Chrome.app/Contents/Versions/55.0.2883.95/Google Chrome Helper.app'");
+        string command (CHROME);
         command += " " + crtMovie.getTrailer();
         system(command.c_str());
 
@@ -274,10 +286,16 @@ void UI::userSeeMoviesByGenre() {
                 switch(cmd2) {
                     case 1:
                         // ADD to watchlist
-                        this->movieController.getWatchListRepository().add(WatchListItem( crtMovie.getTitle() ));
+
+                        int posF = this->movieController->getMovieRepository().getMovies().find(crtMovie.getTitle());
+                        Movie foundMovie = this->movieController->getMovieRepository().getMovies().get(posF);
+
+                        this->movieController->getWatchListRepository()->add(WatchListItem( crtMovie.getTitle(), foundMovie ));
+
+                        this->movieController->getWatchListRepository()->save();
+                        this->movieController->getWatchListRepository()->saveCustom();
+
                         pos += 1;
-                        break;
-                    default:
                         break;
                 }
 
@@ -307,8 +325,8 @@ void UI::userSeeWatchList() {
     cout << setfill('#') << std::setw(25) << " \n";
     cout<<"\n";
 
-    Iterator< WatchListItem > st1( this->movieController.getWatchListRepository().begin() );
-    Iterator< WatchListItem > dr1( this->movieController.getWatchListRepository().end() );
+    Iterator< WatchListItem > st1( this->movieController->getWatchListRepository()->begin() );
+    Iterator< WatchListItem > dr1( this->movieController->getWatchListRepository()->end() );
 
 
     for (Iterator< WatchListItem > it=st1; it!=dr1; it++) {
@@ -329,10 +347,10 @@ void UI::userDeleteWatchList() {
     cin.getline(aux, 100);
     title = string(aux);
 
-    int pos = this->movieController.getWatchListRepository().getWatchList().find(WatchListItem(title));
+    int pos = this->movieController->getWatchListRepository()->getWatchList().find(WatchListItem(title));
     if(pos == -1)
-        throw "Invalid movie name";
-    this->movieController.getWatchListRepository().getWatchList().erase(pos);
+        throw Exception("Invalid movie name");
+    this->movieController->getWatchListRepository()->getWatchList().erase(pos);
 
 
 
@@ -345,7 +363,7 @@ void UI::userDeleteWatchList() {
     switch(cmd) {
         case 1:
             // Like the movie
-            this->movieController.incrementLikes( title );
+            this->movieController->incrementLikes( title );
             break;
         default:
             break;
@@ -356,6 +374,58 @@ void UI::flushGetLine() {
     cin.clear();
     while (cin.get() != '\n') {
         continue;
+    }
+
+}
+
+
+void UI::printWatchListType() {
+
+    cout << "\n##########################\n";
+    cout << "0. CSV Watch List\n";
+    cout << "1. HTML Watch List\n";
+    cout << "##########################\n";
+
+
+    int cmd;
+    cin >> cmd;
+
+    if(cmd < 0 || cmd > 1)
+        throw Exception("Invalid command");
+
+    this->userWatchListType(cmd);
+
+}
+
+void UI::userWatchListType(int cmd) {
+    switch(cmd) {
+        case 0:
+            // Like the movie
+            this->movieController = new  MovieController< FSTL >( new CSVWatchListRepository() );
+            this->movieController->getWatchListRepository()->saveCustom();
+            this->watchListType = 0;
+            break;
+        case 1:
+            this->movieController = new MovieController< FSTL >( new HTMLWatchListRepository() );
+            this->movieController->getWatchListRepository()->saveCustom();
+            this->watchListType = 1;
+            break;
+        default:
+            break;
+    }
+}
+
+void UI::userSeeFormatedWatchList() {
+    if(!this -> watchListType) {
+        string command (ATOM);
+        command += " /Users/so/Desktop/UBB/OOP2/LAB5-6/Files/csv-watch-list.txt";
+        system(command.c_str());
+    }
+
+    if(this -> watchListType) {
+        string command (CHROME);
+        command += " /Users/so/Desktop/UBB/OOP2/LAB5-6/Files/html-watch-list.html";
+        system(command.c_str());
     }
 
 }

@@ -6,13 +6,13 @@
 #define LAB5_6_WATCHLISTREPOSITORY_H
 #include "../List/DynamicArray.h"
 #include "../Model/WatchListItem.h"
-class WatchListRepository {
+class IWatchListRepository {
 private:
     DynamicArray<WatchListItem> watchList;
 
 public:
     //Constructors
-    WatchListRepository();
+    IWatchListRepository();
 
     //Getters
     DynamicArray<WatchListItem>& getWatchList();
@@ -24,6 +24,11 @@ public:
     //ForIterators
     WatchListItem * begin();
     WatchListItem * end();
+
+    //Functionality
+    void load();
+    void save();
+    virtual void saveCustom() = 0;
 
 };
 

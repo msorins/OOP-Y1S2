@@ -62,8 +62,12 @@ public:
          * READS THE OBJECT
          */
 
+        int nr = 0;
         input.clear();
         while (input.get() != '\n') {
+            nr++;
+            if(nr == 100)
+                break;
             continue;
         }
 

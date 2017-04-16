@@ -9,8 +9,8 @@
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.cpp
 MovieController.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.h
-../Repository/WatchListRepository.h
-/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/WatchListRepository.h
+../Repository/IWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
 ../Repository/MemoryMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
 ../Repository/FileMovieRepository.h
@@ -21,8 +21,12 @@ MovieController.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.h
 ../Model/WatchListItem.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/WatchListItem.h
-../Repository/WatchListRepository.h
-/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/WatchListRepository.h
+../Repository/IWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+../Repository/CSVWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.h
+../Repository/HTMLWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.h
 
 /Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.cpp
 csignal
@@ -81,6 +85,8 @@ WatchListItem.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/WatchListItem.h
 iostream
 -
+Movie.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Model/Movie.h
 
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Exception.cpp
 Exception.h
@@ -104,6 +110,18 @@ Iterator.h
 iostream
 -
 
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.cpp
+CSVWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.h
+../Others/Iterator.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Iterator.h
+fstream
+-
+
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.h
+IWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.cpp
 FileMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.h
@@ -122,6 +140,18 @@ fstream
 IMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h
 
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.cpp
+HTMLWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.h
+../Others/Iterator.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Iterator.h
+fstream
+-
+
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.h
+IWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.cpp
 IMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h
@@ -135,6 +165,22 @@ IMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h
 ../Model/Movie.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/Movie.h
+
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.cpp
+IWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+../Others/Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Exception.h
+../Others/Iterator.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Iterator.h
+fstream
+-
+
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+../List/DynamicArray.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.h
+../Model/WatchListItem.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Model/WatchListItem.h
 
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.cpp
 MemoryMovieRepository.h
@@ -167,18 +213,6 @@ MovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/Movie.h
 ../List/STLVector.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/List/STLVector.h
-
-/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/WatchListRepository.cpp
-WatchListRepository.h
-/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/WatchListRepository.h
-../Others/Exception.h
-/Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Exception.h
-
-/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/WatchListRepository.h
-../List/DynamicArray.h
-/Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.h
-../Model/WatchListItem.h
-/Users/so/Desktop/UBB/OOP2/LAB5-6/Model/WatchListItem.h
 
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.cpp
 assert.h

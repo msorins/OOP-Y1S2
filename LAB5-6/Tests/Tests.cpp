@@ -101,23 +101,23 @@ void Tests::testAdminUpdate() {
 }
 
 void Tests::testUserAdd() {
-    this->movieController.getWatchListRepository().add(WatchListItem("A"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 1);
+    this->movieController.getWatchListRepository()->add(WatchListItem("A"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 1);
 
-    this->movieController.getWatchListRepository().add(WatchListItem("B"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 2);
+    this->movieController.getWatchListRepository()->add(WatchListItem("B"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 2);
 
-    this->movieController.getWatchListRepository().add(WatchListItem("C"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 3);
+    this->movieController.getWatchListRepository()->add(WatchListItem("C"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 3);
 
-    this->movieController.getWatchListRepository().add(WatchListItem("D"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 4);
+    this->movieController.getWatchListRepository()->add(WatchListItem("D"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 4);
 
-    this->movieController.getWatchListRepository().add(WatchListItem("E"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 5);
+    this->movieController.getWatchListRepository()->add(WatchListItem("E"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 5);
 
     try {
-        this->movieController.getWatchListRepository().add(WatchListItem("E"));
+        this->movieController.getWatchListRepository()->add(WatchListItem("E"));
         assert(false);
 
     } catch (const char* e) {
@@ -127,23 +127,23 @@ void Tests::testUserAdd() {
 }
 
 void Tests::testUserDel() {
-    this->movieController.getWatchListRepository().del(WatchListItem("E"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 4);
+    this->movieController.getWatchListRepository()->del(WatchListItem("E"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 4);
 
-    this->movieController.getWatchListRepository().del(WatchListItem("D"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 3);
+    this->movieController.getWatchListRepository()->del(WatchListItem("D"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 3);
 
-    this->movieController.getWatchListRepository().del(WatchListItem("C"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 2);
+    this->movieController.getWatchListRepository()->del(WatchListItem("C"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 2);
 
-    this->movieController.getWatchListRepository().del(WatchListItem("B"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 1);
+    this->movieController.getWatchListRepository()->del(WatchListItem("B"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 1);
 
-    this->movieController.getWatchListRepository().del(WatchListItem("A"));
-    assert(this->movieController.getWatchListRepository().getWatchList().size() == 0);
+    this->movieController.getWatchListRepository()->del(WatchListItem("A"));
+    assert(this->movieController.getWatchListRepository()->getWatchList().size() == 0);
 
     try {
-        this->movieController.getWatchListRepository().del(WatchListItem("A"));
+        this->movieController.getWatchListRepository()->del(WatchListItem("A"));
         assert(false);
 
     } catch (const char* e) {

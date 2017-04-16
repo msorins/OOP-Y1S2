@@ -43,6 +43,8 @@ void FileMovieRepository<TVector>::save() {
         fout << crtMovie;
     }
 
+    fout.close();
+
 }
 
 template class FileMovieRepository< DynamicArray<Movie> >;

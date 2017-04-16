@@ -12,52 +12,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d11c59-3b47-4346-aadf-f17808cc0535" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/FileMovieRepository.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/FileMovieRepository.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/IMovieRepository.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/IMovieRepository.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/MemoryMovieRepository.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/MemoryMovieRepository.h" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/DynamicArray.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Exception.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/IDynamicArray.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Iterator.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Movie.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/MovieController.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/MovieRepository.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/STLVector.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/WatchListItem.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/WatchListRepository.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/LAB5_6" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DynamicArray.cpp" afterPath="$PROJECT_DIR$/List/DynamicArray.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DynamicArray.h" afterPath="$PROJECT_DIR$/List/DynamicArray.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Exception.cpp" afterPath="$PROJECT_DIR$/Others/Exception.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Exception.h" afterPath="$PROJECT_DIR$/Others/Exception.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IDynamicArray.cpp" afterPath="$PROJECT_DIR$/List/IDynamicArray.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IDynamicArray.h" afterPath="$PROJECT_DIR$/List/IDynamicArray.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iterator.cpp" afterPath="$PROJECT_DIR$/Others/Iterator.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iterator.h" afterPath="$PROJECT_DIR$/Others/Iterator.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Movie.cpp" afterPath="$PROJECT_DIR$/Model/Movie.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Movie.h" afterPath="$PROJECT_DIR$/Model/Movie.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MovieController.cpp" afterPath="$PROJECT_DIR$/Controller/MovieController.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MovieController.h" afterPath="$PROJECT_DIR$/Controller/MovieController.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MovieRepository.cpp" afterPath="$PROJECT_DIR$/Repository/MovieRepository.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MovieRepository.h" afterPath="$PROJECT_DIR$/Repository/MovieRepository.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/STLVector.cpp" afterPath="$PROJECT_DIR$/List/STLVector.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/STLVector.h" afterPath="$PROJECT_DIR$/List/STLVector.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests.cpp" afterPath="$PROJECT_DIR$/Tests/Tests.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests.h" afterPath="$PROJECT_DIR$/Tests/Tests.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/UI.cpp" afterPath="$PROJECT_DIR$/UI/UI.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/UI.h" afterPath="$PROJECT_DIR$/UI/UI.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WatchListItem.cpp" afterPath="$PROJECT_DIR$/Model/WatchListItem.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WatchListItem.h" afterPath="$PROJECT_DIR$/Model/WatchListItem.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WatchListRepository.cpp" afterPath="$PROJECT_DIR$/Repository/WatchListRepository.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WatchListRepository.h" afterPath="$PROJECT_DIR$/Repository/WatchListRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/csv-watch-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/CSVWatchListRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/CSVWatchListRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/HTMLWatchListRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/HTMLWatchListRepository.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Repository/WatchListRepository.cpp" afterPath="$PROJECT_DIR$/Repository/IWatchListRepository.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Repository/WatchListRepository.h" afterPath="$PROJECT_DIR$/Repository/IWatchListRepository.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/IDynamicArray.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/IDynamicArray.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/STLVector.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/STLVector.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Model/WatchListItem.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Model/WatchListItem.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Others/Iterator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Others/Iterator.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/UI.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/UI.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/LAB5_6" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB5_6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/MovieController.cpp" afterPath="$PROJECT_DIR$/Controller/MovieController.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/MovieController.h" afterPath="$PROJECT_DIR$/Controller/MovieController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Movie.h" afterPath="$PROJECT_DIR$/Model/Movie.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/WatchListItem.cpp" afterPath="$PROJECT_DIR$/Model/WatchListItem.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/WatchListItem.h" afterPath="$PROJECT_DIR$/Model/WatchListItem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Repository/FileMovieRepository.cpp" afterPath="$PROJECT_DIR$/Repository/FileMovieRepository.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Tests.cpp" afterPath="$PROJECT_DIR$/Tests/Tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/UI.cpp" afterPath="$PROJECT_DIR$/UI/UI.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/UI.h" afterPath="$PROJECT_DIR$/UI/UI.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/build.make" />
@@ -70,7 +57,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/LAB5_6.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB5_6.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,21 +72,93 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Movie.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/Movie.cpp">
+      <file leaf-file-name="UI.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="91" column="6" lean-forward="false" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+            <state relative-caret-position="451">
+              <caret line="137" column="66" lean-forward="false" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
+              <folding>
+                <element signature="e#59#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html-watch-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Files/html-watch-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Movie.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/Movie.h">
+      <file leaf-file-name="watch-list.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Files/watch-list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shows.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Files/shows.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UI/UI.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csv-watch-list.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Files/csv-watch-list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMovieRepository.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repository/IMovieRepository.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IWatchListRepository.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IWatchListRepository.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -109,105 +167,14 @@
       <file leaf-file-name="MovieController.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/MovieController.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="-536">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#59#87#0" expanded="true" />
-                <element signature="e#240#253#0" expanded="true" />
-                <element signature="e#383#396#0" expanded="true" />
-                <element signature="e#454#467#0" expanded="true" />
-                <element signature="e#617#630#0" expanded="true" />
-                <element signature="e#800#813#0" expanded="true" />
-                <element signature="e#1077#1090#0" expanded="true" />
-                <element signature="e#1279#1292#0" expanded="true" />
-                <element signature="e#1652#1665#0" expanded="true" />
-                <element signature="e#2020#2033#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/MovieController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#125#167#0" expanded="true" />
-                <element signature="e#260#273#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileMovieRepository.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Repository/FileMovieRepository.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-              <folding>
-                <element signature="e#59#91#0" expanded="true" />
-                <element signature="e#272#287#0" expanded="true" />
-                <element signature="e#581#596#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UI.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-              <folding>
-                <element signature="e#59#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shows.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files/shows.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileMovieRepository.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Repository/FileMovieRepository.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding>
-                <element signature="e#173#188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMovieRepository.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Repository/IMovieRepository.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
-              <folding>
-                <element signature="e#59#88#0" expanded="true" />
-                <element signature="e#196#211#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#241#254#0" expanded="true" />
+                <element signature="e#384#397#0" expanded="true" />
+                <element signature="e#2215#2228#0" expanded="true" />
+                <element signature="e#2852#2865#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,17 +194,31 @@
       <find>userSeeWatchList</find>
       <find>getMovieR</find>
       <find>throw(</find>
-      <find>throw</find>
       <find>MOVIEREPOSITORY</find>
       <find>this-&gt;getMovieController().add</find>
       <find>getMovieController()</find>
       <find>getMovie</find>
       <find>flush</find>
+      <find>add</find>
+      <find>watch</find>
+      <find>iteratr</find>
+      <find>cout</find>
+      <find>getWatchListRepository().</find>
+      <find>movieController.</find>
+      <find>open</find>
+      <find>this-&gt;getWatchListRepository()-&gt;save();</find>
+      <find>chrome</find>
+      <find>watchList</find>
+      <find>watchListType</find>
+      <find>throw</find>
     </findStrings>
     <replaceStrings>
       <replace>throw Exception(</replace>
       <replace>this-&gt;MovieController.add</replace>
       <replace>movieController</replace>
+      <replace>fout</replace>
+      <replace>getWatchListRepository()-&gt;</replace>
+      <replace>movieController-&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -246,11 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WatchList.h" />
-        <option value="$PROJECT_DIR$/WatchList.cpp" />
-        <option value="$PROJECT_DIR$/WatchListItem.h" />
-        <option value="$PROJECT_DIR$/WatchListItem.cpp" />
-        <option value="$PROJECT_DIR$/UI.h" />
         <option value="$PROJECT_DIR$/Tests.h" />
         <option value="$PROJECT_DIR$/Tests.cpp" />
         <option value="$PROJECT_DIR$/Iterator.h" />
@@ -278,18 +254,30 @@
         <option value="$PROJECT_DIR$/Repository/FileMovieRepository.h" />
         <option value="$PROJECT_DIR$/Repository/MemoryMovieRepository.h" />
         <option value="$PROJECT_DIR$/Repository/MemoryMovieRepository.cpp" />
-        <option value="$PROJECT_DIR$/Controller/MovieController.h" />
         <option value="$PROJECT_DIR$/Tests/Tests.h" />
-        <option value="$PROJECT_DIR$/UI/UI.h" />
         <option value="$PROJECT_DIR$/Repository/IMovieRepository.cpp" />
         <option value="$PROJECT_DIR$/Repository/IMovieRepository.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/UI/UI.cpp" />
-        <option value="$PROJECT_DIR$/Controller/MovieController.cpp" />
         <option value="$PROJECT_DIR$/Model/Movie.cpp" />
-        <option value="$PROJECT_DIR$/Model/Movie.h" />
         <option value="$PROJECT_DIR$/Files/shows.txt" />
+        <option value="$PROJECT_DIR$/Model/WatchListItem.h" />
+        <option value="$PROJECT_DIR$/Model/WatchListItem.cpp" />
+        <option value="$PROJECT_DIR$/Repository/IWatchListRepository.h" />
+        <option value="$PROJECT_DIR$/Repository/CSVWatchListRepository.h" />
+        <option value="$PROJECT_DIR$/Repository/CSVWatchListRepository.cpp" />
+        <option value="$PROJECT_DIR$/Repository/HTMLWatchListRepository.h" />
+        <option value="$PROJECT_DIR$/Tests/Tests.cpp" />
+        <option value="$PROJECT_DIR$/Controller/MovieController.h" />
         <option value="$PROJECT_DIR$/Repository/FileMovieRepository.cpp" />
+        <option value="$PROJECT_DIR$/Repository/HTMLWatchListRepository.cpp" />
+        <option value="$PROJECT_DIR$/Model/Movie.h" />
+        <option value="$PROJECT_DIR$/UI/UI.h" />
+        <option value="$PROJECT_DIR$/Controller/MovieController.cpp" />
+        <option value="$PROJECT_DIR$/Files/html-watch-list.html" />
+        <option value="$PROJECT_DIR$/Files/csv-watch-list.txt" />
+        <option value="$PROJECT_DIR$/Repository/IWatchListRepository.cpp" />
+        <option value="$PROJECT_DIR$/UI/UI.cpp" />
+        <option value="$PROJECT_DIR$/Files/watch-list.txt" />
       </list>
     </option>
   </component>
@@ -417,11 +405,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Files" />
       <recent name="$PROJECT_DIR$/UI" />
       <recent name="$PROJECT_DIR$/Repository" />
       <recent name="$PROJECT_DIR$/Tests" />
       <recent name="$PROJECT_DIR$/Controller" />
-      <recent name="$PROJECT_DIR$/Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -689,20 +677,22 @@
       <workItem from="1491928544634" duration="7478000" />
       <workItem from="1491989538164" duration="1474000" />
       <workItem from="1492259201379" duration="774000" />
-      <workItem from="1492263520156" duration="5689000" />
+      <workItem from="1492263520156" duration="10797000" />
+      <workItem from="1492335970499" duration="522000" />
+      <workItem from="1492336497992" duration="3538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53778000" />
+    <option name="totallyTimeSpent" value="62946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25497288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21097046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51428574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3091837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -711,7 +701,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3612245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40510204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -729,82 +719,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="59" />
+      <option name="time" value="68" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/List/DynamicArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/MovieController.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#59#87#0" expanded="true" />
-            <element signature="e#240#253#0" expanded="true" />
-            <element signature="e#383#396#0" expanded="true" />
-            <element signature="e#454#467#0" expanded="true" />
-            <element signature="e#617#630#0" expanded="true" />
-            <element signature="e#800#813#0" expanded="true" />
-            <element signature="e#1077#1090#0" expanded="true" />
-            <element signature="e#1279#1292#0" expanded="true" />
-            <element signature="e#1652#1665#0" expanded="true" />
-            <element signature="e#2020#2033#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Movie.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Movie.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/WatchListRepository.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/WatchListItem.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/WatchListRepository.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/MovieRepository.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="e#59#77#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Repository/MovieRepository.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -824,8 +743,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#125#167#0" expanded="true" />
-            <element signature="e#260#273#0" expanded="true" />
+            <element signature="e#125#167#0" expanded="false" />
+            <element signature="e#362#375#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -835,8 +754,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#125#167#0" expanded="true" />
-            <element signature="e#260#273#0" expanded="true" />
+            <element signature="e#125#167#0" expanded="false" />
+            <element signature="e#362#375#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -845,13 +764,6 @@
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/locale" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ostream" />
-    <entry file="file://$PROJECT_DIR$/Model/WatchListItem.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/Iterator.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -859,39 +771,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/WatchListRepository.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/Iterator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#161#177#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IRepository.cpp" />
     <entry file="file://$PROJECT_DIR$/IRepository.h" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/List/STLVector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,33 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/WatchListRepository.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="e#59#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/List/DynamicArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="126" column="19" lean-forward="false" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
-          <folding>
-            <element signature="e#59#77#0" expanded="true" />
-            <element signature="e#227#243#0" expanded="true" />
-            <element signature="e#459#475#0" expanded="true" />
-            <element signature="e#562#578#0" expanded="true" />
-            <element signature="e#3002#3018#0" expanded="true" />
-            <element signature="e#3583#3599#0" expanded="true" />
-            <element signature="e#3705#3721#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,18 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding>
-            <element signature="e#45#67#0" expanded="true" />
-            <element signature="e#2076#2092#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/WatchListItem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,9 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#181#197#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#177#192#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,17 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#107#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Tests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,116 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#59#93#0" expanded="true" />
-            <element signature="e#201#216#0" expanded="true" />
-            <element signature="e#275#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/IMovieRepository.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="e#165#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/UI.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#99#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/MovieController.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#59#87#0" expanded="true" />
-            <element signature="e#240#253#0" expanded="true" />
-            <element signature="e#383#396#0" expanded="true" />
-            <element signature="e#454#467#0" expanded="true" />
-            <element signature="e#617#630#0" expanded="true" />
-            <element signature="e#800#813#0" expanded="true" />
-            <element signature="e#1077#1090#0" expanded="true" />
-            <element signature="e#1279#1292#0" expanded="true" />
-            <element signature="e#1652#1665#0" expanded="true" />
-            <element signature="e#2020#2033#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Files/shows.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="e#59#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/IMovieRepository.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
-          <folding>
-            <element signature="e#59#88#0" expanded="true" />
-            <element signature="e#196#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/MovieController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#125#167#0" expanded="true" />
-            <element signature="e#260#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Movie.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="91" column="6" lean-forward="false" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Movie.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,21 +875,219 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/CSVWatchListRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/html-watch-list.txt" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/DynamicArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
           <folding>
-            <element signature="e#173#188#0" expanded="true" />
+            <element signature="e#59#77#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Repository/FileMovieRepository.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="600">
+          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="200" lean-forward="false" selection-start-line="5" selection-start-column="200" selection-end-line="5" selection-end-column="200" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="112" column="10" lean-forward="false" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
           <folding>
-            <element signature="e#59#91#0" expanded="true" />
-            <element signature="e#272#287#0" expanded="true" />
-            <element signature="e#581#596#0" expanded="true" />
+            <element signature="e#59#78#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/CSVWatchListRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Movie.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="91" column="6" lean-forward="false" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Movie.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/WatchListItem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/WatchListItem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/MovieController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/HTMLWatchListRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/HTMLWatchListRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/IMovieRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/MovieController.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#87#0" expanded="true" />
+            <element signature="e#241#254#0" expanded="true" />
+            <element signature="e#384#397#0" expanded="true" />
+            <element signature="e#2215#2228#0" expanded="true" />
+            <element signature="e#2852#2865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/IMovieRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="137" column="66" lean-forward="false" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
+          <folding>
+            <element signature="e#59#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/watch-list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/shows.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/html-watch-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/csv-watch-list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/UI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

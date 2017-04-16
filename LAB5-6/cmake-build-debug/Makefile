@@ -339,6 +339,33 @@ Others/Iterator.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Others/Iterator.cpp.s
 .PHONY : Others/Iterator.cpp.s
 
+Repository/CSVWatchListRepository.o: Repository/CSVWatchListRepository.cpp.o
+
+.PHONY : Repository/CSVWatchListRepository.o
+
+# target to build an object file
+Repository/CSVWatchListRepository.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o
+.PHONY : Repository/CSVWatchListRepository.cpp.o
+
+Repository/CSVWatchListRepository.i: Repository/CSVWatchListRepository.cpp.i
+
+.PHONY : Repository/CSVWatchListRepository.i
+
+# target to preprocess a source file
+Repository/CSVWatchListRepository.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.i
+.PHONY : Repository/CSVWatchListRepository.cpp.i
+
+Repository/CSVWatchListRepository.s: Repository/CSVWatchListRepository.cpp.s
+
+.PHONY : Repository/CSVWatchListRepository.s
+
+# target to generate assembly for a file
+Repository/CSVWatchListRepository.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.s
+.PHONY : Repository/CSVWatchListRepository.cpp.s
+
 Repository/FileMovieRepository.o: Repository/FileMovieRepository.cpp.o
 
 .PHONY : Repository/FileMovieRepository.o
@@ -366,6 +393,33 @@ Repository/FileMovieRepository.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.s
 .PHONY : Repository/FileMovieRepository.cpp.s
 
+Repository/HTMLWatchListRepository.o: Repository/HTMLWatchListRepository.cpp.o
+
+.PHONY : Repository/HTMLWatchListRepository.o
+
+# target to build an object file
+Repository/HTMLWatchListRepository.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o
+.PHONY : Repository/HTMLWatchListRepository.cpp.o
+
+Repository/HTMLWatchListRepository.i: Repository/HTMLWatchListRepository.cpp.i
+
+.PHONY : Repository/HTMLWatchListRepository.i
+
+# target to preprocess a source file
+Repository/HTMLWatchListRepository.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.i
+.PHONY : Repository/HTMLWatchListRepository.cpp.i
+
+Repository/HTMLWatchListRepository.s: Repository/HTMLWatchListRepository.cpp.s
+
+.PHONY : Repository/HTMLWatchListRepository.s
+
+# target to generate assembly for a file
+Repository/HTMLWatchListRepository.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.s
+.PHONY : Repository/HTMLWatchListRepository.cpp.s
+
 Repository/IMovieRepository.o: Repository/IMovieRepository.cpp.o
 
 .PHONY : Repository/IMovieRepository.o
@@ -392,6 +446,33 @@ Repository/IMovieRepository.s: Repository/IMovieRepository.cpp.s
 Repository/IMovieRepository.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.s
 .PHONY : Repository/IMovieRepository.cpp.s
+
+Repository/IWatchListRepository.o: Repository/IWatchListRepository.cpp.o
+
+.PHONY : Repository/IWatchListRepository.o
+
+# target to build an object file
+Repository/IWatchListRepository.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o
+.PHONY : Repository/IWatchListRepository.cpp.o
+
+Repository/IWatchListRepository.i: Repository/IWatchListRepository.cpp.i
+
+.PHONY : Repository/IWatchListRepository.i
+
+# target to preprocess a source file
+Repository/IWatchListRepository.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.i
+.PHONY : Repository/IWatchListRepository.cpp.i
+
+Repository/IWatchListRepository.s: Repository/IWatchListRepository.cpp.s
+
+.PHONY : Repository/IWatchListRepository.s
+
+# target to generate assembly for a file
+Repository/IWatchListRepository.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.s
+.PHONY : Repository/IWatchListRepository.cpp.s
 
 Repository/MemoryMovieRepository.o: Repository/MemoryMovieRepository.cpp.o
 
@@ -446,33 +527,6 @@ Repository/MovieRepository.s: Repository/MovieRepository.cpp.s
 Repository/MovieRepository.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.s
 .PHONY : Repository/MovieRepository.cpp.s
-
-Repository/WatchListRepository.o: Repository/WatchListRepository.cpp.o
-
-.PHONY : Repository/WatchListRepository.o
-
-# target to build an object file
-Repository/WatchListRepository.cpp.o:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.o
-.PHONY : Repository/WatchListRepository.cpp.o
-
-Repository/WatchListRepository.i: Repository/WatchListRepository.cpp.i
-
-.PHONY : Repository/WatchListRepository.i
-
-# target to preprocess a source file
-Repository/WatchListRepository.cpp.i:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.i
-.PHONY : Repository/WatchListRepository.cpp.i
-
-Repository/WatchListRepository.s: Repository/WatchListRepository.cpp.s
-
-.PHONY : Repository/WatchListRepository.s
-
-# target to generate assembly for a file
-Repository/WatchListRepository.cpp.s:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/WatchListRepository.cpp.s
-.PHONY : Repository/WatchListRepository.cpp.s
 
 Tests/Tests.o: Tests/Tests.cpp.o
 
@@ -588,21 +642,27 @@ help:
 	@echo "... Others/Iterator.o"
 	@echo "... Others/Iterator.i"
 	@echo "... Others/Iterator.s"
+	@echo "... Repository/CSVWatchListRepository.o"
+	@echo "... Repository/CSVWatchListRepository.i"
+	@echo "... Repository/CSVWatchListRepository.s"
 	@echo "... Repository/FileMovieRepository.o"
 	@echo "... Repository/FileMovieRepository.i"
 	@echo "... Repository/FileMovieRepository.s"
+	@echo "... Repository/HTMLWatchListRepository.o"
+	@echo "... Repository/HTMLWatchListRepository.i"
+	@echo "... Repository/HTMLWatchListRepository.s"
 	@echo "... Repository/IMovieRepository.o"
 	@echo "... Repository/IMovieRepository.i"
 	@echo "... Repository/IMovieRepository.s"
+	@echo "... Repository/IWatchListRepository.o"
+	@echo "... Repository/IWatchListRepository.i"
+	@echo "... Repository/IWatchListRepository.s"
 	@echo "... Repository/MemoryMovieRepository.o"
 	@echo "... Repository/MemoryMovieRepository.i"
 	@echo "... Repository/MemoryMovieRepository.s"
 	@echo "... Repository/MovieRepository.o"
 	@echo "... Repository/MovieRepository.i"
 	@echo "... Repository/MovieRepository.s"
-	@echo "... Repository/WatchListRepository.o"
-	@echo "... Repository/WatchListRepository.i"
-	@echo "... Repository/WatchListRepository.s"
 	@echo "... Tests/Tests.o"
 	@echo "... Tests/Tests.i"
 	@echo "... Tests/Tests.s"
