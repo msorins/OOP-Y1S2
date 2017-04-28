@@ -7,6 +7,10 @@
 #include <fstream>
 using namespace std;
 
+HTMLWatchListRepository::HTMLWatchListRepository() {
+    this->loadCustom();
+}
+
 void HTMLWatchListRepository::saveCustom() {
     //Open the File
     ofstream fout("../Files/html-watch-list.html");
@@ -44,4 +48,26 @@ void HTMLWatchListRepository::saveCustom() {
     fout<<"</table>"<<"\n";
     fout<<"</body>"<<"\n";
     fout<<"</html>"<<"\n";
+
+    fout.close();
+    IWatchListRepository::save();
 }
+
+void HTMLWatchListRepository::loadCustom() {
+    Movie crtMovie;
+    ifstream fin("../Files/watch-list.txt");
+
+    //Load movies from file
+    while(!fin.eof()) {
+        fin >> crtMovie;
+
+        if(crtMovie.getTitle().size() == 0)
+            break;
+
+        this->add(WatchListItem(crtMovie.getTitle(), crtMovie));
+    }
+
+    fin.close();
+
+}
+

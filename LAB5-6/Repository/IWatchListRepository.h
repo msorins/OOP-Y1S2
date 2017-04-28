@@ -26,8 +26,8 @@ public:
     WatchListItem * end();
 
     //Functionality
-    void load();
-    void save();
+    virtual void save();
+    virtual void loadCustom() = 0;
     virtual void saveCustom() = 0;
 
 };

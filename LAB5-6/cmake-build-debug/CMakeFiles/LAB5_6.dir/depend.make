@@ -110,6 +110,14 @@ CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o: ../Repository/IMov
 CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o: ../Repository/MemoryMovieRepository.cpp
 CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o: ../Repository/MemoryMovieRepository.h
 
+CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o: ../List/DynamicArray.h
+CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o: ../List/IDynamicArray.h
+CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o: ../Model/Movie.h
+CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o: ../Model/WatchListItem.h
+CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o: ../Repository/IWatchListRepository.h
+CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o: ../Repository/MemoryWatchListRepository.cpp
+CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o: ../Repository/MemoryWatchListRepository.h
+
 CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o: ../List/DynamicArray.h
 CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o: ../List/IDynamicArray.h
 CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o: ../List/STLVector.h
@@ -125,11 +133,14 @@ CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../List/IDynamicArray.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../List/STLVector.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Model/Movie.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Model/WatchListItem.h
+CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Others/Exception.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/CSVWatchListRepository.h
+CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/FileMovieRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/HTMLWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/IMovieRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/IWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/MemoryMovieRepository.h
+CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/MemoryWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Repository/MovieRepository.h
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Tests/Tests.cpp
 CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o: ../Tests/Tests.h

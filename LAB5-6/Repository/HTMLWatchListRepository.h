@@ -9,7 +9,11 @@
 
 class HTMLWatchListRepository: public IWatchListRepository  {
 public:
+    HTMLWatchListRepository();
+
     void saveCustom() override;
+
+    void loadCustom() override;
 
 };
 

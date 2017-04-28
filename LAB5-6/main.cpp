@@ -10,9 +10,9 @@ using namespace std;
 
 
 int main() {
-    /*
-    Tests tests;
 
+    Tests tests;
+    /*
     DynamicArray<int> a;
     a.push_back(1);
     a = a + 2;
@@ -73,8 +73,8 @@ int main() {
 
 
 
-    */
 
+    */
 
     while(true) {
         try {
@@ -85,10 +85,6 @@ int main() {
             std::cerr<<ex.what();
         }
     }
-
-
-
-
 
 
 }

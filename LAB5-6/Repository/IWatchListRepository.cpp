@@ -12,7 +12,6 @@ IWatchListRepository::IWatchListRepository() {
     /*
      * CONSTRUCTOR
      */
-    this->load();
 }
 
 DynamicArray<WatchListItem> &IWatchListRepository::getWatchList() {
@@ -55,23 +54,6 @@ WatchListItem * IWatchListRepository::end() {
     return this->getWatchList().end();
 }
 
-void IWatchListRepository::load() {
-    Movie crtMovie;
-    ifstream fin("../Files/watch-list.txt");
-
-    //Load movies from file
-    while(!fin.eof()) {
-        fin >> crtMovie;
-
-        if(crtMovie.getTitle().size() == 0)
-            break;
-
-        this->add(WatchListItem(crtMovie.getTitle(), crtMovie));
-    }
-
-    fin.close();
-
-}
 
 void IWatchListRepository::save() {
     //Save movies to file

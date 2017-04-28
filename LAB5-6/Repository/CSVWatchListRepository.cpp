@@ -7,6 +7,9 @@
 #include <fstream>
 using namespace std;
 
+CSVWatchListRepository::CSVWatchListRepository() {
+    this->loadCustom();
+}
 
 void CSVWatchListRepository::saveCustom() {
     /*
@@ -27,4 +30,27 @@ void CSVWatchListRepository::saveCustom() {
 
         fout<<crt.getMovie().getTitle()<<", "<<crt.getMovie().getGenre()<<","<<crt.getMovie().getYear()<<","<<crt.getMovie().getLikes()<<","<<crt.getMovie().getTrailer()<<"\n";
     }
+
+    fout.close();
+    IWatchListRepository::save();
 }
+
+void CSVWatchListRepository::loadCustom() {
+    Movie crtMovie;
+    ifstream fin("../Files/watch-list.txt");
+
+    //Load movies from file
+    while(!fin.eof()) {
+        fin >> crtMovie;
+
+        if(crtMovie.getTitle().size() == 0)
+            break;
+
+        this->add(WatchListItem(crtMovie.getTitle(), crtMovie));
+    }
+
+    fin.close();
+
+}
+
+

@@ -9,7 +9,11 @@
 
 class CSVWatchListRepository: public IWatchListRepository  {
 public:
+    CSVWatchListRepository();
+
     void saveCustom() override;
+
+    void loadCustom() override;
 
 };
 

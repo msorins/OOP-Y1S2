@@ -196,6 +196,14 @@ MemoryMovieRepository.h
 IMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h
 
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.cpp
+MemoryWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.h
+
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.h
+IWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.cpp
 csignal
 -
@@ -221,12 +229,28 @@ Tests.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.h
 ../Controller/MovieController.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.h
+../Others/Exception.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Exception.h
+../Controller/MovieController.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.h
+../Repository/MemoryMovieRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
+../Repository/FileMovieRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.h
+../Repository/MemoryWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.h
 
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.h
 ../Controller/MovieController.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.h
 ../Repository/MemoryMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
+../Controller/MovieController.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.h
+../Repository/MemoryMovieRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
+../Repository/FileMovieRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.h
 
 /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/UI.cpp
 UI.h

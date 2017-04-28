@@ -166,6 +166,12 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h">
 			<Option target="LAB5_6"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.h">
+			<Option target="LAB5_6"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>

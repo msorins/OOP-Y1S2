@@ -501,6 +501,33 @@ Repository/MemoryMovieRepository.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.s
 .PHONY : Repository/MemoryMovieRepository.cpp.s
 
+Repository/MemoryWatchListRepository.o: Repository/MemoryWatchListRepository.cpp.o
+
+.PHONY : Repository/MemoryWatchListRepository.o
+
+# target to build an object file
+Repository/MemoryWatchListRepository.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o
+.PHONY : Repository/MemoryWatchListRepository.cpp.o
+
+Repository/MemoryWatchListRepository.i: Repository/MemoryWatchListRepository.cpp.i
+
+.PHONY : Repository/MemoryWatchListRepository.i
+
+# target to preprocess a source file
+Repository/MemoryWatchListRepository.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.i
+.PHONY : Repository/MemoryWatchListRepository.cpp.i
+
+Repository/MemoryWatchListRepository.s: Repository/MemoryWatchListRepository.cpp.s
+
+.PHONY : Repository/MemoryWatchListRepository.s
+
+# target to generate assembly for a file
+Repository/MemoryWatchListRepository.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.s
+.PHONY : Repository/MemoryWatchListRepository.cpp.s
+
 Repository/MovieRepository.o: Repository/MovieRepository.cpp.o
 
 .PHONY : Repository/MovieRepository.o
@@ -660,6 +687,9 @@ help:
 	@echo "... Repository/MemoryMovieRepository.o"
 	@echo "... Repository/MemoryMovieRepository.i"
 	@echo "... Repository/MemoryMovieRepository.s"
+	@echo "... Repository/MemoryWatchListRepository.o"
+	@echo "... Repository/MemoryWatchListRepository.i"
+	@echo "... Repository/MemoryWatchListRepository.s"
 	@echo "... Repository/MovieRepository.o"
 	@echo "... Repository/MovieRepository.i"
 	@echo "... Repository/MovieRepository.s"

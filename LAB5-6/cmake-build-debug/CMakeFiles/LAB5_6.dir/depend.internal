@@ -110,6 +110,14 @@ CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.cpp
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
+CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/List/IDynamicArray.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/Movie.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/WatchListItem.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.cpp
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.h
 CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/List/IDynamicArray.h
@@ -126,11 +134,14 @@ CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-6/List/STLVector.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/Movie.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/WatchListItem.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Exception.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.cpp
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.h

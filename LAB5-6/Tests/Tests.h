@@ -8,10 +8,14 @@
 
 #include "../Controller/MovieController.h"
 #include "../Repository/MemoryMovieRepository.h"
+#include "../Controller/MovieController.h"
+#include "../Repository/MemoryMovieRepository.h"
+#include "../Repository/FileMovieRepository.h"
+#define STL  MemoryMovieRepository<STLVector<Movie>>
 
 class Tests {
 private:
-    MovieController< MemoryMovieRepository<STLVector<Movie>> > movieController;
+    MovieController<STL>* movieController;
 public:
     Tests();
     void testAdminAdd();
