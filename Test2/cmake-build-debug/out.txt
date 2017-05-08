@@ -1,0 +1,3 @@
+BMI: 22.000000
+BMI: 40.000000
+BP: Systolic value: 91. DiastolicValue: 61

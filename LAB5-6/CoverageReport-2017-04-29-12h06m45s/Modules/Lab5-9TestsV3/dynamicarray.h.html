@@ -1,0 +1,108 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>dynamicarray.h</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+#pragma once
+#ifndef LAB5_6_DYNAMICARRAY_H
+#define LAB5_6_DYNAMICARRAY_H
+#include &lt;iostream&gt;
+#include "IDynamicArray.h"
+using namespace std;
+
+template&lt;class TElement&gt;
+class DynamicArray:  IDynamicArray&lt;TElement&gt; {
+protected:
+    TElement* elems;
+private:
+    int n;
+    int capacity;
+
+public:
+    //Constructors and Destructors
+    DynamicArray(TElement t);
+    DynamicArray();
+    ~DynamicArray();
+
+    //Functionality
+    void push_back(TElement elem);
+    void erase(int pos);
+    void resize();
+    TElement get(int pos);
+    int find(TElement elem);
+    void insert(TElement element, int pos);
+    void validatePosition(int position);
+
+    //Getters
+    int size();
+    TElement* getArray();
+
+    //ForIterators
+    TElement * begin();
+    TElement * end();
+
+    //Operators
+<span style = "background-color:#fdd">    DynamicArray&amp; operator = (DynamicArray A ) {
+        TElement* newElems = new TElement[A.capacity];
+        for(int i = 1; i&lt;= A.size(); i++)
+            newElems[i] = A.getArray()[i];</span>
+
+<span style = "background-color:#fdd">        this-&gt;elems = newElems;
+        this-&gt;n = A.n;
+        this-&gt;capacity = A.capacity;
+        return *this;
+    }</span>
+
+<span style = "background-color:#fdd">    DynamicArray(const DynamicArray &amp;A) { //Copy</span>
+
+<span style = "background-color:#fdd">        TElement* newElems = new TElement[A.capacity];
+        for(int i = 1; i&lt;= A.n; i++)
+            newElems[i] = A.elems[i];</span>
+
+<span style = "background-color:#fdd">        this-&gt;elems = newElems;
+        this-&gt;n = A.n;
+        this-&gt;capacity = A.capacity;
+    }</span>
+
+
+<span style = "background-color:#fdd">    DynamicArray operator+(const TElement&amp; b) {
+        DynamicArray newDyn;</span>
+
+<span style = "background-color:#fdd">        newDyn.capacity = this-&gt;capacity;
+        for(int i = 1; i&lt;= this-&gt;n; i++)
+            newDyn.push_back(this-&gt;get(i));</span>
+
+<span style = "background-color:#fdd">        newDyn.push_back(b);</span>
+
+<span style = "background-color:#fdd">        return newDyn;
+    }</span>
+
+};
+
+template&lt;class TElement&gt;
+DynamicArray&lt;TElement&gt; operator+(TElement a, DynamicArray&lt;TElement&gt; b) {
+
+    DynamicArray&lt;TElement&gt; newDyn;
+
+    for(int i = 1; i&lt;= b.size(); i++)
+        newDyn.push_back(b.get(i));
+
+    newDyn.push_back(a);
+    return newDyn;
+}
+
+
+
+
+#endif //LAB5_6_DYNAMICARRAY_H</pre>
+	</body>
+</html>

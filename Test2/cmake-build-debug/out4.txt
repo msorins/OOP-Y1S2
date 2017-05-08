@@ -1,0 +1,2 @@
+BMI: 22.000000( 2017.1.2)
+BP: Systolic value: 500. DiastolicValue: 25( 2017.1.5)
