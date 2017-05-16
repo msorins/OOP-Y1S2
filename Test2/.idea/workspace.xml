@@ -407,12 +407,12 @@
       <option name="presentableId" value="Default" />
       <updated>1494227089830</updated>
       <workItem from="1494227091295" duration="6435000" />
-      <workItem from="1494241635329" duration="24000" />
+      <workItem from="1494241635329" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6459000" />
+    <option name="totallyTimeSpent" value="6614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -568,6 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="4122" column="0" lean-forward="false" selection-start-line="4122" selection-start-column="0" selection-end-line="4122" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
