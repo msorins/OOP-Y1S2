@@ -1,4 +1,4 @@
-/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir
-/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir
+/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles/LAB5_6.dir
+/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir

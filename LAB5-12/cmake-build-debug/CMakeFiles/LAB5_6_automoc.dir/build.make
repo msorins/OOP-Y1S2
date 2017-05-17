@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-6
+CMAKE_SOURCE_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug
 
 # Utility rule file for LAB5_6_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug
 include CMakeFiles/LAB5_6_automoc.dir/progress.make
 
 CMakeFiles/LAB5_6_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target LAB5_6"
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_autogen /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/ Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target LAB5_6"
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_autogen /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/ Debug
 
 LAB5_6_automoc: CMakeFiles/LAB5_6_automoc
 LAB5_6_automoc: CMakeFiles/LAB5_6_automoc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/LAB5_6_automoc.dir/clean:
 .PHONY : CMakeFiles/LAB5_6_automoc.dir/clean
 
 CMakeFiles/LAB5_6_automoc.dir/depend:
-	cd /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/so/Desktop/UBB/OOP2/LAB5-6 /Users/so/Desktop/UBB/OOP2/LAB5-6 /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/so/Desktop/UBB/OOP2/LAB5-12 /Users/so/Desktop/UBB/OOP2/LAB5-12 /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LAB5_6_automoc.dir/depend
 

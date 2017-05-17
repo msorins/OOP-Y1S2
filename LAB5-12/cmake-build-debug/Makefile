@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-6
+CMAKE_SOURCE_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -622,32 +622,32 @@ Tests/Tests.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.s
 .PHONY : Tests/Tests.cpp.s
 
-UI/GUI.o: UI/GUI.cpp.o
+UI/MainWindow.o: UI/MainWindow.cpp.o
 
-.PHONY : UI/GUI.o
+.PHONY : UI/MainWindow.o
 
 # target to build an object file
-UI/GUI.cpp.o:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o
-.PHONY : UI/GUI.cpp.o
+UI/MainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o
+.PHONY : UI/MainWindow.cpp.o
 
-UI/GUI.i: UI/GUI.cpp.i
+UI/MainWindow.i: UI/MainWindow.cpp.i
 
-.PHONY : UI/GUI.i
+.PHONY : UI/MainWindow.i
 
 # target to preprocess a source file
-UI/GUI.cpp.i:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/GUI.cpp.i
-.PHONY : UI/GUI.cpp.i
+UI/MainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.i
+.PHONY : UI/MainWindow.cpp.i
 
-UI/GUI.s: UI/GUI.cpp.s
+UI/MainWindow.s: UI/MainWindow.cpp.s
 
-.PHONY : UI/GUI.s
+.PHONY : UI/MainWindow.s
 
 # target to generate assembly for a file
-UI/GUI.cpp.s:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/GUI.cpp.s
-.PHONY : UI/GUI.cpp.s
+UI/MainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.s
+.PHONY : UI/MainWindow.cpp.s
 
 UI/UI.o: UI/UI.cpp.o
 
@@ -675,6 +675,33 @@ UI/UI.s: UI/UI.cpp.s
 UI/UI.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/UI.cpp.s
 .PHONY : UI/UI.cpp.s
+
+UI/Ui_MainWindow.o: UI/Ui_MainWindow.cpp.o
+
+.PHONY : UI/Ui_MainWindow.o
+
+# target to build an object file
+UI/Ui_MainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o
+.PHONY : UI/Ui_MainWindow.cpp.o
+
+UI/Ui_MainWindow.i: UI/Ui_MainWindow.cpp.i
+
+.PHONY : UI/Ui_MainWindow.i
+
+# target to preprocess a source file
+UI/Ui_MainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.i
+.PHONY : UI/Ui_MainWindow.cpp.i
+
+UI/Ui_MainWindow.s: UI/Ui_MainWindow.cpp.s
+
+.PHONY : UI/Ui_MainWindow.s
+
+# target to generate assembly for a file
+UI/Ui_MainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.s
+.PHONY : UI/Ui_MainWindow.cpp.s
 
 main.o: main.cpp.o
 
@@ -767,12 +794,15 @@ help:
 	@echo "... Tests/Tests.o"
 	@echo "... Tests/Tests.i"
 	@echo "... Tests/Tests.s"
-	@echo "... UI/GUI.o"
-	@echo "... UI/GUI.i"
-	@echo "... UI/GUI.s"
+	@echo "... UI/MainWindow.o"
+	@echo "... UI/MainWindow.i"
+	@echo "... UI/MainWindow.s"
 	@echo "... UI/UI.o"
 	@echo "... UI/UI.i"
 	@echo "... UI/UI.s"
+	@echo "... UI/Ui_MainWindow.o"
+	@echo "... UI/Ui_MainWindow.i"
+	@echo "... UI/Ui_MainWindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

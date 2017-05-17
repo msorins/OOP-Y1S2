@@ -6,7 +6,7 @@
 #include "List/STLVector.h"
 #include "Others/Iterator.h"
 #include "Others/Exception.h"
-#include "UI/GUI.h"
+#include "UI/MainWindow.h"
 
 using namespace std;
 
@@ -81,7 +81,7 @@ int main(int argc, char* argv[]) {
     //while(true) {
         try {
             QApplication a(argc, argv);
-            GUI w;
+            MainWindow w;
             w.show();
             a.exec();
 
