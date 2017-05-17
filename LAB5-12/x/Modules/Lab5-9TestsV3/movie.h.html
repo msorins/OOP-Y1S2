@@ -1,0 +1,108 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>movie.h</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+
+#ifndef LAB5_6_MOVIE_H
+#define LAB5_6_MOVIE_H
+#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Movie {
+private:
+    string title;
+    string genre;
+    int year;
+    int likes;
+    string trailer;
+
+public:
+
+    //Constructors and destructors
+    Movie(string title, string genre, int year, int likes, string trailer);
+    Movie(string title);
+    Movie();
+    ~Movie();
+
+    //Getters
+    string getTitle();
+    string getGenre();
+    int getYear();
+    int getLikes();
+    string getTrailer();
+
+    //Setters
+    void setTitle(string title);
+    void setGenre(string genre);
+    void setYear(int year);
+    void setLikes(int likes);
+    void setTrailer(string trailer);
+
+    //Operators
+<span style = "background-color:#dfd">    bool operator==( Movie  A) {
+        if(A.title == this-&gt;title)
+            return true;
+        return false;
+    }</span>
+
+    friend ostream &amp;operator&lt;&lt;( ostream &amp;output,
+<span style = "background-color:#fdd">                                 Movie &amp;D ) {</span>
+        /*
+         * OUTPUTS THE OBJECT
+         */
+<span style = "background-color:#fdd">        output &lt;&lt; D.getTitle() &lt;&lt; "\n";
+        output &lt;&lt; D.getGenre() &lt;&lt; "\n";
+        output &lt;&lt; D.getYear() &lt;&lt; "\n";
+        output &lt;&lt; D.getLikes() &lt;&lt; "\n";
+        output &lt;&lt; D.getTrailer() &lt;&lt; "\n";
+        return output;
+    }</span>
+
+<span style = "background-color:#fdd">    friend istream &amp;operator&gt;&gt;( istream  &amp;input, Movie &amp;D ) {</span>
+        /*
+         * READS THE OBJECT
+         */
+
+<span style = "background-color:#fdd">        int nr = 0;
+        input.clear();
+        while (input.get() != '\n') {
+            nr++;
+            if(nr == 100)
+                break;
+            continue;
+        }</span>
+
+        char aux[100];
+
+<span style = "background-color:#fdd">        input.getline(aux, 100);
+        D.title = string(aux);</span>
+
+<span style = "background-color:#fdd">        input.getline(aux, 100);
+        D.genre = string(aux);</span>
+
+<span style = "background-color:#fdd">        input&gt;&gt;D.year;</span>
+
+<span style = "background-color:#fdd">        input&gt;&gt;D.likes;</span>
+
+<span style = "background-color:#fdd">        input&gt;&gt;D.trailer;</span>
+
+<span style = "background-color:#fdd">        return input;
+    }</span>
+
+};
+
+
+#endif //LAB5_6_MOVIE_H</pre>
+	</body>
+</html>

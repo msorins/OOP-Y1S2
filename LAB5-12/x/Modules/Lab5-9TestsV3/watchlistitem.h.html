@@ -1,0 +1,51 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>watchlistitem.h</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 23/03/2017.
+//
+
+#ifndef LAB5_6_WATCHLIST_H
+#define LAB5_6_WATCHLIST_H
+#include &lt;iostream&gt;
+#include "Movie.h"
+
+using namespace std;
+
+class WatchListItem {
+private:
+    string title;
+    Movie movie;
+
+public:
+    //Constructors
+    WatchListItem();
+    WatchListItem(string title);
+    WatchListItem(string title, Movie movie);
+
+    //Getters
+    string getTitle();
+    Movie getMovie();
+    void setMovie(Movie movie);
+
+    //Operator
+<span style = "background-color:#dfd">    bool operator==( WatchListItem  A) {
+        if(A.title == this-&gt;title)
+            return true;
+        return false;
+    }</span>
+
+};
+
+
+#endif //LAB5_6_WATCHLIST_H</pre>
+	</body>
+</html>

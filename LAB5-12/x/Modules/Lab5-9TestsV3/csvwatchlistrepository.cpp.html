@@ -1,0 +1,69 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>csvwatchlistrepository.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 15/04/2017.
+//
+#include "../stdafx.h"
+#include "CSVWatchListRepository.h"
+#include "../Others/Iterator.h"
+#include &lt;fstream&gt;
+using namespace std;
+
+<span style = "background-color:#fdd">CSVWatchListRepository::CSVWatchListRepository() {
+    this-&gt;loadCustom();
+}</span>
+
+<span style = "background-color:#fdd">void CSVWatchListRepository::saveCustom() {</span>
+    /*
+     * Saves the content of Watch List Repositoru in a CSV Format
+     */
+    //Open the File
+<span style = "background-color:#fdd">    ofstream fout("../Files/csv-watch-list.txt");</span>
+
+<span style = "background-color:#fdd">    Iterator&lt; WatchListItem &gt; st1( this-&gt;getWatchList().begin() );
+    Iterator&lt; WatchListItem &gt; dr1( this-&gt;getWatchList().end() );</span>
+
+
+<span style = "background-color:#fdd">    for (Iterator&lt; WatchListItem &gt; it=st1; it!=dr1; it++) {
+        WatchListItem crt = *it;</span>
+
+<span style = "background-color:#fdd">        if(!crt.getTitle().size())
+            continue;</span>
+
+<span style = "background-color:#fdd">        fout&lt;&lt;crt.getMovie().getTitle()&lt;&lt;", "&lt;&lt;crt.getMovie().getGenre()&lt;&lt;","&lt;&lt;crt.getMovie().getYear()&lt;&lt;","&lt;&lt;crt.getMovie().getLikes()&lt;&lt;","&lt;&lt;crt.getMovie().getTrailer()&lt;&lt;"\n";
+    }</span>
+
+<span style = "background-color:#fdd">    fout.close();
+    IWatchListRepository::save();
+}</span>
+
+<span style = "background-color:#fdd">void CSVWatchListRepository::loadCustom() {
+    Movie crtMovie;
+    ifstream fin("../Files/watch-list.txt");</span>
+
+    //Load movies from file
+<span style = "background-color:#fdd">    while(!fin.eof()) {
+        fin &gt;&gt; crtMovie;</span>
+
+<span style = "background-color:#fdd">        if(crtMovie.getTitle().size() == 0)
+            break;</span>
+
+<span style = "background-color:#fdd">        this-&gt;add(WatchListItem(crtMovie.getTitle(), crtMovie));
+    }</span>
+
+<span style = "background-color:#fdd">    fin.close();</span>
+
+<span style = "background-color:#fdd">}</span>
+
+</pre>
+	</body>
+</html>

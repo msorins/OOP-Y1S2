@@ -1,0 +1,198 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>dynamicarray.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+#include "../stdafx.h"
+#include &lt;csignal&gt;
+#include "DynamicArray.h"
+#include "../Model/Movie.h"
+#include "../Model/WatchListItem.h"
+#include "../Others/Exception.h"
+
+using namespace std;
+#define DEFLENGTH 100
+
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">DynamicArray&lt;TElement&gt;::DynamicArray() {</span>
+    /*
+     * Constructor
+     * Initialises the DynamicArray
+     */
+
+<span style = "background-color:#dfd">    this-&gt;n = 0;
+    this-&gt;capacity = DEFLENGTH;
+    this-&gt;elems = new TElement[DEFLENGTH];
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">DynamicArray&lt;TElement&gt;::DynamicArray(TElement t) {
+    this-&gt;push_back(t);
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">DynamicArray&lt;TElement&gt;::~DynamicArray() {</span>
+    /*
+     * Destructor
+     * Free the space allocated for elements
+     */
+<span style = "background-color:#fdd">    delete []this-&gt;elems;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">void DynamicArray&lt;TElement&gt;::push_back(TElement elem) {</span>
+    /*
+     * Adds a new element to the back of the Array
+     */
+
+<span style = "background-color:#dfd">    this-&gt;n++;</span>
+
+    //The array is full, must allocate more memory
+<span style = "background-color:#dfd">    if(this-&gt;n == this-&gt;capacity) {</span>
+<span style = "background-color:#fdd">        this -&gt; resize();</span>
+    }
+
+    //Actually add the new elementh
+<span style = "background-color:#dfd">    this-&gt;elems[n] = elem;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">void DynamicArray&lt;TElement&gt;::resize() {</span>
+    //Increase the Capacity
+<span style = "background-color:#fdd">    this-&gt;capacity *= 2;</span>
+
+    //Put the elements into a new array
+<span style = "background-color:#fdd">    TElement* newElems = new TElement[this-&gt;capacity];
+    for(int i = 1; i &lt;= this-&gt;n ; i++)
+        newElems[i] = this-&gt;elems[i];</span>
+
+    //Delete current array
+<span style = "background-color:#fdd">    delete []this-&gt;elems;</span>
+
+    //Move the new (bigger) array in place
+<span style = "background-color:#fdd">    this-&gt;elems = newElems;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">void DynamicArray&lt;TElement&gt;::erase(int pos) {</span>
+    /*
+     * Given a position(int) .. erase that position
+     */
+
+    //Validate the position
+<span style = "background-color:#dfd">    this-&gt;validatePosition(pos);</span>
+
+    //Remove the element at that position
+<span style = "background-color:#dfd">    for(int i = pos; i&lt;= this-&gt;size(); i++)
+        this-&gt;elems[i] = this-&gt;elems[i+1];</span>
+
+    //Decrease the length
+<span style = "background-color:#dfd">    this -&gt; n--;</span>
+
+<span style = "background-color:#dfd">}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">TElement DynamicArray&lt;TElement&gt;::get(int pos) {</span>
+    /*
+     * GETTER FOR A SPECIFIC ELEMENT IN AN ARRAY
+     */
+
+    //Validate the position
+<span style = "background-color:#fdd">    this-&gt;validatePosition(pos);</span>
+
+<span style = "background-color:#fdd">    return this-&gt;elems[pos];
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">int DynamicArray&lt;TElement&gt;::size() {</span>
+    /*
+     * GETTER FOR THE LENGTH OF ARRAY
+     */
+<span style = "background-color:#dfd">    return this-&gt;n;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">TElement *DynamicArray&lt;TElement&gt;::getArray() {</span>
+    /*
+     * GETTER FOR THE ARRAY
+     */
+<span style = "background-color:#fdd">    return this-&gt;elems;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">void DynamicArray&lt;TElement&gt;::validatePosition(int position) {</span>
+    /*
+     * Validates the position...If it is not valid it raises an error
+     */
+<span style = "background-color:#dfd">    if(position &lt; 1 || position &gt; this-&gt;size())</span>
+<span style = "background-color:#fdd">        throw Exception("Invalid delete position (Dynamic Array)");</span>
+
+<span style = "background-color:#dfd">}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">int DynamicArray&lt;TElement&gt;::find(TElement elem) {</span>
+    /*
+     * Find a particular element in an array.
+     * If it is found return its index, otherwise return -1
+     */
+<span style = "background-color:#dfd">    for(int i = 1; i&lt;= this-&gt;size(); i++)
+        if(this-&gt;elems[i] == elem)
+            return i;</span>
+
+<span style = "background-color:#dfd">    return -1;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">void DynamicArray&lt;TElement&gt;::insert(TElement element, int pos) {</span>
+    /*
+     * Inserts an element at a given position
+     */
+
+    //Validate the position
+<span style = "background-color:#fdd">    this-&gt;validatePosition(pos);</span>
+
+
+    //Increase the number of elements in the array
+<span style = "background-color:#fdd">    this-&gt;n++;</span>
+
+    //The array is full, must allocate more memory
+<span style = "background-color:#fdd">    if(this-&gt;n == this-&gt;capacity) {
+        this -&gt; resize();</span>
+    }
+
+    //Move all the elements to the right
+<span style = "background-color:#fdd">    for(int i = n; i &gt; pos; i--)
+        this-&gt;elems[i] = this-&gt;elems[i-1];</span>
+
+    //Insert that element
+<span style = "background-color:#fdd">    this-&gt;elems[pos] = element;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">TElement * DynamicArray&lt;TElement&gt;::begin() {
+    TElement* res = this-&gt;elems;
+    return res;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">TElement * DynamicArray&lt;TElement&gt;::end() {
+    TElement* res = this-&gt;elems + this-&gt;n + 1;
+    return res;
+}</span>
+
+
+template class DynamicArray&lt;int&gt;;
+template class DynamicArray&lt;Movie&gt;;
+template class DynamicArray&lt;WatchListItem&gt;;</pre>
+	</body>
+</html>

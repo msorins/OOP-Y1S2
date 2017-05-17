@@ -1,0 +1,129 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>stlvector.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by z003swax on 11.04.2017.
+//
+#include "../stdafx.h"
+#include "STLVector.h"
+#include "../Others/Exception.h"
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">STLVector&lt;TElement&gt;::~STLVector() {</span>
+    /*
+     * Constructor, nothing to do
+     */
+<span style = "background-color:#dfd">}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">void STLVector&lt;TElement&gt;::push_back(TElement elem) {</span>
+    /*
+    * Adds a new element to the back of the Array
+    */
+<span style = "background-color:#dfd">    this-&gt;elems.push_back(elem);
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">void STLVector&lt;TElement&gt;::erase(int pos) {</span>
+    /*
+    * Given a position(int) .. erase that position
+    */
+
+    //Validate the position
+<span style = "background-color:#dfd">    this-&gt;validatePosition(pos);</span>
+
+    //Do the actual erasing
+<span style = "background-color:#dfd">    this-&gt;elems.erase(this-&gt;elems.begin() + pos);
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">void STLVector&lt;TElement&gt;::resize() {</span>
+    //Nothing to do here
+    //To erase
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">TElement STLVector&lt;TElement&gt;::get(int pos) {</span>
+    /*
+    * GETTER FOR A SPECIFIC ELEMENT IN AN ARRAY
+    */
+
+    //Validate the position
+<span style = "background-color:#dfd">    this-&gt;validatePosition(pos);</span>
+
+    //Get the actual element
+<span style = "background-color:#dfd">    return this-&gt;elems[pos];
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">int STLVector&lt;TElement&gt;::find(TElement elem) {</span>
+    /*
+     * Find a particular element in an array.
+     * If it is found return its index, otherwise return -1
+     */
+<span style = "background-color:#dfd">    for(int i = 0; i&lt; this-&gt;elems.size(); i++)
+        if(this-&gt;elems[i] == elem)
+            return i;</span>
+
+<span style = "background-color:#dfd">    return -1;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">void STLVector&lt;TElement&gt;::insert(TElement element, int pos) {</span>
+    /*
+     * Inserts an element at a given position
+     */
+
+    //Validate the position
+<span style = "background-color:#fdd">    this-&gt;validatePosition(pos);</span>
+
+    //Insert that element
+<span style = "background-color:#fdd">    this-&gt;elems.insert(this-&gt;elems.begin() + pos, element);
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">void STLVector&lt;TElement&gt;::validatePosition(int position) {</span>
+    /*
+    * Validates the position...If it is not valid it raises an error
+    */
+<span style = "background-color:#dfd">    if(position &lt; 0 || position &gt;= this-&gt;size())</span>
+<span style = "background-color:#fdd">        throw Exception("Invalid delete position (Dynamic Array)");</span>
+<span style = "background-color:#dfd">}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#dfd">int STLVector&lt;TElement&gt;::size() {</span>
+    /*
+    * GETTER FOR THE LENGTH OF ARRAY
+    */
+<span style = "background-color:#dfd">    return this-&gt;elems.size();
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">TElement *STLVector&lt;TElement&gt;::getArray() {</span>
+    TElement* a;
+<span style = "background-color:#fdd">    return a;
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">TElement *STLVector&lt;TElement&gt;::begin() {
+    return &amp;this-&gt;elems[0];
+}</span>
+
+template&lt;class TElement&gt;
+<span style = "background-color:#fdd">TElement *STLVector&lt;TElement&gt;::end() {
+    return &amp;this-&gt;elems[this-&gt;elems.size()];
+}</span>
+
+template class STLVector&lt;int&gt;;
+template class STLVector&lt;Movie&gt;;
+template class STLVector&lt;WatchListItem&gt;;</pre>
+	</body>
+</html>

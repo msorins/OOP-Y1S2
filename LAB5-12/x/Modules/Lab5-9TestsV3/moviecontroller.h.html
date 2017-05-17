@@ -1,0 +1,54 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>moviecontroller.h</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+
+#ifndef LAB5_6_MOVIECONTROLLER_H
+#define LAB5_6_MOVIECONTROLLER_H
+#include "../Repository/MovieRepository.h"
+#include "../Model/WatchListItem.h"
+#include "../Repository/IWatchListRepository.h"
+#include "../Repository/CSVWatchListRepository.h"
+#include "../Repository/HTMLWatchListRepository.h"
+
+template&lt;class TRepo&gt;
+class MovieController {
+private:
+<span style = "background-color:#dfd">    TRepo movieRepository = TRepo();</span>
+    IWatchListRepository* watchListRepository;
+
+public:
+    // Constructors and Destructors
+    MovieController();
+    MovieController(IWatchListRepository* watchListRepo);
+    ~MovieController();
+
+    //Getters
+    TRepo &amp; getMovieRepository();
+    IWatchListRepository* getWatchListRepository();
+    Movie getByGenreByStep(string genre, int pos);
+
+    //Setters
+    void setWatchListRepository(IWatchListRepository *watchListRepository);
+
+    //Functionality
+    void add(string title, string genre, int year, int likes, string trailer);
+    void del(string title);
+    void update(string titleOld, string titleNew, string genreNew, int yearNew, int likesNew, string trailerNew);
+    void incrementLikes(string title);
+};
+
+
+#endif //LAB5_6_MOVIECONTROLLER_H</pre>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>filemovierepository.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 15/04/2017.
+//
+#include "../stdafx.h"
+#include "FileMovieRepository.h"
+#include "../List/DynamicArray.h"
+#include "../List/STLVector.h"
+#include "../Others/Exception.h"
+#include "../Others/Iterator.h"
+#include &lt;fstream&gt;
+using namespace std;
+
+
+template&lt;class TVector&gt;
+<span style = "background-color:#fdd">void FileMovieRepository&lt;TVector&gt;::load() {
+    Movie crtMovie;
+    ifstream fin("../Files/shows.txt");</span>
+
+    //Load movies from file
+<span style = "background-color:#fdd">    while(!fin.eof()) {
+        fin &gt;&gt; crtMovie;</span>
+
+<span style = "background-color:#fdd">        if(crtMovie.getTitle().size() == 0)
+            break;</span>
+
+<span style = "background-color:#fdd">        this-&gt;add(crtMovie);
+    }
+}</span>
+
+template&lt;class TVector&gt;
+<span style = "background-color:#fdd">void FileMovieRepository&lt;TVector&gt;::save() {</span>
+    //Save movies to file
+<span style = "background-color:#fdd">    ofstream fout("../Files/shows.txt");</span>
+
+<span style = "background-color:#fdd">    fout&lt;&lt;"x"&lt;&lt;"\n";</span>
+
+<span style = "background-color:#fdd">    Iterator&lt; Movie&gt; st1( this-&gt;movies.begin() );
+    Iterator&lt; Movie&gt; dr1( this-&gt;movies.end() );</span>
+
+
+<span style = "background-color:#fdd">    for (Iterator&lt; Movie &gt; it=st1; it!=dr1; it++) {
+        Movie crtMovie = *it;
+        fout &lt;&lt; crtMovie;
+    }</span>
+
+<span style = "background-color:#fdd">    fout.close();</span>
+
+<span style = "background-color:#fdd">}</span>
+
+template class FileMovieRepository&lt; DynamicArray&lt;Movie&gt; &gt;;
+template class FileMovieRepository&lt; STLVector&lt;Movie&gt; &gt;;</pre>
+	</body>
+</html>
