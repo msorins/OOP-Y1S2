@@ -1,15 +1,17 @@
 #include <iostream>
+#include <QApplication>
 #include "List/DynamicArray.h"
 #include "UI/UI.h"
 #include "Tests/Tests.h"
 #include "List/STLVector.h"
 #include "Others/Iterator.h"
 #include "Others/Exception.h"
+#include "UI/GUI.h"
 
 using namespace std;
 
 
-int main() {
+int main(int argc, char* argv[]) {
 /*
     Tests tests;
 
@@ -76,15 +78,18 @@ int main() {
 
 
 
-    while(true) {
+    //while(true) {
         try {
-            UI UIObj;
+            QApplication a(argc, argv);
+            GUI w;
+            w.show();
+            a.exec();
 
 
         } catch(Exception ex) {
             std::cerr<<ex.what();
         }
-    }
+    //}
 
 
 

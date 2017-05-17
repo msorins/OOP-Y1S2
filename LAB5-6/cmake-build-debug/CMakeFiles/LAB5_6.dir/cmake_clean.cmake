@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "LAB5_6_automoc.cpp"
   "CMakeFiles/LAB5_6.dir/main.cpp.o"
   "CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o"
   "CMakeFiles/LAB5_6.dir/Model/Movie.cpp.o"
@@ -18,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o"
   "CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o"
   "CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o"
+  "CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o"
+  "CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
   "LAB5_6.pdb"
   "LAB5_6"
 )

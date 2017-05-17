@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/AutogenInfo.cmake.in"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeCInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake"
@@ -14,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeFindCodeBlocks.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeGenericSystem.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeParseArguments.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/Compiler/AppleClang-C.cmake"
@@ -33,6 +35,45 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.6.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.6.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.6.3/CMakeSystem.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFMediaPlayerServicePlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFServicePlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_CoreAudioPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Network/Qt5Network_QCoreWlanEnginePlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake"
   )
 
 # The corresponding makefile is:
@@ -43,10 +84,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/LAB5_6_automoc.dir/AutogenInfo.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LAB5_6.dir/DependInfo.cmake"
+  "CMakeFiles/LAB5_6_automoc.dir/DependInfo.cmake"
   )

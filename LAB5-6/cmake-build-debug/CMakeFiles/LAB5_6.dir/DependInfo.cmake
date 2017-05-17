@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o"
+  "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/LAB5_6_automoc.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/List/IDynamicArray.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/IDynamicArray.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/List/STLVector.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/STLVector.cpp.o"
@@ -21,13 +22,29 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryWatchListRepository.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o"
+  "/Users/so/Desktop/UBB/OOP2/LAB5-6/UI/GUI.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/UI/UI.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/UI.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB5-6/main.cpp" "/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_WIDGETS_LIB"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers"
+  "/Users/so/Qt5.8.0/5.8/clang_64/./mkspecs/macx-clang"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework"
+  "/Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers"
+  "/System/Library/Frameworks/OpenGL.framework/Headers"
   )
 
 # Targets to which this target links.

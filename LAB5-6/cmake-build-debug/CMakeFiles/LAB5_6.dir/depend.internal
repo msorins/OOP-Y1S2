@@ -16,6 +16,35 @@ CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.h
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/List/IDynamicArray.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/List/STLVector.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/Movie.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/WatchListItem.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/GUI.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/LAB5_6_automoc.cpp
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/moc_GUI.cpp
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QListWidget
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTextEdit
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlistwidget.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtextedit.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
 CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.cpp
  /Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.h
@@ -145,6 +174,41 @@ CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.cpp
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.h
+CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/List/IDynamicArray.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/List/STLVector.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/Movie.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Model/WatchListItem.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Others/Iterator.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/CSVWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/FileMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/HTMLWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/IWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/GUI.cpp
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/GUI.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QHBoxLayout
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLabel
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QListWidget
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTextEdit
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlistwidget.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtextedit.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Controller/MovieController.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/List/DynamicArray.h
@@ -180,5 +244,20 @@ CMakeFiles/LAB5_6.dir/main.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MemoryMovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Repository/MovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/Tests/Tests.h
+ /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/GUI.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/UI.h
  /Users/so/Desktop/UBB/OOP2/LAB5-6/main.cpp
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QListWidget
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTextEdit
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlistwidget.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtextedit.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qwidget.h

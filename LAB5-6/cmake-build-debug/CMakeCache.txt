@@ -195,6 +195,15 @@ LAB5_6_SOURCE_DIR:STATIC=/Users/so/Desktop/UBB/OOP2/LAB5-6
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5Gui.
+Qt5Gui_DIR:PATH=/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Gui
+
+//The directory containing a CMake configuration file for Qt5Network.
+Qt5Network_DIR:PATH=/Users/so/Qt5.8.0/5.8/clang_64/lib/cmake/Qt5Network
+
 
 ########################
 # INTERNAL cache entries

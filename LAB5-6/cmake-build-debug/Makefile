@@ -123,6 +123,19 @@ LAB5_6/fast:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/build
 .PHONY : LAB5_6/fast
 
+#=============================================================================
+# Target rules for targets named LAB5_6_automoc
+
+# Build rule for target.
+LAB5_6_automoc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LAB5_6_automoc
+.PHONY : LAB5_6_automoc
+
+# fast build rule for target.
+LAB5_6_automoc/fast:
+	$(MAKE) -f CMakeFiles/LAB5_6_automoc.dir/build.make CMakeFiles/LAB5_6_automoc.dir/build
+.PHONY : LAB5_6_automoc/fast
+
 Controller/MovieController.o: Controller/MovieController.cpp.o
 
 .PHONY : Controller/MovieController.o
@@ -149,6 +162,33 @@ Controller/MovieController.s: Controller/MovieController.cpp.s
 Controller/MovieController.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.s
 .PHONY : Controller/MovieController.cpp.s
+
+LAB5_6_automoc.o: LAB5_6_automoc.cpp.o
+
+.PHONY : LAB5_6_automoc.o
+
+# target to build an object file
+LAB5_6_automoc.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
+.PHONY : LAB5_6_automoc.cpp.o
+
+LAB5_6_automoc.i: LAB5_6_automoc.cpp.i
+
+.PHONY : LAB5_6_automoc.i
+
+# target to preprocess a source file
+LAB5_6_automoc.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.i
+.PHONY : LAB5_6_automoc.cpp.i
+
+LAB5_6_automoc.s: LAB5_6_automoc.cpp.s
+
+.PHONY : LAB5_6_automoc.s
+
+# target to generate assembly for a file
+LAB5_6_automoc.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.s
+.PHONY : LAB5_6_automoc.cpp.s
 
 List/DynamicArray.o: List/DynamicArray.cpp.o
 
@@ -582,6 +622,33 @@ Tests/Tests.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.s
 .PHONY : Tests/Tests.cpp.s
 
+UI/GUI.o: UI/GUI.cpp.o
+
+.PHONY : UI/GUI.o
+
+# target to build an object file
+UI/GUI.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o
+.PHONY : UI/GUI.cpp.o
+
+UI/GUI.i: UI/GUI.cpp.i
+
+.PHONY : UI/GUI.i
+
+# target to preprocess a source file
+UI/GUI.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/GUI.cpp.i
+.PHONY : UI/GUI.cpp.i
+
+UI/GUI.s: UI/GUI.cpp.s
+
+.PHONY : UI/GUI.s
+
+# target to generate assembly for a file
+UI/GUI.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/GUI.cpp.s
+.PHONY : UI/GUI.cpp.s
+
 UI/UI.o: UI/UI.cpp.o
 
 .PHONY : UI/UI.o
@@ -645,9 +712,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LAB5_6"
+	@echo "... LAB5_6_automoc"
 	@echo "... Controller/MovieController.o"
 	@echo "... Controller/MovieController.i"
 	@echo "... Controller/MovieController.s"
+	@echo "... LAB5_6_automoc.o"
+	@echo "... LAB5_6_automoc.i"
+	@echo "... LAB5_6_automoc.s"
 	@echo "... List/DynamicArray.o"
 	@echo "... List/DynamicArray.i"
 	@echo "... List/DynamicArray.s"
@@ -696,6 +767,9 @@ help:
 	@echo "... Tests/Tests.o"
 	@echo "... Tests/Tests.i"
 	@echo "... Tests/Tests.s"
+	@echo "... UI/GUI.o"
+	@echo "... UI/GUI.i"
+	@echo "... UI/GUI.s"
 	@echo "... UI/UI.o"
 	@echo "... UI/UI.i"
 	@echo "... UI/UI.s"

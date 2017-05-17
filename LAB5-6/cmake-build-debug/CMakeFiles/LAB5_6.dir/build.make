@@ -513,6 +513,54 @@ CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o.provides: CMake
 CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o
 
 
+CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o: ../UI/GUI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/GUI.cpp
+
+CMakeFiles/LAB5_6.dir/UI/GUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/UI/GUI.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/GUI.cpp > CMakeFiles/LAB5_6.dir/UI/GUI.cpp.i
+
+CMakeFiles/LAB5_6.dir/UI/GUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/UI/GUI.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB5-6/UI/GUI.cpp -o CMakeFiles/LAB5_6.dir/UI/GUI.cpp.s
+
+CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o.provides: CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o
+
+
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: LAB5_6_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/LAB5_6_automoc.cpp
+
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/LAB5_6_automoc.cpp > CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.i
+
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/LAB5_6_automoc.cpp -o CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.s
+
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.provides: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
+
+
 # Object files for target LAB5_6
 LAB5_6_OBJECTS = \
 "CMakeFiles/LAB5_6.dir/main.cpp.o" \
@@ -533,7 +581,9 @@ LAB5_6_OBJECTS = \
 "CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o" \
 "CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o" \
 "CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o" \
-"CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o"
+"CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o" \
+"CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o" \
+"CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
 
 # External object files for target LAB5_6
 LAB5_6_EXTERNAL_OBJECTS =
@@ -557,9 +607,14 @@ LAB5_6: CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/build.make
+LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/QtWidgets
+LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/QtGui
+LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/QtCore
 LAB5_6: CMakeFiles/LAB5_6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable LAB5_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB5-6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable LAB5_6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LAB5_6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -586,6 +641,8 @@ CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Repository/FileMovieReposi
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UI/GUI.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.requires
 
 .PHONY : CMakeFiles/LAB5_6.dir/requires
 
