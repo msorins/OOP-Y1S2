@@ -42,12 +42,12 @@ public:
 
     //Functionality
     void initGUI();
-    void populateMovieList();
     void connectSignalsWithSlots();
 
 signals:
     void moviesUpdated();
 
 public slots:
-    void addMovie(string title, string genre, int year, int likes, string trailer);
+    void addMovie();
+    void populateMovieList();
 };

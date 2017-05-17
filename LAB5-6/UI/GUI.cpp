@@ -97,15 +97,23 @@ void GUI::populateMovieList() {
 }
 
 void GUI::connectSignalsWithSlots() {
-    QObject::connect(this->addMovies, SIGNAL(clicked()), this, SLOT(addMovie(this->movieTitle->text().toStdString(),
-    this->movieGenre->text().toStdString(), atoi(this->movieYear->text().toStdString()), atoi(this->movieLikes->text().toStdString()),
-    this->movieTitle->text().toStdString() )));
+
+    QObject::connect(this->addMovies, SIGNAL(clicked()), this, SLOT(addMovie()));
+
+
+    QObject::connect(this->addMovies, SIGNAL(moviesUpdated()), this, SLOT(populateMovieList()));
 }
 
-void GUI::addMovie(string title, string genre, int year, int likes, string trailer) {
+void GUI::addMovie() {
     /*
      * Add movie SLOT
      */
+
+    string title = this->movieTitle->text().toStdString();
+    string genre = this->movieGenre->text().toStdString();
+    int year = stoi(this->movieYear->text().toStdString());
+    int likes = stoi(this->movieLikes->text().toStdString());
+    string trailer = this->movieTitle->text().toStdString();
 
     //Compute the add operation
     this->movieController->add(title, genre, year, likes, trailer);
@@ -113,15 +121,8 @@ void GUI::addMovie(string title, string genre, int year, int likes, string trail
     //Emit an signal that announces a change in movies list
     emit moviesUpdated();
 
-}
-
-void GUI::moviesUpdated() {
-    /*
-     * Signal fired when a movie is updated
-     */
-
-    this->populateMovieList();
 
 }
+
 
 
