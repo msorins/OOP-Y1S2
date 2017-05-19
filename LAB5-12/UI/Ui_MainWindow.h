@@ -56,6 +56,8 @@ public:
     QPushButton *likeButton;
     QTextBrowser *currentMovieTitleTextBrowser;
     QPushButton *nextButton;
+    QPushButton *addWatchListButton;
+    QPushButton *eraseWatchListButton;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -64,7 +66,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(994, 658);
+        MainWindow->resize(994, 708);
         MainWindow->setMaximumSize(QSize(1000, 1000));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
@@ -146,16 +148,22 @@ public:
         label_9->setFont(font);
         seeTrailerButton = new QPushButton(centralWidget);
         seeTrailerButton->setObjectName(QStringLiteral("seeTrailerButton"));
-        seeTrailerButton->setGeometry(QRect(570, 550, 111, 32));
+        seeTrailerButton->setGeometry(QRect(570, 550, 121, 32));
         likeButton = new QPushButton(centralWidget);
         likeButton->setObjectName(QStringLiteral("likeButton"));
-        likeButton->setGeometry(QRect(680, 550, 171, 32));
+        likeButton->setGeometry(QRect(700, 550, 131, 32));
         currentMovieTitleTextBrowser = new QTextBrowser(centralWidget);
         currentMovieTitleTextBrowser->setObjectName(QStringLiteral("currentMovieTitleTextBrowser"));
         currentMovieTitleTextBrowser->setGeometry(QRect(570, 490, 381, 31));
         nextButton = new QPushButton(centralWidget);
         nextButton->setObjectName(QStringLiteral("nextButton"));
-        nextButton->setGeometry(QRect(850, 550, 111, 32));
+        nextButton->setGeometry(QRect(840, 550, 121, 32));
+        addWatchListButton = new QPushButton(centralWidget);
+        addWatchListButton->setObjectName(QStringLiteral("addWatchListButton"));
+        addWatchListButton->setGeometry(QRect(570, 580, 191, 32));
+        eraseWatchListButton = new QPushButton(centralWidget);
+        eraseWatchListButton->setObjectName(QStringLiteral("eraseWatchListButton"));
+        eraseWatchListButton->setGeometry(QRect(770, 580, 191, 32));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
@@ -199,6 +207,8 @@ public:
         seeTrailerButton->setText(QApplication::translate("MainWindow", "SEE TRAILER", Q_NULLPTR));
         likeButton->setText(QApplication::translate("MainWindow", "Like", Q_NULLPTR));
         nextButton->setText(QApplication::translate("MainWindow", "NEXT", Q_NULLPTR));
+        addWatchListButton->setText(QApplication::translate("MainWindow", "Add", Q_NULLPTR));
+        eraseWatchListButton->setText(QApplication::translate("MainWindow", "Erase", Q_NULLPTR));
     } // retranslateUi
 
 };

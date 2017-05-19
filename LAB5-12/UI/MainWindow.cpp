@@ -6,6 +6,8 @@
 #include "Ui_MainWindow.h"
 #include "../Others/Iterator.h"
 
+#define CHROME "open '/Applications/Google Chrome.app/Contents/Versions/58.0.3029.110/Google Chrome Helper.app'"
+
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent), ui(new Ui::MainWindow)
 {
     this->movieController = new  MovieController< FSTL >( new CSVWatchListRepository() );
@@ -14,6 +16,9 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent), ui(new Ui::MainWin
     ui->setupUi(this);
     this->populateMovieList();
     this->populateWatchList();
+    this->populateMovieToUser();
+    this->connectSignalsWithSlots();
+    this->setAddWatchListFalse();
 }
 
 MainWindow::~MainWindow()
@@ -63,19 +68,151 @@ void MainWindow::populateWatchList() {
 }
 
 void MainWindow::connectSignalsWithSlots() {
-    //Connect the ADMIN arrea buttons
-
+    //ADMIN AREA
     QObject::connect(this->ui->addButton, SIGNAL(clicked()), this, SLOT(addMovie()));
+    QObject::connect(this->ui->editButton, SIGNAL(clicked()), this, SLOT(editMovie()));
+    QObject::connect(this->ui->eraseButton, SIGNAL(clicked()), this, SLOT(eraseMovie()));
+    QObject::connect(this, SIGNAL(moviesUpdated()), this, SLOT(populateMovieList()));
+
+
+    //USER AREA
+    QObject::connect(this->ui->eraseWatchListButton, SIGNAL(clicked()), this, SLOT(eraseWatchList()));
+    QObject::connect(this->ui->likeButton, SIGNAL(clicked()), this, SLOT(likeMovie()));
+    QObject::connect(this, SIGNAL(watchListUpdated()), this, SLOT(populateWatchList()));
+
+    QObject::connect(this->ui->nextButton, SIGNAL(clicked()), this, SLOT(nextMovie()));
+    QObject::connect(this, SIGNAL(currentMovieChanged()), this, SLOT(populateMovieToUser()));
+
+    QObject::connect(this->ui->seeTrailerButton, SIGNAL( clicked() ), this, SLOT(seeTrailerMovie()));
+    QObject::connect(this->ui->addWatchListButton, SIGNAL( clicked() ), this, SLOT(addWatchList()));
 }
 
 void MainWindow::addMovie() {
 
+    string title = this->ui->titleLineEdit->text().toStdString();
+    string genre = this->ui->genreLineEdit->text().toStdString();
+    int year = stoi(this->ui->yearLineEdit->text().toStdString());
+    int likes = stoi(this->ui->likesLineEdit->text().toStdString());
+    string trailer = this->ui->trailerLineEDit->text().toStdString();
+
+    //Compute the add operation
+    this->movieController->add(title, genre, year, likes, trailer);
+
+    //Emit an signal that announces a change in movies list
+    emit moviesUpdated();
+
 }
 
 void MainWindow::editMovie() {
+    QModelIndex index = this->ui->moviesListWidget->currentIndex();
+    int pos = index.row();
+    string oldTitle =  this->movieController->getMovieRepository().getMovies().get(pos).getTitle();
 
+    string title = this->ui->titleLineEdit->text().toStdString();
+    string genre = this->ui->genreLineEdit->text().toStdString();
+    int year = stoi(this->ui->yearLineEdit->text().toStdString());
+    int likes = stoi(this->ui->likesLineEdit->text().toStdString());
+    string trailer = this->ui->trailerLineEDit->text().toStdString();
+
+    //Compute the add operation
+    this->movieController->update(oldTitle, title, genre, year, likes, trailer);
+
+    //Emit an signal that announces a change in movies list
+    emit moviesUpdated();
 }
 
 void MainWindow::eraseMovie() {
+    QModelIndex index = this->ui->moviesListWidget->currentIndex();
+    int pos = index.row();
+
+    //Compute the add operation
+    this->movieController->del( this->movieController->getMovieRepository().getMovies().get(pos).getTitle() );
+
+    //Emit an signal that announces a change in movies list
+    emit moviesUpdated();
+}
+
+void MainWindow::setAddWatchListTrue() {
+    this->ui->addWatchListButton->setEnabled(true);
+}
+
+void MainWindow::setAddWatchListFalse() {
+    this->ui->addWatchListButton->setEnabled(false);
+}
+
+void MainWindow::addWatchList() {
+    //Get the name of the current Movie
+    QString str = this->ui->currentMovieTitleTextBrowser->toPlainText();
+    string crtMovieTitle = str.toStdString();
+    cout<<crtMovieTitle;
+
+    //Get the movie now
+    int posFound = this->movieController->getMovieRepository().getMovies().find(Movie(crtMovieTitle));
+    Movie movieFound = this->movieController->getMovieRepository().getMovies().get(posFound);
+
+    WatchListItem watchListItem(crtMovieTitle, movieFound);
+    this->movieController->getWatchListRepository()->add(watchListItem);
+
+    emit watchListUpdated();
+}
+
+void MainWindow::eraseWatchList() {
+    QModelIndex index = this->ui->watchListWidget->currentIndex();
+    int pos = index.row() + 1;
+
+    //Compute the add operation
+    this->movieController->getWatchListRepository()->del( this->movieController->getWatchListRepository()->getWatchList().get(pos) );
+
+    //Emit an signal that announces a change in movies list
+    emit watchListUpdated();
+}
+
+void MainWindow::likeMovie() {
+
+    //Increment the likes
+    QString str = this->ui->currentMovieTitleTextBrowser->toPlainText();
+    string crtMovieTitle = str.toStdString();
+    this->movieController->incrementLikes(crtMovieTitle);
+
+
+    //Let user to add movie to watch list
+    this->setAddWatchListTrue();
+
+    //Emit new change to watch list
+    emit watchListUpdated();
+    emit moviesUpdated();
+
 
 }
+
+void MainWindow::seeTrailerMovie() {
+
+    cout<<"SEe trailer \n";
+    QString str = this->ui->currentMovieTitleTextBrowser->toPlainText();
+    string crtMovieTitle = str.toStdString();
+    cout<<crtMovieTitle;
+
+    int posFound = this->movieController->getMovieRepository().getMovies().find(Movie(crtMovieTitle));
+    Movie movieFound = this->movieController->getMovieRepository().getMovies().get(posFound);
+
+    string command (CHROME);
+    command += " " + movieFound.getTrailer();
+    system(command.c_str());
+
+}
+
+
+void MainWindow::populateMovieToUser() {
+    Movie crtMovie = this->movieController->getByGenreByStep("", this->loopThroughMoviesPos);
+
+    this->ui->currentMovieTitleTextBrowser->setText( QString::fromStdString( crtMovie.getTitle() ) );
+}
+
+void MainWindow::nextMovie() {
+    this->loopThroughMoviesPos++;
+    this->setAddWatchListFalse();
+    emit currentMovieChanged();
+}
+
+
+

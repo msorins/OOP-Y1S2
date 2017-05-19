@@ -23,20 +23,34 @@ public:
 
 private:
     Ui::MainWindow *ui;
-
+    int loopThroughMoviesPos = 1;
 
 public:
     MovieController<FSTL>* movieController;
 public:
     //Functionality
-    void populateMovieList();
-    void populateWatchList();
     void connectSignalsWithSlots();
 
+public slots:
+    void populateMovieList();
+    void populateMovieToUser();
+    void populateWatchList();
     void addMovie();
     void editMovie();
     void eraseMovie();
+    void nextMovie();
 
+    void setAddWatchListTrue();
+    void setAddWatchListFalse();
+    void addWatchList();
+    void eraseWatchList();
+    void likeMovie();
+    void seeTrailerMovie();
+
+signals:
+    void moviesUpdated();
+    void watchListUpdated();
+    void currentMovieChanged();
 
 };
 
