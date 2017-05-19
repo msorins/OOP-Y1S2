@@ -636,6 +636,7 @@ LAB5_6: CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/build.make
+LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/QtCharts
 LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/QtWidgets
 LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/QtGui
 LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/QtCore

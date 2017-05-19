@@ -259,9 +259,17 @@ Ui_MainWindow.h
 /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/Ui_MainWindow.h
 ../Others/Iterator.h
 /Users/so/Desktop/UBB/OOP2/LAB5-12/Others/Iterator.h
+QtCharts/QChartView
+-
+QtCharts/QPieSeries
+-
+QtCharts/QPieSlice
+-
 
 /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/MainWindow.h
 QMainWindow
+-
+QChartView
 -
 UI.h
 /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/UI.h
@@ -323,6 +331,8 @@ QtWidgets/QTextBrowser
 -
 QtWidgets/QToolBar
 -
+QtWidgets/QVBoxLayout
+-
 QtWidgets/QWidget
 -
 
@@ -357,6 +367,20 @@ Others/Exception.h
 /Users/so/Desktop/UBB/OOP2/LAB5-12/Others/Exception.h
 UI/MainWindow.h
 /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/MainWindow.h
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
+qchartview.h
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
+QtCharts/QAbstractAxis
+-
+QtCharts/QAbstractSeries
+-
+QtCharts/QChart
+-
+QtWidgets/QGraphicsView
+-
 
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
 qapplication.h

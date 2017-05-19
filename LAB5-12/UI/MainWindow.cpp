@@ -5,6 +5,9 @@
 #include "MainWindow.h"
 #include "Ui_MainWindow.h"
 #include "../Others/Iterator.h"
+#include <QtCharts/QChartView>
+#include <QtCharts/QPieSeries>
+#include <QtCharts/QPieSlice>
 
 #define CHROME "open '/Applications/Google Chrome.app/Contents/Versions/58.0.3029.110/Google Chrome Helper.app'"
 
@@ -19,11 +22,49 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent), ui(new Ui::MainWin
     this->populateMovieToUser();
     this->connectSignalsWithSlots();
     this->setAddWatchListFalse();
+
+    this->createPieChart();
 }
+
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::createPieChart() {
+    //Delete CHARTVIEW FIRST
+    this->ui->pieVerticalLayout->removeWidget(this->chartView);
+
+
+    QtCharts::QPieSeries *series = new QtCharts::QPieSeries();
+
+    Iterator< Movie> st1( this->movieController->getMovieRepository().begin() );
+    Iterator< Movie> dr1( this->movieController->getMovieRepository().end() );
+
+    //Then add items to that list
+    for (Iterator< Movie > it=st1; it!=dr1; it++) {
+        Movie movie = *it;
+        series->append(QString::fromStdString( movie.getTitle() + "(" + to_string(movie.getLikes()) +")" ), movie.getLikes());
+    }
+
+    QtCharts::QPieSlice *slice = series->slices().at(1);
+    slice->setExploded();
+    slice->setLabelVisible();
+    slice->setPen(QPen(Qt::darkGreen, 2));
+    slice->setBrush(Qt::green);
+
+    QtCharts::QChart *chart = new QtCharts::QChart();
+    chart->addSeries(series);
+    chart->setTitle("Piechart with Movie Likes");
+    chart->legend()->show();
+
+
+    this->chartView = new QtCharts::QChartView(chart);
+    this->chartView->setRenderHint(QPainter::Antialiasing);
+
+    this->ui->pieVerticalLayout->addWidget(this->chartView);
+
 }
 
 void MainWindow::populateMovieList() {
@@ -73,6 +114,7 @@ void MainWindow::connectSignalsWithSlots() {
     QObject::connect(this->ui->editButton, SIGNAL(clicked()), this, SLOT(editMovie()));
     QObject::connect(this->ui->eraseButton, SIGNAL(clicked()), this, SLOT(eraseMovie()));
     QObject::connect(this, SIGNAL(moviesUpdated()), this, SLOT(populateMovieList()));
+    QObject::connect(this, SIGNAL(moviesUpdated()), this, SLOT(createPieChart()));
 
 
     //USER AREA
@@ -213,6 +255,7 @@ void MainWindow::nextMovie() {
     this->setAddWatchListFalse();
     emit currentMovieChanged();
 }
+
 
 
 

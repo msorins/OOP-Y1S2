@@ -24,6 +24,7 @@
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QToolBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -58,6 +59,8 @@ public:
     QPushButton *nextButton;
     QPushButton *addWatchListButton;
     QPushButton *eraseWatchListButton;
+    QWidget *verticalLayoutWidget;
+    QVBoxLayout *pieVerticalLayout;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -66,7 +69,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(994, 708);
+        MainWindow->resize(994, 1000);
         MainWindow->setMaximumSize(QSize(1000, 1000));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
@@ -164,6 +167,14 @@ public:
         eraseWatchListButton = new QPushButton(centralWidget);
         eraseWatchListButton->setObjectName(QStringLiteral("eraseWatchListButton"));
         eraseWatchListButton->setGeometry(QRect(770, 580, 191, 32));
+        verticalLayoutWidget = new QWidget(centralWidget);
+        verticalLayoutWidget->setObjectName(QStringLiteral("verticalLayoutWidget"));
+        verticalLayoutWidget->setGeometry(QRect(10, 639, 981, 301));
+        pieVerticalLayout = new QVBoxLayout(verticalLayoutWidget);
+        pieVerticalLayout->setSpacing(6);
+        pieVerticalLayout->setContentsMargins(11, 11, 11, 11);
+        pieVerticalLayout->setObjectName(QStringLiteral("pieVerticalLayout"));
+        pieVerticalLayout->setContentsMargins(0, 0, 0, 0);
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));

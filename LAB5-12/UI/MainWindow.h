@@ -6,6 +6,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QChartView>
 #include "UI.h"
 
 namespace Ui {
@@ -24,6 +25,7 @@ public:
 private:
     Ui::MainWindow *ui;
     int loopThroughMoviesPos = 1;
+    QtCharts::QChartView *chartView;
 
 public:
     MovieController<FSTL>* movieController;
@@ -47,11 +49,12 @@ public slots:
     void likeMovie();
     void seeTrailerMovie();
 
+    void createPieChart();
+
 signals:
     void moviesUpdated();
     void watchListUpdated();
     void currentMovieChanged();
-
 };
 
 #endif // MAINWINDOW_H

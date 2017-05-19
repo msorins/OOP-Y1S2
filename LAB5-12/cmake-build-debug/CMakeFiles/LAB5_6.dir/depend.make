@@ -33,6 +33,8 @@ CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../UI/MainWindow.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../UI/UI.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: LAB5_6_automoc.cpp
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: moc_MainWindow.cpp
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 
@@ -183,6 +185,8 @@ CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/MainWindow.cpp
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/MainWindow.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/UI.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/Ui_MainWindow.h
+CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
+CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 
@@ -226,6 +230,8 @@ CMakeFiles/LAB5_6.dir/main.cpp.o: ../Tests/Tests.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../UI/MainWindow.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../UI/UI.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../main.cpp
+CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
+CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h

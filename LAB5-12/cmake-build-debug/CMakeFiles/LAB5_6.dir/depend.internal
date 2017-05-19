@@ -34,6 +34,8 @@ CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/UI.h
  /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/LAB5_6_automoc.cpp
  /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/moc_MainWindow.cpp
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o
@@ -184,6 +186,8 @@ CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/MainWindow.h
  /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/UI.h
  /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/Ui_MainWindow.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o
@@ -227,6 +231,8 @@ CMakeFiles/LAB5_6.dir/main.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/MainWindow.h
  /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/UI.h
  /Users/so/Desktop/UBB/OOP2/LAB5-12/main.cpp
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
