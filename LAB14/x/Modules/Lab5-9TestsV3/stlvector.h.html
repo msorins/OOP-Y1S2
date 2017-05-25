@@ -1,0 +1,81 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>stlvector.h</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by z003swax on 11.04.2017.
+//
+
+#ifndef LAB5_6_STLVECTOR_H
+#define LAB5_6_STLVECTOR_H
+
+#include &lt;vector&gt;
+#include "IDynamicArray.h"
+
+template&lt;class TElement&gt;
+class STLVector: IDynamicArray&lt;TElement&gt; {
+protected:
+    vector&lt;TElement&gt; elems;
+
+public:
+    //Constructors and Destructors
+    ~STLVector();
+
+    //Functionality
+    void push_back(TElement elem);
+    void erase(int pos);
+    void resize();
+    TElement get(int pos);
+    int find(TElement elem);
+    void insert(TElement element, int pos);
+    void validatePosition(int position);
+
+    //Getters
+    virtual int size();
+    virtual TElement* getArray();
+
+    //ForIterators
+    TElement * begin();
+    TElement * end();
+
+<span style = "background-color:#dfd">    STLVector operator+(const TElement&amp; b) {
+        STLVector newVector;</span>
+
+<span style = "background-color:#dfd">        for(int i = 0; i &lt; this-&gt;elems.size(); i++)
+            newVector.elems.push_back(this-&gt;elems[i]);</span>
+
+<span style = "background-color:#dfd">        newVector.push_back(b);</span>
+
+<span style = "background-color:#dfd">        return newVector;
+    }</span>
+
+};
+
+template&lt;class TElement&gt;
+STLVector&lt;TElement&gt; operator+(TElement a, STLVector&lt;TElement&gt; b) {
+
+    STLVector&lt;TElement&gt; newVector;
+
+    for(int i = 0; i &lt; b.elems.size(); i++)
+        newVector.elems.push_back(b.elems[i]);
+
+    newVector.push_back(a);
+
+    return newVector;
+}
+
+
+
+
+
+
+#endif //LAB5_6_STLVECTOR_H</pre>
+	</body>
+</html>

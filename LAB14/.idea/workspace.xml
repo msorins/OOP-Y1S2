@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Undo/UndoUpdate.h" description="class UndoUpdate: Undo {" line="8" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="LAB5_6" targetName="LAB5_6" />
+      <config projectName="LAB5_6" targetName="LAB5_6_automoc" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33d11c59-3b47-4346-aadf-f17808cc0535" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Diagram.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/IDynamicArray.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/List/STLVector.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Model/Movie.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Model/WatchListItem.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Others/Exception.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Others/Iterator.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/CSVWatchListRepository.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/FileMovieRepository.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/IMovieRepository.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/IWatchListRepository.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MemoryMovieRepository.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Repository/MovieRepository.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/UI.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/css/table-images/botleft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/css/table-images/botright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/css/table-images/left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/css/table-images/right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LAB5-6.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controller/MovieController.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controller/MovieController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Diagram.mdj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/csv-watch-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/html-watch-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/shows.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/watch-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/List/DynamicArray.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/List/DynamicArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/List/IDynamicArray.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/List/IDynamicArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/List/STLVector.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/List/STLVector.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Movie.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Movie.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/WatchListItem.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/WatchListItem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/Exception.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/Exception.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/Iterator.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/Iterator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/CSVWatchListRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/CSVWatchListRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/FileMovieRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/FileMovieRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/HTMLWatchListRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/HTMLWatchListRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/IMovieRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/IMovieRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/IWatchListRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/IWatchListRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/MemoryMovieRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/MemoryMovieRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/MemoryWatchListRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/MemoryWatchListRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/MovieRepository.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/MovieRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Tests.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/Tests.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/MainWindow.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/MainWindow.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/UI.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/UI.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/Ui_MainWindow.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/Ui_MainWindow.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Undo/Undo.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Undo/Undo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Undo/UndoAdd.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Undo/UndoAdd.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Undo/UndoErase.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Undo/UndoErase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Undo/UndoUpdate.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Undo/UndoUpdate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeSystem.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/CMakeCCompilerId.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/CXX.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/AutogenInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/AutomocOldMocDefinitions.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB5_6.cbp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB5_6_automoc.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/moc_GUI.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/moc_MainWindow.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/csvwatchlistrepository.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/dynamicarray.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/dynamicarray.h.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/exception.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/filemovierepository.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/htmlwatchlistrepository.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/idynamicarray.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/imovierepository.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/iterator.h.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/iwatchlistrepository.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/lab5-9testsv3.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/memorymovierepository.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/memorywatchlistrepository.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/movie.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/movie.h.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/moviecontroller.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/moviecontroller.h.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/movierepository.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/stlvector.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/stlvector.h.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/tests.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/ui.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/ui.h.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/watchlistitem.cpp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/Modules/Lab5-9TestsV3/watchlistitem.h.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/JQuery/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/RGraph/libraries/RGraph.common.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/RGraph/libraries/RGraph.common.dynamic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/RGraph/libraries/RGraph.common.tooltips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/RGraph/libraries/RGraph.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/RGraph/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/google-code-prettify/prettify-CppCoverage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/google-code-prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/x/third-party/google-code-prettify/run_prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LAB5-12/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o" afterPath="$PROJECT_DIR$/../LAB5-12/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LAB5-12/cmake-build-debug/LAB5_6" afterPath="$PROJECT_DIR$/../LAB5-12/cmake-build-debug/LAB5_6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LAB5-12/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LAB5-12/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LAB5-12/Files/csv-watch-list.txt" afterPath="$PROJECT_DIR$/../LAB5-12/Files/csv-watch-list.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LAB5-12/Files/shows.txt" afterPath="$PROJECT_DIR$/../LAB5-12/Files/shows.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LAB5-12/Files/watch-list.txt" afterPath="$PROJECT_DIR$/../LAB5-12/Files/watch-list.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LAB5-12/main.cpp" afterPath="$PROJECT_DIR$/../LAB5-12/main.cpp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Undo.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Undo/Undo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Undo.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Undo/Undo.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#113#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UndoAdd.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Undo/UndoAdd.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="e#111#128#0" expanded="true" />
+                <element signature="e#258#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/MovieController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="e#125#167#0" expanded="true" />
+                <element signature="e#529#542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UndoErase.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Undo/UndoErase.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="e#115#132#0" expanded="true" />
+                <element signature="e#277#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UndoAdd.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Undo/UndoAdd.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#59#79#0" expanded="true" />
+                <element signature="e#216#229#0" expanded="true" />
+                <element signature="e#343#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieController.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controller/MovieController.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="60" column="118" lean-forward="false" selection-start-line="60" selection-start-column="118" selection-end-line="60" selection-end-column="118" />
+              <folding>
+                <element signature="e#59#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="memory" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="3140" column="0" lean-forward="false" selection-start-line="3140" selection-start-column="0" selection-end-line="3140" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UndoUpdate.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Undo/UndoUpdate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#117#134#0" expanded="true" />
+                <element signature="e#279#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UndoErase.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Undo/UndoErase.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="e#59#81#0" expanded="true" />
+                <element signature="e#218#231#0" expanded="true" />
+                <element signature="e#350#363#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>movieController.</find>
+      <find>open</find>
+      <find>this-&gt;getWatchListRepository()-&gt;save();</find>
+      <find>chrome</find>
+      <find>watchList</find>
+      <find>throw</find>
+      <find>Medium</find>
+      <find>catch</find>
+      <find>watchListType</find>
+      <find>sthis-&gt;movieController = new  MovieController&lt; FSTL &gt;( new CSVWatchListRepository() );             this-&gt;movieController-&gt;getWatchListRepository()-&gt;saveCustom();             this-&gt;watchListType = 0;</find>
+      <find>er.</find>
+      <find>save</find>
+      <find>watcg/ku</find>
+      <find>list(</find>
+      <find>__ZN3GUI13</find>
+      <find>add</find>
+      <find>moviesUpdated</find>
+      <find>names</find>
+      <find>QPushButton</find>
+      <find>MainWindow</find>
+      <find>centralWidget</find>
+      <find>List</find>
+      <find>watch</find>
+      <find>CHROME</find>
+      <find>setAddW</find>
+      <find>Joe</find>
+      <find>verticalLayoutWidget</find>
+      <find>Itera</find>
+      <find>setWa</find>
+      <find>getMovieRepositor</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>throw Exception(</replace>
+      <replace>this-&gt;MovieController.add</replace>
+      <replace>movieController</replace>
+      <replace>fout</replace>
+      <replace>getWatchListRepository()-&gt;</replace>
+      <replace>movieController-&gt;</replace>
+      <replace>er-&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Movie.cpp" />
+        <option value="$PROJECT_DIR$/MovieRepository.cpp" />
+        <option value="$PROJECT_DIR$/MovieController.cpp" />
+        <option value="$PROJECT_DIR$/IMovieRepository.h" />
+        <option value="$PROJECT_DIR$/IMovieRepository.cpp" />
+        <option value="$PROJECT_DIR$/Repository/MovieRepository.h" />
+        <option value="$PROJECT_DIR$/Repository/FileMovieRepository.h" />
+        <option value="$PROJECT_DIR$/Repository/MemoryMovieRepository.h" />
+        <option value="$PROJECT_DIR$/Repository/MemoryMovieRepository.cpp" />
+        <option value="$PROJECT_DIR$/Repository/IMovieRepository.cpp" />
+        <option value="$PROJECT_DIR$/Repository/IMovieRepository.h" />
+        <option value="$PROJECT_DIR$/Model/Movie.cpp" />
+        <option value="$PROJECT_DIR$/Files/shows.txt" />
+        <option value="$PROJECT_DIR$/Model/WatchListItem.h" />
+        <option value="$PROJECT_DIR$/Model/WatchListItem.cpp" />
+        <option value="$PROJECT_DIR$/Repository/HTMLWatchListRepository.h" />
+        <option value="$PROJECT_DIR$/Repository/FileMovieRepository.cpp" />
+        <option value="$PROJECT_DIR$/Model/Movie.h" />
+        <option value="$PROJECT_DIR$/UI/UI.h" />
+        <option value="$PROJECT_DIR$/Tests/Tests.h" />
+        <option value="$PROJECT_DIR$/Repository/MemoryWatchListRepository.h" />
+        <option value="$PROJECT_DIR$/Repository/IWatchListRepository.cpp" />
+        <option value="$PROJECT_DIR$/Repository/CSVWatchListRepository.h" />
+        <option value="$PROJECT_DIR$/UI/UI.cpp" />
+        <option value="$PROJECT_DIR$/Repository/HTMLWatchListRepository.cpp" />
+        <option value="$PROJECT_DIR$/Repository/CSVWatchListRepository.cpp" />
+        <option value="$PROJECT_DIR$/Tests/Tests.cpp" />
+        <option value="$PROJECT_DIR$/Files/csv-watch-list.txt" />
+        <option value="$PROJECT_DIR$/Repository/IWatchListRepository.h" />
+        <option value="$PROJECT_DIR$/Repository/MemoryWatchListRepository.cpp" />
+        <option value="$PROJECT_DIR$/Files/watch-list.txt" />
+        <option value="$PROJECT_DIR$/Files/html-watch-list.html" />
+        <option value="$PROJECT_DIR$/UI/UiMainWindow.h" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/moc_GUI.cpp" />
+        <option value="$PROJECT_DIR$/UI/GUI.h" />
+        <option value="$PROJECT_DIR$/UI/GUI.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Undo/Undo.cpp" />
+        <option value="$PROJECT_DIR$/Undo/Undo.h" />
+        <option value="$PROJECT_DIR$/Undo/UndoAdd.h" />
+        <option value="$PROJECT_DIR$/Undo/UndoErase.h" />
+        <option value="$PROJECT_DIR$/Undo/UndoUpdate.h" />
+        <option value="$PROJECT_DIR$/Undo/UndoAdd.cpp" />
+        <option value="$PROJECT_DIR$/Undo/UndoErase.cpp" />
+        <option value="$PROJECT_DIR$/Undo/UndoUpdate.cpp" />
+        <option value="$PROJECT_DIR$/UI/Ui_MainWindow.h" />
+        <option value="$PROJECT_DIR$/UI/MainWindow.h" />
+        <option value="$PROJECT_DIR$/UI/MainWindow.cpp" />
+        <option value="$PROJECT_DIR$/Controller/MovieController.h" />
+        <option value="$PROJECT_DIR$/Controller/MovieController.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LAB5_6" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LAB14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LAB5_6" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LAB14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Undo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LAB5_6" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LAB14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LAB5_6" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LAB14" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Files" />
+      <recent name="$PROJECT_DIR$/UI" />
+      <recent name="$PROJECT_DIR$/Repository" />
+      <recent name="$PROJECT_DIR$/Tests" />
+      <recent name="$PROJECT_DIR$/Controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LAB5_6">
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LAB5_6" TARGET_NAME="LAB5_6" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LAB5_6" TARGET_NAME="LAB5_6" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LAB5-6" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LAB5-6" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LAB5-6" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LAB5-6" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LAB5-6" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LAB5-6" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LAB5-6" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LAB5_6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LAB5_6" TARGET_NAME="LAB5_6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LAB5_6" RUN_TARGET_NAME="LAB5_6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LAB5_6_automoc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LAB5_6" TARGET_NAME="LAB5_6_automoc" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LAB5_6" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LAB5_6_automoc" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33d11c59-3b47-4346-aadf-f17808cc0535" name="Default" comment="" />
+      <created>1490171846909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490171846909</updated>
+      <workItem from="1490171848948" duration="13150000" />
+      <workItem from="1490194245624" duration="3681000" />
+      <workItem from="1490211514926" duration="47000" />
+      <workItem from="1490211564478" duration="1010000" />
+      <workItem from="1490254292750" duration="2054000" />
+      <workItem from="1490271618821" duration="4796000" />
+      <workItem from="1490298106503" duration="3387000" />
+      <workItem from="1490338275780" duration="430000" />
+      <workItem from="1490338856099" duration="4605000" />
+      <workItem from="1490355549392" duration="125000" />
+      <workItem from="1490430100423" duration="107000" />
+      <workItem from="1490598256419" duration="58000" />
+      <workItem from="1490598832771" duration="4756000" />
+      <workItem from="1490728606575" duration="2000" />
+      <workItem from="1491732702355" duration="155000" />
+      <workItem from="1491928544634" duration="7478000" />
+      <workItem from="1491989538164" duration="1474000" />
+      <workItem from="1492259201379" duration="774000" />
+      <workItem from="1492263520156" duration="10797000" />
+      <workItem from="1492335970499" duration="522000" />
+      <workItem from="1492336497992" duration="3974000" />
+      <workItem from="1493105981651" duration="1158000" />
+      <workItem from="1493226336271" duration="2000" />
+      <workItem from="1493369662652" duration="3034000" />
+      <workItem from="1493381179588" duration="1207000" />
+      <workItem from="1493408417903" duration="2598000" />
+      <workItem from="1494833026078" duration="1274000" />
+      <workItem from="1494847015981" duration="2000" />
+      <workItem from="1494999716450" duration="143000" />
+      <workItem from="1494999979844" duration="97000" />
+      <workItem from="1495000080577" duration="38000" />
+      <workItem from="1495000121584" duration="140000" />
+      <workItem from="1495000264489" duration="211000" />
+      <workItem from="1495000493703" duration="98000" />
+      <workItem from="1495000743234" duration="366000" />
+      <workItem from="1495001156244" duration="1573000" />
+      <workItem from="1495003234246" duration="3526000" />
+      <workItem from="1495007928514" duration="2542000" />
+      <workItem from="1495039901379" duration="776000" />
+      <workItem from="1495040941231" duration="5128000" />
+      <workItem from="1495174893915" duration="4052000" />
+      <workItem from="1495193795063" duration="2454000" />
+      <workItem from="1495198813248" duration="170000" />
+      <workItem from="1495210548351" duration="243000" />
+      <workItem from="1495359654753" duration="154000" />
+      <workItem from="1495437571462" duration="68000" />
+      <workItem from="1495637296870" duration="120000" />
+      <workItem from="1495645813556" duration="3168000" />
+      <workItem from="1495735967791" duration="4244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="101968000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15491259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.4978903" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35306123" sideWeight="0.81253767" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.48342374" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35306123" sideWeight="0.18746233" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3510204" sideWeight="0.4581073" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.4954792" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40510204" sideWeight="0.45207956" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.4978903" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UI/MainWindow.cpp</url>
+          <line>262</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="91" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tests/Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="91" lean-forward="false" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/MemoryWatchListRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/watch-list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/MovieRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/WatchListItem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/IDynamicArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/IDynamicArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/DynamicArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/DynamicArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/Exception.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/html-watch-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/LAB5_6_automoc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/GUI.cpp" />
+    <entry file="file://$PROJECT_DIR$/UI/GUI.h" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/moc_GUI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/GUI.cpp" />
+    <entry file="file://$PROJECT_DIR$/UI/GUI.h" />
+    <entry file="file://$PROJECT_DIR$/UI/Ui_MainWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/MemoryWatchListRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="90" column="9" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/UI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1884">
+          <caret line="268" column="7" lean-forward="false" selection-start-line="268" selection-start-column="7" selection-end-line="270" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/HTMLWatchListRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/FileMovieRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/MovieRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#228#243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/MemoryMovieRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/MemoryMovieRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/Ui_MainWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3405">
+          <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undo/UndoUpdate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#82#0" expanded="true" />
+            <element signature="e#219#232#0" expanded="true" />
+            <element signature="e#357#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/IMovieRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/STLVector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/MainWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Movie.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/STLVector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Movie.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/IMovieRepository.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/MainWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2422">
+          <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undo/UndoUpdate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#117#134#0" expanded="true" />
+            <element signature="e#279#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undo/UndoErase.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#59#81#0" expanded="true" />
+            <element signature="e#218#231#0" expanded="true" />
+            <element signature="e#350#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undo/UndoErase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#115#132#0" expanded="true" />
+            <element signature="e#277#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="3140" column="0" lean-forward="false" selection-start-line="3140" selection-start-column="0" selection-end-line="3140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undo/Undo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#113#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undo/UndoAdd.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#79#0" expanded="true" />
+            <element signature="e#216#229#0" expanded="true" />
+            <element signature="e#343#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undo/UndoAdd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#111#128#0" expanded="true" />
+            <element signature="e#258#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/MovieController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#125#167#0" expanded="true" />
+            <element signature="e#529#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undo/Undo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/MovieController.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="60" column="118" lean-forward="false" selection-start-line="60" selection-start-column="118" selection-end-line="60" selection-end-column="118" />
+          <folding>
+            <element signature="e#59#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

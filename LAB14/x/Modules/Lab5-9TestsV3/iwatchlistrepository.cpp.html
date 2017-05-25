@@ -1,0 +1,93 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>iwatchlistrepository.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 23/03/2017.
+//
+#include "../stdafx.h"
+#include "IWatchListRepository.h"
+#include "../Others/Exception.h"
+#include "../Others/Iterator.h"
+#include &lt;fstream&gt;
+using namespace std;
+
+<span style = "background-color:#dfd">IWatchListRepository::IWatchListRepository() {</span>
+    /*
+     * CONSTRUCTOR
+     */
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">DynamicArray&lt;WatchListItem&gt; &amp;IWatchListRepository::getWatchList() {</span>
+    /*
+     * GETTER for the watchList
+     */
+<span style = "background-color:#dfd">    return this-&gt;watchList;
+}</span>
+
+<span style = "background-color:#dfd">void IWatchListRepository::add(WatchListItem item) {</span>
+    /*
+     * Add a new item to the Watch List
+     */
+<span style = "background-color:#dfd">    if(this-&gt;getWatchList().find(item) != -1)
+        throw Exception("Movie already in the watch list");</span>
+
+<span style = "background-color:#dfd">    this-&gt;getWatchList().push_back(item);</span>
+
+<span style = "background-color:#dfd">    this-&gt;save();
+}</span>
+
+<span style = "background-color:#dfd">void IWatchListRepository::del(WatchListItem item) {</span>
+    /*
+     * Deletes an item from the watch list
+     *
+     */
+<span style = "background-color:#dfd">    if(this-&gt;getWatchList().find(item) == -1)
+        throw Exception("Can't delete movie from the watch list. It does not exists");</span>
+
+<span style = "background-color:#dfd">    this-&gt;getWatchList().erase( this-&gt;getWatchList().find(item) );</span>
+
+<span style = "background-color:#dfd">    this-&gt;save();
+}</span>
+
+<span style = "background-color:#fdd">WatchListItem * IWatchListRepository::begin() {
+    return this-&gt;getWatchList().begin();
+}</span>
+
+<span style = "background-color:#fdd">WatchListItem * IWatchListRepository::end() {
+    return this-&gt;getWatchList().end();
+}</span>
+
+
+<span style = "background-color:#fdd">void IWatchListRepository::save() {</span>
+    //Save movies to file
+<span style = "background-color:#fdd">    ofstream fout("../Files/watch-list.txt");</span>
+
+<span style = "background-color:#fdd">    fout&lt;&lt;"x"&lt;&lt;"\n";</span>
+
+<span style = "background-color:#fdd">    Iterator&lt; WatchListItem &gt; st1( this-&gt;getWatchList().begin() );
+    Iterator&lt; WatchListItem &gt; dr1( this-&gt;getWatchList().end() );</span>
+
+
+<span style = "background-color:#fdd">    for (Iterator&lt; WatchListItem &gt; it=st1; it!=dr1; it++) {
+        WatchListItem crtWatchList = *it;</span>
+
+<span style = "background-color:#fdd">        if(!crtWatchList.getTitle().size())
+            continue;</span>
+
+<span style = "background-color:#fdd">        Movie mov = crtWatchList.getMovie();
+        fout &lt;&lt; mov;
+    }</span>
+
+<span style = "background-color:#fdd">    fout.close();</span>
+
+<span style = "background-color:#fdd">}</span></pre>
+	</body>
+</html>

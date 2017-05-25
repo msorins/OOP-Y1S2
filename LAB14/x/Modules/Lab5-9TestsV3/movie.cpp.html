@@ -1,0 +1,124 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>movie.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+#include "../stdafx.h"
+#include "Movie.h"
+#include "../Others/Exception.h"
+
+<span style = "background-color:#dfd">Movie::Movie(string title, string genre, int year, int likes, string trailer) {
+    this-&gt;setTitle(title);
+    this-&gt;setGenre(genre);
+    this-&gt;setYear(year);
+    this-&gt;setLikes(likes);
+    this-&gt;setTrailer(trailer);
+}</span>
+
+<span style = "background-color:#dfd">Movie::Movie(string title) {
+    this-&gt;setTitle(title);</span>
+
+<span style = "background-color:#dfd">}</span>
+
+
+<span style = "background-color:#dfd">Movie::Movie() {</span>
+
+<span style = "background-color:#dfd">}</span>
+
+
+<span style = "background-color:#dfd">Movie::~Movie() {</span>
+
+<span style = "background-color:#dfd">}</span>
+
+
+<span style = "background-color:#dfd">string Movie::getGenre() {</span>
+    /*
+     * GETTER for genre
+     */
+<span style = "background-color:#dfd">    return this-&gt;genre;
+}</span>
+
+<span style = "background-color:#dfd">int Movie::getYear() {</span>
+    /*
+    * GETTER for year
+    */
+<span style = "background-color:#dfd">    return this-&gt;year;
+}</span>
+
+<span style = "background-color:#dfd">int Movie::getLikes() {</span>
+    /*
+    * GETTER for likes
+    */
+<span style = "background-color:#dfd">    return this-&gt;likes;
+}</span>
+
+<span style = "background-color:#fdd">string Movie::getTrailer() {</span>
+    /*
+    * GETTER for trailer
+    */
+<span style = "background-color:#fdd">    return this-&gt;trailer;
+}</span>
+
+<span style = "background-color:#fdd">string Movie::getTitle() {</span>
+    /*
+    * GETTER for title
+    */
+<span style = "background-color:#fdd">    return this-&gt;title;
+}</span>
+
+<span style = "background-color:#dfd">void Movie::setTitle(string title) {</span>
+    /*
+    * SETTER for title
+    */
+
+<span style = "background-color:#dfd">    if(!title.length())</span>
+<span style = "background-color:#fdd">        throw Exception("Title length must not be zero");</span>
+
+<span style = "background-color:#dfd">    this-&gt;title = title;
+}</span>
+
+<span style = "background-color:#dfd">void Movie::setGenre(string genre) {</span>
+    /*
+    * SETTER for genre
+    */
+
+<span style = "background-color:#dfd">    if(!genre.length())</span>
+<span style = "background-color:#fdd">        throw Exception("Genre length must not be zero");</span>
+
+<span style = "background-color:#dfd">    this-&gt;genre = genre;
+}</span>
+
+<span style = "background-color:#dfd">void Movie::setYear(int year) {</span>
+    /*
+    * SETTER for year
+    */
+
+<span style = "background-color:#dfd">    this-&gt;year = year;
+}</span>
+
+<span style = "background-color:#dfd">void Movie::setLikes(int likes) {</span>
+    /*
+    * SETTER for likes
+    */
+<span style = "background-color:#dfd">    this-&gt;likes = likes;
+}</span>
+
+<span style = "background-color:#dfd">void Movie::setTrailer(string trailer) {</span>
+    /*
+    * SETTER for trailer
+    */
+<span style = "background-color:#dfd">    this-&gt;trailer = trailer;</span>
+
+<span style = "background-color:#dfd">}</span>
+</pre>
+	</body>
+</html>

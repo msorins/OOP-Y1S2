@@ -1,0 +1,56 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>watchlistitem.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 23/03/2017.
+//
+#include "../stdafx.h"
+#include "WatchListItem.h"
+
+<span style = "background-color:#dfd">WatchListItem::WatchListItem() {</span>
+    /*
+     * Default constructor
+     */
+<span style = "background-color:#dfd">    this-&gt;title = "";
+}</span>
+
+<span style = "background-color:#dfd">WatchListItem::WatchListItem(string title) {</span>
+    /*
+     * Constructor which gets the title
+     */
+<span style = "background-color:#dfd">    this-&gt;title = title;
+}</span>
+
+<span style = "background-color:#dfd">WatchListItem::WatchListItem(string title, Movie movie) {</span>
+    /*
+     * Constructor which gets the title and whole information about the movie
+     */
+<span style = "background-color:#dfd">    this-&gt;title = title;
+    this-&gt;movie = movie;
+}</span>
+
+<span style = "background-color:#fdd">string WatchListItem::getTitle() {</span>
+    /*
+     * GETTER for the title
+     */
+<span style = "background-color:#fdd">    return this-&gt;title;
+}</span>
+
+<span style = "background-color:#fdd">Movie WatchListItem::getMovie(){
+    return movie;
+}</span>
+
+<span style = "background-color:#fdd">void WatchListItem::setMovie(Movie movie) {
+    this-&gt;movie = movie;
+}</span>
+</pre>
+	</body>
+</html>

@@ -1,0 +1,179 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>tests.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+#include "../stdafx.h"
+#include &lt;assert.h&gt;
+#include "Tests.h"
+#include "../Controller/MovieController.h"
+#include "../Others/Exception.h"
+#include "../Controller/MovieController.h"
+#include "../Repository/MemoryMovieRepository.h"
+#include "../Repository/FileMovieRepository.h"
+#include "../Repository/MemoryWatchListRepository.h"
+
+#define STL  MemoryMovieRepository&lt;STLVector&lt;Movie&gt;&gt;
+
+<span style = "background-color:#dfd">Tests::Tests() {</span>
+    /*
+     * CONSTRUCTOR ... starts the tests
+     */
+
+    //Instantiate the controller
+<span style = "background-color:#dfd">    this-&gt;movieController = new  MovieController&lt; STL &gt;( new MemoryWatchListRepository() );</span>
+
+<span style = "background-color:#dfd">    this-&gt;testAdminAdd();
+    this-&gt;testUserAdd();
+    this-&gt;testUserDel();
+    this-&gt;testAdminDel();
+    this-&gt;testAdminUpdate();</span>
+
+
+<span style = "background-color:#dfd">}</span>
+
+
+<span style = "background-color:#dfd">void Tests::testAdminAdd() {
+    this-&gt;movieController-&gt;add("Sorinium", "Horror", 2017, 10, "https://no");
+    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 1 );</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;add("Medium", "Action", 2000, 15, "https://yes");
+    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 2 );</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;add("A", "Action", 300, 45, "https://DA");
+    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 3 );</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;add("B", "Action", 1950, 65, "https://NU");
+    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 4 );</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;add("C", "Action", 1980, 75, "https://GIGI");
+    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 5 );</span>
+
+
+<span style = "background-color:#dfd">    try {
+        this-&gt;movieController-&gt;add("C", "Action", 1980, 75, "https://GIGI");</span>
+<span style = "background-color:#fdd">        assert(false);</span>
+
+
+    } catch(Exception ex) {
+       assert(true);
+<span style = "background-color:#dfd">    }</span>
+
+<span style = "background-color:#dfd">    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 5 );
+}</span>
+
+<span style = "background-color:#dfd">void Tests::testAdminDel() {
+    this-&gt;movieController-&gt;del("A");
+    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 4 );</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;del("B");
+    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 3 );</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;del("C");
+    assert(this-&gt;movieController-&gt;getMovieRepository().getMovies().size() == 2 );</span>
+
+<span style = "background-color:#dfd">    try {
+        this-&gt;movieController-&gt;del("C");</span>
+<span style = "background-color:#fdd">        assert(false);</span>
+
+
+    } catch(Exception ex) {
+        assert(true);
+<span style = "background-color:#dfd">    }</span>
+
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">void Tests::testAdminUpdate() {
+    this-&gt;movieController-&gt;update("Medium", "Mediums", "Action", 2000, 15, "https://yes");</span>
+
+<span style = "background-color:#dfd">    try {
+        this-&gt;movieController-&gt;del("Medium");</span>
+<span style = "background-color:#fdd">        assert(false);</span>
+
+
+    } catch(Exception ex) {
+        assert(true);
+<span style = "background-color:#dfd">    }</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;update("Mediums", "Medium", "Action", 2000, 15, "https://yes");</span>
+
+<span style = "background-color:#dfd">    try {
+        this-&gt;movieController-&gt;del("Mediums");</span>
+<span style = "background-color:#fdd">        assert(false);</span>
+
+
+    } catch(Exception ex) {
+        assert(true);
+<span style = "background-color:#dfd">    }</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;update("Medium", "Medium", "X", 1, 1, "");
+    int pos = this-&gt;movieController-&gt;getMovieRepository().getMovies().find(Movie("Medium"));
+    Movie crtMovie = this-&gt;movieController-&gt;getMovieRepository().getMovies().get(pos);</span>
+
+<span style = "background-color:#dfd">    assert(crtMovie.getGenre() == "X" &amp;&amp; crtMovie.getLikes() == 1 &amp;&amp; crtMovie.getYear() == 1);</span>
+
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">void Tests::testUserAdd() {
+    this-&gt;movieController-&gt;getWatchListRepository()-&gt;add(WatchListItem("A"));
+    int x = this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size();
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 1);</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;add(WatchListItem("B", Movie("Sorinium", "Horror", 2017, 10, "https://no")));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 2);</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;add(WatchListItem("C"));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 3);</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;add(WatchListItem("D"));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 4);</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;add(WatchListItem("E"));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 5);</span>
+
+<span style = "background-color:#dfd">    try {
+        this-&gt;movieController-&gt;getWatchListRepository()-&gt;add(WatchListItem("E"));</span>
+<span style = "background-color:#fdd">        assert(false);</span>
+
+    } catch(Exception ex) {
+        assert(true);
+<span style = "background-color:#dfd">    }</span>
+
+<span style = "background-color:#dfd">}</span>
+
+<span style = "background-color:#dfd">void Tests::testUserDel() {
+    this-&gt;movieController-&gt;getWatchListRepository()-&gt;del(WatchListItem("E"));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 4);</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;del(WatchListItem("D"));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 3);</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;del(WatchListItem("C"));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 2);</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;del(WatchListItem("B"));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 1);</span>
+
+<span style = "background-color:#dfd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;del(WatchListItem("A"));
+    assert(this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().size() == 0);</span>
+
+<span style = "background-color:#dfd">    try {
+        this-&gt;movieController-&gt;getWatchListRepository()-&gt;del(WatchListItem("A"));</span>
+<span style = "background-color:#fdd">        assert(false);</span>
+
+    } catch(Exception ex) {
+        assert(true);
+<span style = "background-color:#dfd">    }</span>
+
+<span style = "background-color:#dfd">}</span></pre>
+	</body>
+</html>

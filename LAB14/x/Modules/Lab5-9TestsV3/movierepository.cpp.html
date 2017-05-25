@@ -1,0 +1,143 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>movierepository.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+#include "../stdafx.h"
+#include &lt;csignal&gt;
+#include "MovieRepository.h"
+#include "../List/STLVector.h"
+#include "../Others/Exception.h"
+
+#include &lt;algorithm&gt;
+using namespace std;
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">MovieRepository&lt;TRepo&gt;::MovieRepository() {</span>
+    /*
+     * CONSTRUCTOR
+     */
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">MovieRepository&lt;TRepo&gt;::~MovieRepository() {</span>
+    /*
+     * DESTRUCTOR
+     * Freeing the space is done automatically
+     */
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">TRepo &amp; MovieRepository&lt;TRepo&gt;::getMovies() {</span>
+    /*
+     * GETTER for movies
+     */
+<span style = "background-color:#fdd">    return this-&gt;movies;
+}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">void MovieRepository&lt;TRepo&gt;::add(Movie movie) {</span>
+    /*
+     * Add a new movie
+     * If the movie already exists throw an error
+     */
+<span style = "background-color:#fdd">    if(this-&gt;movies.find(movie) != -1)
+        throw Exception("Movie already exists");
+    else
+        this-&gt;movies = this-&gt;movies + movie;</span>
+        //this-&gt;movies.push_back(movie);
+        //this-&gt;getMovies().push_back(movie);
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">void MovieRepository&lt;TRepo&gt;::del(Movie movie) {</span>
+    /*
+     * Delete a movie
+     * If the movie already exists throw an error
+     */
+<span style = "background-color:#fdd">    if(this-&gt;movies.find(movie) == -1)
+        throw Exception("Movie does not exists");
+    else
+        this-&gt;movies.erase( this-&gt;movies.find(movie) );</span>
+
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">void MovieRepository&lt;TRepo&gt;::update(string title, Movie movie) {</span>
+    /*
+     * Update a movie
+     * If the movie does not exists, throw an error
+     */
+
+<span style = "background-color:#fdd">    if(this-&gt;movies.find(Movie(title)) == -1)
+        throw Exception("Movie does not exists");
+    else {</span>
+        //First delete it
+<span style = "background-color:#fdd">        this-&gt;movies.erase( this -&gt; movies.find(Movie(title) ) );</span>
+
+        //Then erase it
+<span style = "background-color:#fdd">        this-&gt;movies = this-&gt;movies + movie;</span>
+        //this-&gt;movies.push_back( movie );
+    }
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">TRepo MovieRepository&lt;TRepo&gt;::getByGenre(string genre) {</span>
+    /*
+    if(!genre.length())
+        return this-&gt;getMovies();
+
+    TRepo res;
+
+    for(int i = 1; i &lt;= this-&gt;getMovies().size(); i++) {
+        Movie crtMovie = this-&gt;getMovies().get(i);
+        if(crtMovie.getGenre() == genre)
+            res = res + crtMovie;
+    }
+
+    return res;*/
+
+<span style = "background-color:#fdd">    if(!genre.length())
+        return this-&gt;getMovies();</span>
+
+<span style = "background-color:#fdd">    TRepo res;
+    res.push_back(Movie());</span>
+
+<span style = "background-color:#fdd">    const auto&amp; tmp = genre;
+    copy_if(this-&gt;getMovies().begin(),</span>
+            this-&gt;getMovies().end(),
+            res.begin(),
+<span style = "background-color:#fdd">            [&amp;tmp](Movie el){
+                if( el.getGenre() == tmp )
+                    return true;
+                return false;
+            });</span>
+
+
+<span style = "background-color:#fdd">    return res;</span>
+
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">Movie * MovieRepository&lt;TRepo&gt;::begin() {
+    return this-&gt;movies.begin();
+}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">Movie * MovieRepository&lt;TRepo&gt;::end() {
+    return this-&gt;movies.end();
+}</span>
+
+template class MovieRepository&lt; DynamicArray&lt;Movie&gt; &gt;;
+template class MovieRepository&lt; STLVector&lt;Movie&gt; &gt;;</pre>
+	</body>
+</html>

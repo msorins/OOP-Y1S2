@@ -1,0 +1,444 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>ui.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+#include "../stdafx.h"
+#include "UI.h"
+#include "../Others/Iterator.h"
+#include "../Others/Exception.h"
+#include &lt;iostream&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;iomanip&gt;
+
+#define CHROME "open '/Applications/Google Chrome.app/Contents/Versions/57.0.2987.133/Google Chrome Helper.app'"
+#define ATOM "atom"
+
+using namespace std;
+
+<span style = "background-color:#fdd">UI::UI() {</span>
+    /*
+    this-&gt;movieController.add("Supernatural", "Horror", 2000, 500, "https://www.youtube.com/watch?v=4kmA86_hnbo");
+    this-&gt;movieController.add("Family guy", "Comedy", 1997, 150, "https://www.youtube.com/watch?v=_ZKpw0SlAfc");
+    this-&gt;movieController.add("The Blacklist", "Action", 2010, 40, "https://www.youtube.com/watch?v=JGBIimq1I3A");
+    this-&gt;movieController.add("Person of Interest", "Action", 2012, 350, "https://www.youtube.com/watch?v=WYDWSNMTauQ");
+    this-&gt;movieController.add("Suits", "Reality", 2012, 5, "https://www.youtube.com/watch?v=6Zu0yYV2uYs");
+    this-&gt;movieController.getMovieRepository().save();*/
+<span style = "background-color:#fdd">    this-&gt;mode = "MAIN";</span>
+
+<span style = "background-color:#fdd">    this-&gt;printWatchListType();</span>
+
+<span style = "background-color:#fdd">    while(1) {
+        if(this-&gt;mode == "MAIN") {
+            this-&gt;printMainUI();
+            this-&gt;getMainInput();
+        } else if(this-&gt; mode == "ADMIN") {
+            this-&gt;printAdminUI();
+            this-&gt;getAdminInput();
+        } else if(this-&gt; mode == "USER") {
+            this-&gt;printUserUI();
+            this-&gt;getUserInput();</span>
+        }
+
+<span style = "background-color:#fdd">    }
+}</span>
+
+
+<span style = "background-color:#fdd">void UI::printMainUI() {
+    cout &lt;&lt; "\n##########################\n";
+    cout &lt;&lt; "0. Admin\n";
+    cout &lt;&lt; "1. User\n";
+    cout &lt;&lt; "##########################\n";
+}</span>
+
+<span style = "background-color:#fdd">void UI::printAdminUI() {
+    cout &lt;&lt; "\n##########################\n";
+    cout &lt;&lt; "0. List\n";
+    cout &lt;&lt; "1. Add\n";
+    cout &lt;&lt; "2. Delete\n";
+    cout &lt;&lt; "3. Update\n";
+    cout &lt;&lt; "9. -Back- \n";
+    cout &lt;&lt; "##########################\n";
+}</span>
+
+<span style = "background-color:#fdd">void UI::printUserUI() {
+    cout &lt;&lt; "\n##########################\n";
+    cout &lt;&lt; "0. Watch list\n";
+    cout &lt;&lt; "1. See movies\n";
+    cout &lt;&lt; "2. Delete from watch list\n";
+    cout &lt;&lt; "3. SEE FORMATTED WATCH LIST\n";
+    cout &lt;&lt; "9. -Back- \n";
+    cout &lt;&lt; "##########################\n";
+}</span>
+
+<span style = "background-color:#fdd">void UI::getMainInput() {</span>
+    int n;
+<span style = "background-color:#fdd">    cin &gt;&gt; n;</span>
+
+<span style = "background-color:#fdd">    if(!(n &gt;= 0 &amp;&amp; n &lt;= 1))
+        throw Exception("Invalid command");</span>
+
+<span style = "background-color:#fdd">    switch(n) {</span>
+        case 0:
+<span style = "background-color:#fdd">            this-&gt;mode = "ADMIN";
+            break;</span>
+        case 1:
+<span style = "background-color:#fdd">            this-&gt;mode = "USER";</span>
+            break;
+        default:
+            break;
+    }
+<span style = "background-color:#fdd">}</span>
+
+<span style = "background-color:#fdd">void UI::getAdminInput() {</span>
+    int n;
+<span style = "background-color:#fdd">    cin &gt;&gt; n;</span>
+
+<span style = "background-color:#fdd">    switch(n) {</span>
+        case 0:
+<span style = "background-color:#fdd">            this-&gt;list();
+            break;</span>
+        case 1:
+<span style = "background-color:#fdd">            this-&gt;add();
+            break;</span>
+        case 2:
+<span style = "background-color:#fdd">            this-&gt;del();
+            break;</span>
+        case 3:
+<span style = "background-color:#fdd">            this-&gt;update();
+            break;</span>
+        default:
+<span style = "background-color:#fdd">            this-&gt;mode = "MAIN";</span>
+            break;
+    }
+<span style = "background-color:#fdd">}</span>
+
+
+<span style = "background-color:#fdd">void UI::getUserInput() {</span>
+    int n;
+<span style = "background-color:#fdd">    cin &gt;&gt; n;</span>
+
+<span style = "background-color:#fdd">    switch(n) {</span>
+        case 0:
+<span style = "background-color:#fdd">            this-&gt;userSeeWatchList();
+            break;</span>
+        case 1:
+<span style = "background-color:#fdd">            this-&gt;userSeeMoviesByGenre();
+            break;</span>
+        case 2:
+<span style = "background-color:#fdd">            this-&gt;userDeleteWatchList();
+            break;</span>
+        case 3:
+<span style = "background-color:#fdd">            this-&gt;userSeeFormatedWatchList();
+            break;</span>
+        default:
+<span style = "background-color:#fdd">            this-&gt;mode = "MAIN";</span>
+            break;
+    }
+
+<span style = "background-color:#fdd">    this-&gt;movieController-&gt;getWatchListRepository()-&gt;save();
+    this-&gt;movieController-&gt;getWatchListRepository()-&gt;saveCustom();
+}</span>
+
+
+<span style = "background-color:#fdd">bool UI::checkCommand(int cmd) {
+    return cmd &gt;= 0 &amp;&amp; cmd &lt;=3;
+}</span>
+
+<span style = "background-color:#fdd">void UI::add() {</span>
+    char aux[100];
+<span style = "background-color:#fdd">    string title, genre, trailer;</span>
+    int year, likes;
+
+    //Flush get line
+<span style = "background-color:#fdd">    this-&gt;flushGetLine();</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"Title: ";
+    cin.getline(aux, 100);
+    title = string(aux);</span>
+
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"Genre: ";
+    cin.getline(aux, 100);
+    genre = string(aux);</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"Year: ";
+    cin&gt;&gt;year;</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"Likes: ";
+    cin&gt;&gt;likes;</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"Trailer: ";
+    cin&gt;&gt;trailer;</span>
+
+
+<span style = "background-color:#fdd">    this-&gt;movieController-&gt;add(title, genre, likes, year, trailer);
+}</span>
+
+<span style = "background-color:#fdd">void UI::del() {</span>
+    char aux[100];
+<span style = "background-color:#fdd">    string title;</span>
+
+    //Flush get line
+<span style = "background-color:#fdd">    this-&gt;flushGetLine();</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"Title: ";
+    cin.getline(aux, 100);
+    title = string(aux);</span>
+
+<span style = "background-color:#fdd">    this-&gt;movieController-&gt;del(title);
+}</span>
+
+<span style = "background-color:#fdd">void UI::update() {</span>
+    char aux[100];
+<span style = "background-color:#fdd">    string oldTitle, title, genre, trailer;</span>
+    int year, likes;
+
+    //Flush get line
+<span style = "background-color:#fdd">    this-&gt;flushGetLine();</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"Old title: ";
+    cin.getline(aux, 100);
+    oldTitle = string(aux);</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"New title: ";
+    cin.getline(aux, 100);
+    title = string(aux);</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"New genre: ";
+    cin.getline(aux, 100);
+    genre = string(aux);</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"New year: ";
+    cin&gt;&gt;year;</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"New likes: ";
+    cin&gt;&gt;likes;</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"New trailer: ";
+    cin&gt;&gt;trailer;</span>
+
+<span style = "background-color:#fdd">    this-&gt;movieController-&gt;update(oldTitle, title, genre, likes, year, trailer);
+}</span>
+
+<span style = "background-color:#fdd">void UI::list() {</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"\n\nTitle"&lt;&lt;setw(25)&lt;&lt;"Genre"&lt;&lt;setw(25)&lt;&lt;"Year"&lt;&lt;setw(25)&lt;&lt;"Likes"&lt;&lt;"\n";
+    cout &lt;&lt; setfill('#') &lt;&lt; std::setw(90) &lt;&lt; " \n";</span>
+
+<span style = "background-color:#fdd">    Iterator&lt; Movie&gt; st1( this-&gt;movieController-&gt;getMovieRepository().begin() );
+    Iterator&lt; Movie&gt; dr1( this-&gt;movieController-&gt;getMovieRepository().end() );</span>
+
+
+<span style = "background-color:#fdd">    for (Iterator&lt; Movie &gt; it=st1; it!=dr1; it++) {
+        Movie crt = *it;
+        cout&lt;&lt;setfill(' ')&lt;&lt;setw(25)&lt;&lt; left &lt;&lt;setw(25) &lt;&lt; crt.getTitle() &lt;&lt; setw(25) &lt;&lt; crt.getGenre() &lt;&lt; setw(25) &lt;&lt; crt.getYear() &lt;&lt; setw(25) &lt;&lt; crt.getLikes() &lt;&lt; "\n";
+    }</span>
+
+<span style = "background-color:#fdd">}</span>
+
+<span style = "background-color:#fdd">void UI::userSeeMoviesByGenre() {
+    int pos = 1, cmd, cmd2;
+    string genre;</span>
+    char genreStr[100];
+<span style = "background-color:#fdd">    Movie crtMovie;</span>
+
+    //Flush get line
+<span style = "background-color:#fdd">    this-&gt;flushGetLine();</span>
+
+<span style = "background-color:#fdd">    cout &lt;&lt; "Genre: ";
+    cin.getline(genreStr, 100);
+    genre = string(genreStr);</span>
+
+
+
+<span style = "background-color:#fdd">    while(true) {
+        cout&lt;&lt;"\n"&lt;&lt;setfill(' ')&lt;&lt;"Title"&lt;&lt;setw(25)&lt;&lt;"Genre"&lt;&lt;setw(25)&lt;&lt;"Year"&lt;&lt;setw(25)&lt;&lt;"Likes"&lt;&lt;"\n";
+        cout &lt;&lt; setfill('#') &lt;&lt; std::setw(90) &lt;&lt; "\n";</span>
+
+<span style = "background-color:#fdd">        crtMovie = this-&gt;movieController-&gt;getByGenreByStep(genre, pos);</span>
+
+<span style = "background-color:#fdd">        cout&lt;&lt;setfill(' ')&lt;&lt; "\n"&lt;&lt; setw(25)&lt;&lt; left &lt;&lt;setw(25) &lt;&lt; crtMovie.getTitle() &lt;&lt; setw(25) &lt;&lt; crtMovie.getGenre() &lt;&lt; setw(25) &lt;&lt; crtMovie.getYear() &lt;&lt; setw(25) &lt;&lt; crtMovie.getLikes() &lt;&lt; "\n";</span>
+
+<span style = "background-color:#fdd">        cout &lt;&lt; setfill('-') &lt;&lt; std::setw(90) &lt;&lt; " \n";</span>
+
+<span style = "background-color:#fdd">        cout &lt;&lt; "\n"&lt;&lt;setfill(' ') &lt;&lt; setw(25) &lt;&lt; "1. Like trailer";
+        cout &lt;&lt; "\n"&lt;&lt;setfill(' ') &lt;&lt; setw(25) &lt;&lt; "2. Next";
+        cout &lt;&lt; "\n"&lt;&lt;setfill(' ') &lt;&lt; setw(25) &lt;&lt; "3. Back";
+        cout &lt;&lt; "\n"&lt;&lt;setfill(' ') &lt;&lt; setw(25) ;</span>
+
+        //Open a link in chrome
+<span style = "background-color:#fdd">        string command (CHROME);
+        command += " " + crtMovie.getTrailer();
+        system(command.c_str());</span>
+
+
+<span style = "background-color:#fdd">        cin.sync();
+        cin &gt;&gt; cmd;
+        switch(cmd){</span>
+            case 1:
+                //LIKE -&gt; increment the number of likes
+                //this-&gt;movieController.incrementLikes( crtMovie.getTitle() );
+
+<span style = "background-color:#fdd">                cout &lt;&lt; "\n\n"&lt;&lt; setfill('-') &lt;&lt; setw(75);
+                cout &lt;&lt; "\n" &lt;&lt;setfill(' ') &lt;&lt; setw(25) &lt;&lt; "1. Add to watchlist";
+                cout &lt;&lt; "\n" &lt;&lt; setfill(' ') &lt;&lt; setw(25) &lt;&lt; "2. Back";</span>
+
+<span style = "background-color:#fdd">                cin&gt;&gt;cmd2;
+                switch(cmd2) {</span>
+                    case 1:
+                        // ADD to watchlist
+
+<span style = "background-color:#fdd">                        int posF = this-&gt;movieController-&gt;getMovieRepository().getMovies().find(crtMovie.getTitle());
+                        Movie foundMovie = this-&gt;movieController-&gt;getMovieRepository().getMovies().get(posF);</span>
+
+<span style = "background-color:#fdd">                        this-&gt;movieController-&gt;getWatchListRepository()-&gt;add(WatchListItem( crtMovie.getTitle(), foundMovie ));</span>
+
+<span style = "background-color:#fdd">                        this-&gt;movieController-&gt;getWatchListRepository()-&gt;save();
+                        this-&gt;movieController-&gt;getWatchListRepository()-&gt;saveCustom();</span>
+
+<span style = "background-color:#fdd">                        pos += 1;
+                        break;
+                }</span>
+
+<span style = "background-color:#fdd">                continue;</span>
+            case 2:
+                //NEXT
+<span style = "background-color:#fdd">                pos += 1;
+                continue;</span>
+            default:
+<span style = "background-color:#fdd">                pos = -1;</span>
+                break;
+        }
+
+<span style = "background-color:#fdd">        cout &lt;&lt; "\n" &lt;&lt; setfill(' ') &lt;&lt; setw(25);</span>
+
+        //Lame stuff to trick the IDE not to show a warning anymore
+<span style = "background-color:#fdd">        if( pos == -1)
+            break;</span>
+
+<span style = "background-color:#fdd">    }
+}</span>
+
+<span style = "background-color:#fdd">void UI::userSeeWatchList() {
+    WatchListItem crtItem;</span>
+
+<span style = "background-color:#fdd">    cout&lt;&lt;"\n\nTitle"&lt;&lt;setw(25)&lt;&lt;"\n";
+    cout &lt;&lt; setfill('#') &lt;&lt; std::setw(25) &lt;&lt; " \n";
+    cout&lt;&lt;"\n";</span>
+
+<span style = "background-color:#fdd">    Iterator&lt; WatchListItem &gt; st1( this-&gt;movieController-&gt;getWatchListRepository()-&gt;begin() );
+    Iterator&lt; WatchListItem &gt; dr1( this-&gt;movieController-&gt;getWatchListRepository()-&gt;end() );</span>
+
+
+<span style = "background-color:#fdd">    for (Iterator&lt; WatchListItem &gt; it=st1; it!=dr1; it++) {
+        WatchListItem crt = *it;
+        cout&lt;&lt;setfill(' ')&lt;&lt;setw(25)&lt;&lt; left &lt;&lt;setw(25) &lt;&lt; crt.getTitle()  &lt;&lt; "\n";
+    }
+}</span>
+
+<span style = "background-color:#fdd">void UI::userDeleteWatchList() {</span>
+    char aux[100];
+    int cmd;
+<span style = "background-color:#fdd">    string title;</span>
+
+    //Flush get line
+<span style = "background-color:#fdd">    this-&gt;flushGetLine();</span>
+
+<span style = "background-color:#fdd">    cout &lt;&lt; "Title: ";
+    cin.getline(aux, 100);
+    title = string(aux);</span>
+
+<span style = "background-color:#fdd">    int pos = this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().find(WatchListItem(title));
+    if(pos == -1)
+        throw Exception("Invalid movie name");
+    this-&gt;movieController-&gt;getWatchListRepository()-&gt;getWatchList().erase(pos);</span>
+
+
+
+
+<span style = "background-color:#fdd">    cout &lt;&lt; "\n---------------------------------------------------------------------------------------------------------  \n" ;
+    cout &lt;&lt; "1. Like the movie\n";
+    cout &lt;&lt; "2. Back\n";</span>
+
+<span style = "background-color:#fdd">    cin&gt;&gt;cmd;
+    switch(cmd) {</span>
+        case 1:
+            // Like the movie
+<span style = "background-color:#fdd">            this-&gt;movieController-&gt;incrementLikes( title );</span>
+            break;
+        default:
+            break;
+    }
+<span style = "background-color:#fdd">}</span>
+
+<span style = "background-color:#fdd">void UI::flushGetLine() {
+    cin.clear();
+    while (cin.get() != '\n') {
+        continue;
+    }</span>
+
+<span style = "background-color:#fdd">}</span>
+
+
+<span style = "background-color:#fdd">void UI::printWatchListType() {</span>
+
+<span style = "background-color:#fdd">    cout &lt;&lt; "\n##########################\n";
+    cout &lt;&lt; "0. CSV Watch List\n";
+    cout &lt;&lt; "1. HTML Watch List\n";
+    cout &lt;&lt; "##########################\n";</span>
+
+
+    int cmd;
+<span style = "background-color:#fdd">    cin &gt;&gt; cmd;</span>
+
+<span style = "background-color:#fdd">    if(cmd &lt; 0 || cmd &gt; 1)
+        throw Exception("Invalid command");</span>
+
+<span style = "background-color:#fdd">    this-&gt;userWatchListType(cmd);</span>
+
+<span style = "background-color:#fdd">}</span>
+
+<span style = "background-color:#fdd">void UI::userWatchListType(int cmd) {
+    switch(cmd) {</span>
+        case 0:
+            // Like the movie
+<span style = "background-color:#fdd">            this-&gt;movieController = new  MovieController&lt; FSTL &gt;( new CSVWatchListRepository() );
+            this-&gt;movieController-&gt;getWatchListRepository()-&gt;saveCustom();
+            this-&gt;watchListType = 0;
+            break;</span>
+        case 1:
+<span style = "background-color:#fdd">            this-&gt;movieController = new MovieController&lt; FSTL &gt;( new HTMLWatchListRepository() );
+            this-&gt;movieController-&gt;getWatchListRepository()-&gt;saveCustom();
+            this-&gt;watchListType = 1;</span>
+            break;
+        default:
+            break;
+    }
+<span style = "background-color:#fdd">}</span>
+
+<span style = "background-color:#fdd">void UI::userSeeFormatedWatchList() {
+    if(!this -&gt; watchListType) {
+        string command (ATOM);
+        command += " /Users/so/Desktop/UBB/OOP2/LAB5-6/Files/csv-watch-list.txt";
+        system(command.c_str());
+    }</span>
+
+<span style = "background-color:#fdd">    if(this -&gt; watchListType) {
+        string command (CHROME);
+        command += " /Users/so/Desktop/UBB/OOP2/LAB5-6/Files/html-watch-list.html";
+        system(command.c_str());
+    }</span>
+
+<span style = "background-color:#fdd">}</span></pre>
+	</body>
+</html>

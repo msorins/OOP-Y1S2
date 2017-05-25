@@ -1,0 +1,140 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>moviecontroller.cpp</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 22/03/2017.
+//
+#include "../stdafx.h"
+#include "MovieController.h"
+#include "../Repository/IWatchListRepository.h"
+#include "../Repository/MemoryMovieRepository.h"
+#include "../Repository/FileMovieRepository.h"
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">MovieController&lt;TRepo&gt;::MovieController() {</span>
+    /*
+     * CONSTRUCTOR
+     */
+
+<span style = "background-color:#fdd">    this-&gt;getMovieRepository().load();
+}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#dfd">MovieController&lt;TRepo&gt;::MovieController(IWatchListRepository *watchListRepo) {
+    this-&gt;getMovieRepository().load();
+    this-&gt;setWatchListRepository(watchListRepo);
+}</span>
+
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">MovieController&lt;TRepo&gt;::~MovieController() {</span>
+
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#dfd">TRepo &amp; MovieController&lt;TRepo&gt;::getMovieRepository() {</span>
+    /*
+     * GETTER for movieRepository
+     */
+<span style = "background-color:#dfd">    return this-&gt;movieRepository;
+}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#dfd">IWatchListRepository *MovieController&lt;TRepo&gt;::getWatchListRepository() {</span>
+    /*
+     * GETTER for WatchListItem
+     */
+<span style = "background-color:#dfd">    return this-&gt;watchListRepository;
+}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#dfd">void MovieController&lt;TRepo&gt;::add(string title, string genre, int year, int likes, string trailer) {</span>
+    /*
+     * Add a new movie
+     */
+<span style = "background-color:#dfd">    this-&gt;movieRepository.add(Movie(title, genre, year, likes, trailer));</span>
+
+<span style = "background-color:#dfd">    this-&gt;getMovieRepository().save();</span>
+
+<span style = "background-color:#dfd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#dfd">void MovieController&lt;TRepo&gt;::del(string title) {</span>
+    /*
+     * Delete a movie
+     */
+<span style = "background-color:#dfd">    this-&gt;getMovieRepository().del(Movie(title));</span>
+
+<span style = "background-color:#dfd">    this-&gt;getMovieRepository().save();</span>
+
+<span style = "background-color:#dfd">}</span>
+
+template&lt;class TRepo&gt;
+void MovieController&lt;TRepo&gt;::update(string titleOld, string titleNew, string genreNew, int yearNew, int likesNew,
+<span style = "background-color:#dfd">                             string trailerNew) {</span>
+    /*
+     * Update a movie
+     */
+<span style = "background-color:#dfd">    this-&gt;getMovieRepository().update(titleOld, Movie(titleNew, genreNew, yearNew, likesNew, trailerNew));</span>
+
+<span style = "background-color:#dfd">    this-&gt;getMovieRepository().save();
+}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">Movie MovieController&lt;TRepo&gt;::getByGenreByStep(string genre, int pos) {</span>
+    /*
+     * Returns a single movie by genre
+     */
+<span style = "background-color:#fdd">    auto moviesByGenre = this-&gt;getMovieRepository().getByGenre(genre);</span>
+
+<span style = "background-color:#fdd">    if(moviesByGenre.size() == 0)
+        throw ("No movies with given genre ");</span>
+
+<span style = "background-color:#fdd">    return moviesByGenre.get( (pos % moviesByGenre.size()) );</span>
+
+<span style = "background-color:#fdd">}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#fdd">void MovieController&lt;TRepo&gt;::incrementLikes(string title) {</span>
+    /*
+     *  Receives a string title and increase the amount of likes
+     */
+
+    //Get the position in the dynamic array
+<span style = "background-color:#fdd">    int posMovie = this-&gt;getMovieRepository().getMovies().find( Movie(title) );</span>
+
+    //Get the element itself
+<span style = "background-color:#fdd">    Movie crtMovie = this-&gt;getMovieRepository().getMovies().get(posMovie);</span>
+
+    //Increase the number of likes
+<span style = "background-color:#fdd">    crtMovie.setLikes( crtMovie.getLikes() + 1 );</span>
+
+    //Delete the old object
+<span style = "background-color:#fdd">    this-&gt;getMovieRepository().del( Movie(title) );</span>
+
+    //Now add the new one
+<span style = "background-color:#fdd">    this-&gt;getMovieRepository().add( crtMovie );
+}</span>
+
+template&lt;class TRepo&gt;
+<span style = "background-color:#dfd">void MovieController&lt;TRepo&gt;::setWatchListRepository(IWatchListRepository *watchListRepository) {
+    this-&gt;watchListRepository = watchListRepository;
+}</span>
+
+
+template class MovieController&lt; MemoryMovieRepository&lt;STLVector&lt;Movie&gt;&gt; &gt;;
+template class MovieController&lt; FileMovieRepository&lt;STLVector&lt;Movie&gt;&gt; &gt;;
+
+template class MovieController&lt; MemoryMovieRepository&lt;DynamicArray&lt;Movie&gt;&gt; &gt;;
+template class MovieController&lt; FileMovieRepository&lt;DynamicArray&lt;Movie&gt;&gt; &gt;;
+</pre>
+	</body>
+</html>

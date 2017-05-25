@@ -1,0 +1,62 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta charset="utf-8"/>
+	    <title>iterator.h</title>
+	    <link href="../../third-party/google-code-prettify/prettify-CppCoverage.css" type="text/css" rel="stylesheet" />
+	    <script type="text/javascript" src="../../third-party/google-code-prettify/prettify.js"></script>
+	</head>
+	<body onload="prettyPrint()">
+        <h4></h4>
+		<pre class="prettyprint lang-cpp linenums">
+//
+// Created by Sorin Sebastian Mircea on 11/04/2017.
+//
+
+#ifndef LAB5_6_ITERATOR_H
+#define LAB5_6_ITERATOR_H
+#include &lt;iostream&gt;
+using namespace std;
+
+template&lt;class TElement&gt;
+class Iterator : public std::iterator&lt;input_iterator_tag, TElement&gt;
+{
+    TElement* p;
+public:
+<span style = "background-color:#fdd">    Iterator(TElement* x) :p(x) {</span>
+
+<span style = "background-color:#fdd">    }</span>
+
+<span style = "background-color:#fdd">    Iterator(const Iterator&amp; mit) : p(mit.p) {</span>
+
+<span style = "background-color:#fdd">    }</span>
+
+<span style = "background-color:#fdd">    Iterator&amp; operator++() {
+        ++p;
+        return *this;
+    }</span>
+
+
+<span style = "background-color:#fdd">    Iterator operator++(int) {
+        Iterator tmp(*this);
+        operator++();
+        return tmp;
+    }</span>
+
+<span style = "background-color:#fdd">    bool operator==(const Iterator&amp; rhs) {
+        return p==rhs.p;
+    }</span>
+
+<span style = "background-color:#fdd">    bool operator!=(const Iterator&amp; rhs) {
+        return p!=rhs.p;
+    }</span>
+
+<span style = "background-color:#fdd">    TElement&amp; operator*() {
+        return *p;
+    }</span>
+};
+
+
+#endif //LAB5_6_ITERATOR_H</pre>
+	</body>
+</html>
