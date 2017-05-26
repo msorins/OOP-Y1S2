@@ -228,7 +228,7 @@ public:
         nextButton->setText(QApplication::translate("MainWindow", "NEXT", Q_NULLPTR));
         addWatchListButton->setText(QApplication::translate("MainWindow", "Add", Q_NULLPTR));
         eraseWatchListButton->setText(QApplication::translate("MainWindow", "Erase", Q_NULLPTR));
-        undoButton->setText(QApplication::translate("MainWindow", "Undo", Q_NULLPTR));
+        undoButton->setText(QApplication::translate("MainWindow", "UndoRedo", Q_NULLPTR));
         redoButton->setText(QApplication::translate("MainWindow", "Redo", Q_NULLPTR));
     } // retranslateUi
 

@@ -6,21 +6,22 @@
 #define LAB5_6_UNDOUPDATE_H
 
 
-#include "Undo.h"
+#include "UndoRedo.h"
 #include "../Repository/IWatchListRepository.h"
 #include "../Repository/MovieRepository.h"
 #include "../Repository/IMovieRepository.h"
 
 template<class TRepo>
-class UndoUpdate: Undo<TRepo> {
+class UndoRedoUpdate: public UndoRedo<TRepo> {
 private:
-    Movie updatedMovie;
-    TRepo movieRepository;
+    Movie oldMovie, newMovie;
+    TRepo& movieRepository;
 
 public:
-    UndoUpdate(TRepo &repo, const Movie &movie);
+    UndoRedoUpdate(TRepo &repo, const Movie &movieOld, const Movie &movieNew);
 
     void executeUndo() override;
+    void executeRedo() override;
 };
 
 

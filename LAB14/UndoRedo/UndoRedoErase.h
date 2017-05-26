@@ -6,21 +6,23 @@
 #define LAB5_6_UNDOERASE_H
 
 
-#include "Undo.h"
+#include "UndoRedo.h"
 #include "../Repository/IWatchListRepository.h"
 #include "../Repository/MovieRepository.h"
 #include "../Repository/IMovieRepository.h"
 
 template<class TRepo>
-class UndoErase: Undo<TRepo> {
+class UndoRedoErase: public UndoRedo<TRepo> {
 private:
     Movie erasedMovie;
     TRepo &movieRepository;
 
 public:
-    UndoErase(TRepo &repo, const Movie &movie);
+    UndoRedoErase(TRepo &repo, const Movie &movie);
 
     void executeUndo() override;
+    void executeRedo() override;
+
 };
 
 

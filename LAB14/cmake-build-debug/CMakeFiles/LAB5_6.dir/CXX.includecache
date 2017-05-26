@@ -15,12 +15,12 @@ MovieController.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MemoryMovieRepository.h
 ../Repository/FileMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/FileMovieRepository.h
-../Undo/UndoAdd.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
-../Undo/UndoErase.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.h
-../Undo/UndoUpdate.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.h
+../UndoRedo/UndoRedoAdd.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
+../UndoRedo/UndoRedoErase.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.h
+../UndoRedo/UndoRedoUpdate.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.h
 memory
 -
 
@@ -35,10 +35,10 @@ memory
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/CSVWatchListRepository.h
 ../Repository/HTMLWatchListRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/HTMLWatchListRepository.h
-../Undo/Undo.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
-../Undo/UndoAdd.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
+../UndoRedo/UndoRedo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+../UndoRedo/UndoRedoAdd.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
 memory
 -
 vector
@@ -354,15 +354,15 @@ QtWidgets/QVBoxLayout
 QtWidgets/QWidget
 -
 
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.cpp
-Undo.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp
+UndoRedo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
 
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
 
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.cpp
-UndoAdd.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.cpp
+UndoRedoAdd.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
 ../Repository/FileMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/FileMovieRepository.h
 ../Repository/MemoryMovieRepository.h
@@ -370,9 +370,9 @@ UndoAdd.h
 ../List/STLVector.h
 /Users/so/Desktop/UBB/OOP2/LAB14/List/STLVector.h
 
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
-Undo.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
+UndoRedo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
 ../Model/Movie.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Model/Movie.h
 ../Repository/IWatchListRepository.h
@@ -380,9 +380,9 @@ Undo.h
 ../Repository/IMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IMovieRepository.h
 
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.cpp
-UndoErase.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.cpp
+UndoRedoErase.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.h
 ../Repository/FileMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/FileMovieRepository.h
 ../Repository/MemoryMovieRepository.h
@@ -390,9 +390,9 @@ UndoErase.h
 ../List/STLVector.h
 /Users/so/Desktop/UBB/OOP2/LAB14/List/STLVector.h
 
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.h
-Undo.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.h
+UndoRedo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
 ../Repository/IWatchListRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IWatchListRepository.h
 ../Repository/MovieRepository.h
@@ -400,9 +400,9 @@ Undo.h
 ../Repository/IMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IMovieRepository.h
 
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.cpp
-UndoUpdate.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.cpp
+UndoRedoUpdate.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.h
 ../Repository/FileMovieRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/FileMovieRepository.h
 ../Repository/MemoryMovieRepository.h
@@ -410,9 +410,9 @@ UndoUpdate.h
 ../List/STLVector.h
 /Users/so/Desktop/UBB/OOP2/LAB14/List/STLVector.h
 
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.h
-Undo.h
-/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.h
+UndoRedo.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
 ../Repository/IWatchListRepository.h
 /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IWatchListRepository.h
 ../Repository/MovieRepository.h

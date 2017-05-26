@@ -240,28 +240,28 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_MainWindow.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.h">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.cpp">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.h">
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.h">
 			<Option target="LAB5_6"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/main.cpp">

@@ -16,10 +16,10 @@ CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IWatchListRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MemoryMovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MovieRepository.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Controller/MovieController.h
  /Users/so/Desktop/UBB/OOP2/LAB14/List/DynamicArray.h
@@ -36,8 +36,8 @@ CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/MainWindow.h
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/UI.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
  /Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/LAB5_6_automoc.cpp
  /Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/moc_MainWindow.cpp
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
@@ -173,8 +173,8 @@ CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/Tests/Tests.cpp
  /Users/so/Desktop/UBB/OOP2/LAB14/Tests/Tests.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Controller/MovieController.h
  /Users/so/Desktop/UBB/OOP2/LAB14/List/DynamicArray.h
@@ -194,8 +194,8 @@ CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/MainWindow.h
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/UI.h
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_MainWindow.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
@@ -218,15 +218,15 @@ CMakeFiles/LAB5_6.dir/UI/UI.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/UI.cpp
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/UI.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
 CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_MainWindow.cpp
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_MainWindow.h
-CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.cpp
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
-CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/List/DynamicArray.h
  /Users/so/Desktop/UBB/OOP2/LAB14/List/IDynamicArray.h
  /Users/so/Desktop/UBB/OOP2/LAB14/List/STLVector.h
@@ -236,24 +236,10 @@ CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IMovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IWatchListRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MemoryMovieRepository.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.cpp
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
-CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o
- /Users/so/Desktop/UBB/OOP2/LAB14/List/DynamicArray.h
- /Users/so/Desktop/UBB/OOP2/LAB14/List/IDynamicArray.h
- /Users/so/Desktop/UBB/OOP2/LAB14/List/STLVector.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Model/Movie.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Model/WatchListItem.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Repository/FileMovieRepository.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IMovieRepository.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IWatchListRepository.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MemoryMovieRepository.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MovieRepository.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.cpp
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.h
-CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.cpp
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/List/DynamicArray.h
  /Users/so/Desktop/UBB/OOP2/LAB14/List/IDynamicArray.h
  /Users/so/Desktop/UBB/OOP2/LAB14/List/STLVector.h
@@ -264,9 +250,23 @@ CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IWatchListRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MemoryMovieRepository.h
  /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MovieRepository.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.cpp
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.cpp
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.h
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o
+ /Users/so/Desktop/UBB/OOP2/LAB14/List/DynamicArray.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/List/IDynamicArray.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/List/STLVector.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/Model/Movie.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/Model/WatchListItem.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/Repository/FileMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/Repository/IWatchListRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MemoryMovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/Repository/MovieRepository.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.cpp
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.h
 CMakeFiles/LAB5_6.dir/main.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Controller/MovieController.h
  /Users/so/Desktop/UBB/OOP2/LAB14/List/DynamicArray.h
@@ -286,8 +286,8 @@ CMakeFiles/LAB5_6.dir/main.cpp.o
  /Users/so/Desktop/UBB/OOP2/LAB14/Tests/Tests.h
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/MainWindow.h
  /Users/so/Desktop/UBB/OOP2/LAB14/UI/UI.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.h
- /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.h
+ /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.h
  /Users/so/Desktop/UBB/OOP2/LAB14/main.cpp
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h

@@ -703,113 +703,113 @@ UI/Ui_MainWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.s
 .PHONY : UI/Ui_MainWindow.cpp.s
 
-Undo/Undo.o: Undo/Undo.cpp.o
+UndoRedo/UndoRedo.o: UndoRedo/UndoRedo.cpp.o
 
-.PHONY : Undo/Undo.o
-
-# target to build an object file
-Undo/Undo.cpp.o:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o
-.PHONY : Undo/Undo.cpp.o
-
-Undo/Undo.i: Undo/Undo.cpp.i
-
-.PHONY : Undo/Undo.i
-
-# target to preprocess a source file
-Undo/Undo.cpp.i:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.i
-.PHONY : Undo/Undo.cpp.i
-
-Undo/Undo.s: Undo/Undo.cpp.s
-
-.PHONY : Undo/Undo.s
-
-# target to generate assembly for a file
-Undo/Undo.cpp.s:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.s
-.PHONY : Undo/Undo.cpp.s
-
-Undo/UndoAdd.o: Undo/UndoAdd.cpp.o
-
-.PHONY : Undo/UndoAdd.o
+.PHONY : UndoRedo/UndoRedo.o
 
 # target to build an object file
-Undo/UndoAdd.cpp.o:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o
-.PHONY : Undo/UndoAdd.cpp.o
+UndoRedo/UndoRedo.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o
+.PHONY : UndoRedo/UndoRedo.cpp.o
 
-Undo/UndoAdd.i: Undo/UndoAdd.cpp.i
+UndoRedo/UndoRedo.i: UndoRedo/UndoRedo.cpp.i
 
-.PHONY : Undo/UndoAdd.i
+.PHONY : UndoRedo/UndoRedo.i
 
 # target to preprocess a source file
-Undo/UndoAdd.cpp.i:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.i
-.PHONY : Undo/UndoAdd.cpp.i
+UndoRedo/UndoRedo.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.i
+.PHONY : UndoRedo/UndoRedo.cpp.i
 
-Undo/UndoAdd.s: Undo/UndoAdd.cpp.s
+UndoRedo/UndoRedo.s: UndoRedo/UndoRedo.cpp.s
 
-.PHONY : Undo/UndoAdd.s
+.PHONY : UndoRedo/UndoRedo.s
 
 # target to generate assembly for a file
-Undo/UndoAdd.cpp.s:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.s
-.PHONY : Undo/UndoAdd.cpp.s
+UndoRedo/UndoRedo.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.s
+.PHONY : UndoRedo/UndoRedo.cpp.s
 
-Undo/UndoErase.o: Undo/UndoErase.cpp.o
+UndoRedo/UndoRedoAdd.o: UndoRedo/UndoRedoAdd.cpp.o
 
-.PHONY : Undo/UndoErase.o
+.PHONY : UndoRedo/UndoRedoAdd.o
 
 # target to build an object file
-Undo/UndoErase.cpp.o:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o
-.PHONY : Undo/UndoErase.cpp.o
+UndoRedo/UndoRedoAdd.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o
+.PHONY : UndoRedo/UndoRedoAdd.cpp.o
 
-Undo/UndoErase.i: Undo/UndoErase.cpp.i
+UndoRedo/UndoRedoAdd.i: UndoRedo/UndoRedoAdd.cpp.i
 
-.PHONY : Undo/UndoErase.i
+.PHONY : UndoRedo/UndoRedoAdd.i
 
 # target to preprocess a source file
-Undo/UndoErase.cpp.i:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.i
-.PHONY : Undo/UndoErase.cpp.i
+UndoRedo/UndoRedoAdd.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.i
+.PHONY : UndoRedo/UndoRedoAdd.cpp.i
 
-Undo/UndoErase.s: Undo/UndoErase.cpp.s
+UndoRedo/UndoRedoAdd.s: UndoRedo/UndoRedoAdd.cpp.s
 
-.PHONY : Undo/UndoErase.s
+.PHONY : UndoRedo/UndoRedoAdd.s
 
 # target to generate assembly for a file
-Undo/UndoErase.cpp.s:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.s
-.PHONY : Undo/UndoErase.cpp.s
+UndoRedo/UndoRedoAdd.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.s
+.PHONY : UndoRedo/UndoRedoAdd.cpp.s
 
-Undo/UndoUpdate.o: Undo/UndoUpdate.cpp.o
+UndoRedo/UndoRedoErase.o: UndoRedo/UndoRedoErase.cpp.o
 
-.PHONY : Undo/UndoUpdate.o
+.PHONY : UndoRedo/UndoRedoErase.o
 
 # target to build an object file
-Undo/UndoUpdate.cpp.o:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o
-.PHONY : Undo/UndoUpdate.cpp.o
+UndoRedo/UndoRedoErase.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o
+.PHONY : UndoRedo/UndoRedoErase.cpp.o
 
-Undo/UndoUpdate.i: Undo/UndoUpdate.cpp.i
+UndoRedo/UndoRedoErase.i: UndoRedo/UndoRedoErase.cpp.i
 
-.PHONY : Undo/UndoUpdate.i
+.PHONY : UndoRedo/UndoRedoErase.i
 
 # target to preprocess a source file
-Undo/UndoUpdate.cpp.i:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.i
-.PHONY : Undo/UndoUpdate.cpp.i
+UndoRedo/UndoRedoErase.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.i
+.PHONY : UndoRedo/UndoRedoErase.cpp.i
 
-Undo/UndoUpdate.s: Undo/UndoUpdate.cpp.s
+UndoRedo/UndoRedoErase.s: UndoRedo/UndoRedoErase.cpp.s
 
-.PHONY : Undo/UndoUpdate.s
+.PHONY : UndoRedo/UndoRedoErase.s
 
 # target to generate assembly for a file
-Undo/UndoUpdate.cpp.s:
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.s
-.PHONY : Undo/UndoUpdate.cpp.s
+UndoRedo/UndoRedoErase.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.s
+.PHONY : UndoRedo/UndoRedoErase.cpp.s
+
+UndoRedo/UndoRedoUpdate.o: UndoRedo/UndoRedoUpdate.cpp.o
+
+.PHONY : UndoRedo/UndoRedoUpdate.o
+
+# target to build an object file
+UndoRedo/UndoRedoUpdate.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o
+.PHONY : UndoRedo/UndoRedoUpdate.cpp.o
+
+UndoRedo/UndoRedoUpdate.i: UndoRedo/UndoRedoUpdate.cpp.i
+
+.PHONY : UndoRedo/UndoRedoUpdate.i
+
+# target to preprocess a source file
+UndoRedo/UndoRedoUpdate.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.i
+.PHONY : UndoRedo/UndoRedoUpdate.cpp.i
+
+UndoRedo/UndoRedoUpdate.s: UndoRedo/UndoRedoUpdate.cpp.s
+
+.PHONY : UndoRedo/UndoRedoUpdate.s
+
+# target to generate assembly for a file
+UndoRedo/UndoRedoUpdate.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.s
+.PHONY : UndoRedo/UndoRedoUpdate.cpp.s
 
 main.o: main.cpp.o
 
@@ -911,18 +911,18 @@ help:
 	@echo "... UI/Ui_MainWindow.o"
 	@echo "... UI/Ui_MainWindow.i"
 	@echo "... UI/Ui_MainWindow.s"
-	@echo "... Undo/Undo.o"
-	@echo "... Undo/Undo.i"
-	@echo "... Undo/Undo.s"
-	@echo "... Undo/UndoAdd.o"
-	@echo "... Undo/UndoAdd.i"
-	@echo "... Undo/UndoAdd.s"
-	@echo "... Undo/UndoErase.o"
-	@echo "... Undo/UndoErase.i"
-	@echo "... Undo/UndoErase.s"
-	@echo "... Undo/UndoUpdate.o"
-	@echo "... Undo/UndoUpdate.i"
-	@echo "... Undo/UndoUpdate.s"
+	@echo "... UndoRedo/UndoRedo.o"
+	@echo "... UndoRedo/UndoRedo.i"
+	@echo "... UndoRedo/UndoRedo.s"
+	@echo "... UndoRedo/UndoRedoAdd.o"
+	@echo "... UndoRedo/UndoRedoAdd.i"
+	@echo "... UndoRedo/UndoRedoAdd.s"
+	@echo "... UndoRedo/UndoRedoErase.o"
+	@echo "... UndoRedo/UndoRedoErase.i"
+	@echo "... UndoRedo/UndoRedoErase.s"
+	@echo "... UndoRedo/UndoRedoUpdate.o"
+	@echo "... UndoRedo/UndoRedoUpdate.i"
+	@echo "... UndoRedo/UndoRedoUpdate.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

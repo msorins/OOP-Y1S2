@@ -7,13 +7,14 @@
 
 
 template<class TRepo>
-class Undo {
+class UndoRedo {
 public:
     //Virtual destructor
-    virtual ~Undo() {};
+    virtual ~UndoRedo() {};
 
     //Functionality
     virtual void executeUndo() = 0;
+    virtual void executeRedo() = 0;
 };
 
 

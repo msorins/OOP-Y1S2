@@ -9,8 +9,8 @@
 #include "../Repository/IWatchListRepository.h"
 #include "../Repository/CSVWatchListRepository.h"
 #include "../Repository/HTMLWatchListRepository.h"
-#include "../Undo/Undo.h"
-#include "../Undo/UndoAdd.h"
+#include "../UndoRedo/UndoRedo.h"
+#include "../UndoRedo/UndoRedoAdd.h"
 #include <memory>
 #include <vector>
 #include <iostream>
@@ -24,7 +24,8 @@ private:
     IWatchListRepository* watchListRepository;
 
 public:
-    vector< unique_ptr<Undo<TRepo> > > undoList;
+    vector< shared_ptr<UndoRedo<TRepo> > > undoList;
+    vector< shared_ptr<UndoRedo<TRepo> > > redoList;
 
 public:
     // Constructors and Destructors

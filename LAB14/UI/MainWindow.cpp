@@ -260,16 +260,32 @@ void MainWindow::nextMovie() {
 
 void MainWindow::executeUndo() {
 
+    cout<<"UNDO EXECUTED\n";
     if(this->movieController->undoList.size()) {
+        //First add undo to redo
+        this->movieController->redoList.push_back(this->movieController->undoList[this->movieController->undoList.size()-1] );
+
+        int x = this->movieController->redoList.size();
+        //Then execute the undo
         this->movieController->undoList.back()->executeUndo();
         this->movieController->undoList.pop_back();
+
+        int y = this->movieController->redoList.size();
         emit moviesUpdated();
     }
 
 }
 
 void MainWindow::executeRedo() {
+    cout<<this->movieController->redoList.size()<<"\n";
+    cout<<"REDO EXECUTED\n";
+    if(this->movieController->redoList.size()) {
 
+        //Execute the redo
+        this->movieController->redoList.back()->executeRedo();
+        this->movieController->redoList.pop_back();
+        emit moviesUpdated();
+    }
 }
 
 

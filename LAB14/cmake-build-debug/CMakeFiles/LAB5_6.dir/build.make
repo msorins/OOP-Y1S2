@@ -561,100 +561,100 @@ CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o.provides: CMakeFiles/LAB5_6.dir/UI/
 CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o
 
 
-CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
-CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o: ../Undo/Undo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.cpp
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o: ../UndoRedo/UndoRedo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp
 
-CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.cpp > CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.i
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp > CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.i
 
-CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/Undo/Undo.cpp -o CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.s
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp -o CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.s
 
-CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o.requires:
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.requires:
 
-.PHONY : CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o.requires
+.PHONY : CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.requires
 
-CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o.provides: CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o.provides.build
-.PHONY : CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o.provides
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.provides: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.provides
 
-CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o
-
-
-CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
-CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o: ../Undo/UndoAdd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.cpp
-
-CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.cpp > CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.i
-
-CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoAdd.cpp -o CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.s
-
-CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o.requires:
-
-.PHONY : CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o.requires
-
-CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o.provides: CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o.provides.build
-.PHONY : CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o.provides
-
-CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o
 
 
-CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
-CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o: ../Undo/UndoErase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.cpp
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o: ../UndoRedo/UndoRedoAdd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.cpp
 
-CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.cpp > CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.i
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.cpp > CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.i
 
-CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoErase.cpp -o CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.s
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.cpp -o CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.s
 
-CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o.requires:
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.requires:
 
-.PHONY : CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o.requires
+.PHONY : CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.requires
 
-CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o.provides: CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o.provides.build
-.PHONY : CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o.provides
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.provides: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.provides
 
-CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o
 
 
-CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
-CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o: ../Undo/UndoUpdate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.cpp
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o: ../UndoRedo/UndoRedoErase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.cpp
 
-CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.cpp > CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.i
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.cpp > CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.i
 
-CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/Undo/UndoUpdate.cpp -o CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.s
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.cpp -o CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.s
 
-CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o.requires:
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.requires:
 
-.PHONY : CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o.requires
+.PHONY : CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.requires
 
-CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o.provides: CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o.provides.build
-.PHONY : CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o.provides
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.provides: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.provides
 
-CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o
+
+
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o: ../UndoRedo/UndoRedoUpdate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.cpp
+
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.cpp > CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.i
+
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoUpdate.cpp -o CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.s
+
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.provides: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o
 
 
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
@@ -704,10 +704,10 @@ LAB5_6_OBJECTS = \
 "CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o" \
 "CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o" \
 "CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o" \
-"CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o" \
-"CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o" \
-"CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o" \
-"CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o" \
+"CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o" \
+"CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o" \
+"CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o" \
+"CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o" \
 "CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
 
 # External object files for target LAB5_6
@@ -734,10 +734,10 @@ LAB5_6: CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRepository.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o
-LAB5_6: CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o
-LAB5_6: CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o
-LAB5_6: CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o
-LAB5_6: CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/build.make
 LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/QtCharts
@@ -774,10 +774,10 @@ CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Repository/HTMLWatchListRe
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Repository/MemoryWatchListRepository.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o.requires
-CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o.requires
-CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o.requires
-CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o.requires
-CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.requires
 
 .PHONY : CMakeFiles/LAB5_6.dir/requires

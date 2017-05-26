@@ -6,9 +6,9 @@
 #include "../Repository/IWatchListRepository.h"
 #include "../Repository/MemoryMovieRepository.h"
 #include "../Repository/FileMovieRepository.h"
-#include "../Undo/UndoAdd.h"
-#include "../Undo/UndoErase.h"
-#include "../Undo/UndoUpdate.h"
+#include "../UndoRedo/UndoRedoAdd.h"
+#include "../UndoRedo/UndoRedoErase.h"
+#include "../UndoRedo/UndoRedoUpdate.h"
 #include <memory>
 template<class TRepo>
 MovieController<TRepo>::MovieController() {
@@ -58,8 +58,8 @@ void MovieController<TRepo>::add(string title, string genre, int year, int likes
     this->getMovieRepository().save();
 
     //Add to undoList
-    unique_ptr< UndoAdd<TRepo> > undoPointer =  make_unique< UndoAdd<TRepo> >(this->getMovieRepository(), addedMovie);
-    this->undoList.push_back( make_unique< UndoAdd<TRepo> >(this->getMovieRepository(), addedMovie) );
+    shared_ptr< UndoRedoAdd<TRepo> > undoPointer =  make_shared< UndoRedoAdd<TRepo> >(this->getMovieRepository(), addedMovie);
+    this->undoList.push_back( make_unique< UndoRedoAdd<TRepo> >(this->getMovieRepository(), addedMovie) );
 
 }
 
@@ -72,7 +72,7 @@ void MovieController<TRepo>::del(string title) {
     //Add to undoList
     int erasedMoviePos = this->getMovieRepository().getMovies().find(Movie(title));
     Movie erasedMovie = this->getMovieRepository().getMovies().get(erasedMoviePos);
-    this->undoList.push_back( make_unique< UndoErase<TRepo> >(this->getMovieRepository(), erasedMovie));
+    this->undoList.push_back( make_shared< UndoRedoErase<TRepo> >(this->getMovieRepository(), erasedMovie));
 
     this->getMovieRepository().del(Movie(title));
 
@@ -90,7 +90,8 @@ void MovieController<TRepo>::update(string titleOld, string titleNew, string gen
     //Add to undoList
     int updatedMoviePos = this->getMovieRepository().getMovies().find(Movie(titleOld));
     Movie updatedOldMovie = this->getMovieRepository().getMovies().get(updatedMoviePos);
-    this->undoList.push_back( make_unique< UndoUpdate<TRepo> >(this->getMovieRepository(), updatedOldMovie));
+    this->undoList.push_back( make_shared< UndoRedoUpdate<TRepo> >(this->getMovieRepository(), updatedOldMovie, Movie(titleNew, genreNew, yearNew, likesNew, trailerNew)));
+
 
     this->getMovieRepository().update(titleOld, Movie(titleNew, genreNew, yearNew, likesNew, trailerNew));
 
