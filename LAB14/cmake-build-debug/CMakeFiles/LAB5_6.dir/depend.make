@@ -35,14 +35,19 @@ CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../Repository/MemoryMovieRepository.
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../Repository/MovieRepository.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../UI/MainWindow.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../UI/UI.h
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../UI/Ui_WatchListCustomModel.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../UndoRedo/UndoRedo.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: ../UndoRedo/UndoRedoAdd.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: LAB5_6_automoc.cpp
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: moc_MainWindow.cpp
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 
 CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o: ../List/DynamicArray.cpp
 CMakeFiles/LAB5_6.dir/List/DynamicArray.cpp.o: ../List/DynamicArray.h
@@ -193,12 +198,17 @@ CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/MainWindow.cpp
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/MainWindow.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/UI.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/Ui_MainWindow.h
+CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UI/Ui_WatchListCustomModel.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UndoRedo/UndoRedo.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: ../UndoRedo/UndoRedoAdd.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
+CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
 CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../Controller/MovieController.h
 CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../List/DynamicArray.h
@@ -222,6 +232,16 @@ CMakeFiles/LAB5_6.dir/UI/UI.cpp.o: ../UndoRedo/UndoRedoAdd.h
 
 CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o: ../UI/Ui_MainWindow.cpp
 CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o: ../UI/Ui_MainWindow.h
+
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: ../List/DynamicArray.h
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: ../List/IDynamicArray.h
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: ../Model/Movie.h
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: ../Model/WatchListItem.h
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: ../Repository/IWatchListRepository.h
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: ../UI/Ui_WatchListCustomModel.cpp
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: ../UI/Ui_WatchListCustomModel.h
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
 
 CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o: ../UndoRedo/UndoRedo.cpp
 CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o: ../UndoRedo/UndoRedo.h
@@ -285,13 +305,18 @@ CMakeFiles/LAB5_6.dir/main.cpp.o: ../Repository/MovieRepository.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../Tests/Tests.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../UI/MainWindow.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../UI/UI.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: ../UI/Ui_WatchListCustomModel.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../UndoRedo/UndoRedo.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../UndoRedo/UndoRedoAdd.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: ../main.cpp
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/QChartView
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/Headers/qchartview.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
 CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/LAB5_6.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 

@@ -240,6 +240,12 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_MainWindow.h">
 			<Option target="LAB5_6"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.cpp">
+			<Option target="LAB5_6"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.h">
+			<Option target="LAB5_6"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp">
 			<Option target="LAB5_6"/>
 		</Unit>

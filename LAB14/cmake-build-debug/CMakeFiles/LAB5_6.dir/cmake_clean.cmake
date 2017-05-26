@@ -25,6 +25,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o"
   "CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o"
   "CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o"
+  "CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o"
   "CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
   "LAB5_6.pdb"
   "LAB5_6"

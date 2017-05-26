@@ -657,9 +657,33 @@ CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.provides: CMakeFiles/LAB5_6.
 CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o
 
 
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o: ../UI/Ui_WatchListCustomModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.cpp
+
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.cpp > CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.i
+
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.cpp -o CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.s
+
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o.requires:
+
+.PHONY : CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o.requires
+
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o.provides: CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o.provides.build
+.PHONY : CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o.provides
+
+CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o.provides.build: CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o
+
+
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: CMakeFiles/LAB5_6.dir/flags.make
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o: LAB5_6_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o -c /Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/LAB5_6_automoc.cpp
 
 CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.i: cmake_force
@@ -708,6 +732,7 @@ LAB5_6_OBJECTS = \
 "CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o" \
 "CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o" \
 "CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o" \
+"CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o" \
 "CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o"
 
 # External object files for target LAB5_6
@@ -738,6 +763,7 @@ LAB5_6: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o
+LAB5_6: CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o
 LAB5_6: CMakeFiles/LAB5_6.dir/build.make
 LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/QtCharts
@@ -745,7 +771,7 @@ LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/QtWidgets
 LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/QtGui
 LAB5_6: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/QtCore
 LAB5_6: CMakeFiles/LAB5_6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable LAB5_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable LAB5_6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LAB5_6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -778,6 +804,7 @@ CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o.re
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoUpdate.cpp.o.requires
+CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o.requires
 CMakeFiles/LAB5_6.dir/requires: CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o.requires
 
 .PHONY : CMakeFiles/LAB5_6.dir/requires

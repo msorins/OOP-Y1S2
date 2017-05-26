@@ -7,7 +7,9 @@
 
 #include <QMainWindow>
 #include <QChartView>
+#include <QTableView>
 #include "UI.h"
+#include "Ui_WatchListCustomModel.h"
 
 namespace Ui {
     class MainWindow;
@@ -26,12 +28,15 @@ private:
     Ui::MainWindow *ui;
     int loopThroughMoviesPos = 1;
     QtCharts::QChartView *chartView;
+    QAbstractItemModel *watchListCustomModel;
+    QTableView *watchListView;
 
 public:
     MovieController<FSTL>* movieController;
 public:
     //Functionality
     void connectSignalsWithSlots();
+    void createWatchListWindow();
 
 public slots:
     void populateMovieList();

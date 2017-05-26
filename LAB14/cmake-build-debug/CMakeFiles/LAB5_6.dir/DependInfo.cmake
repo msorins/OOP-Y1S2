@@ -25,6 +25,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/so/Desktop/UBB/OOP2/LAB14/UI/MainWindow.cpp" "/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB14/UI/UI.cpp" "/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/UI.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_MainWindow.cpp" "/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.o"
+  "/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.cpp" "/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp" "/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedo.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoAdd.cpp" "/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoAdd.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedoErase.cpp" "/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/CMakeFiles/LAB5_6.dir/UndoRedo/UndoRedoErase.cpp.o"

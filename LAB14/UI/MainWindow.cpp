@@ -8,6 +8,7 @@
 #include <QtCharts/QChartView>
 #include <QtCharts/QPieSeries>
 #include <QtCharts/QPieSlice>
+#include <QTableView>
 
 #define CHROME "open '/Applications/Google Chrome.app/Contents/Versions/58.0.3029.110/Google Chrome Helper.app'"
 
@@ -24,6 +25,7 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent), ui(new Ui::MainWin
     this->setAddWatchListFalse();
 
     this->createPieChart();
+    this->createWatchListWindow();
 }
 
 
@@ -286,6 +288,23 @@ void MainWindow::executeRedo() {
         this->movieController->redoList.pop_back();
         emit moviesUpdated();
     }
+}
+
+void MainWindow::createWatchListWindow() {
+    //Create the model
+    IWatchListRepository &repo = *this->movieController->getWatchListRepository();
+    this->watchListCustomModel = new Ui_WatchListCustomModel(repo);
+
+    //Create a widget
+    this->watchListView = new QTableView();
+
+
+    watchListView->setModel(watchListCustomModel);
+    //watchListView->setModel(this->watchListCustomModel);
+    watchListView->setFixedWidth(700);
+    watchListView->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    watchListView->setFocus();
+    watchListView->show();
 }
 
 

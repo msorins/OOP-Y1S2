@@ -703,6 +703,33 @@ UI/Ui_MainWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_MainWindow.cpp.s
 .PHONY : UI/Ui_MainWindow.cpp.s
 
+UI/Ui_WatchListCustomModel.o: UI/Ui_WatchListCustomModel.cpp.o
+
+.PHONY : UI/Ui_WatchListCustomModel.o
+
+# target to build an object file
+UI/Ui_WatchListCustomModel.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.o
+.PHONY : UI/Ui_WatchListCustomModel.cpp.o
+
+UI/Ui_WatchListCustomModel.i: UI/Ui_WatchListCustomModel.cpp.i
+
+.PHONY : UI/Ui_WatchListCustomModel.i
+
+# target to preprocess a source file
+UI/Ui_WatchListCustomModel.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.i
+.PHONY : UI/Ui_WatchListCustomModel.cpp.i
+
+UI/Ui_WatchListCustomModel.s: UI/Ui_WatchListCustomModel.cpp.s
+
+.PHONY : UI/Ui_WatchListCustomModel.s
+
+# target to generate assembly for a file
+UI/Ui_WatchListCustomModel.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB5_6.dir/build.make CMakeFiles/LAB5_6.dir/UI/Ui_WatchListCustomModel.cpp.s
+.PHONY : UI/Ui_WatchListCustomModel.cpp.s
+
 UndoRedo/UndoRedo.o: UndoRedo/UndoRedo.cpp.o
 
 .PHONY : UndoRedo/UndoRedo.o
@@ -911,6 +938,9 @@ help:
 	@echo "... UI/Ui_MainWindow.o"
 	@echo "... UI/Ui_MainWindow.i"
 	@echo "... UI/Ui_MainWindow.s"
+	@echo "... UI/Ui_WatchListCustomModel.o"
+	@echo "... UI/Ui_WatchListCustomModel.i"
+	@echo "... UI/Ui_WatchListCustomModel.s"
 	@echo "... UndoRedo/UndoRedo.o"
 	@echo "... UndoRedo/UndoRedo.i"
 	@echo "... UndoRedo/UndoRedo.s"

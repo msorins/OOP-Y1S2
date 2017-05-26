@@ -16,39 +16,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d11c59-3b47-4346-aadf-f17808cc0535" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LAB14.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Controller/MovieController.cpp.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB5_6" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Undo/Undo.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Undo/UndoAdd.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Undo/UndoErase.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Undo/UndoUpdate.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/20" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/26" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/28" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Undo/Undo.cpp" afterPath="$PROJECT_DIR$/UndoRedo/UndoRedo.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Undo/Undo.h" afterPath="$PROJECT_DIR$/UndoRedo/UndoRedo.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Undo/UndoAdd.cpp" afterPath="$PROJECT_DIR$/UndoRedo/UndoRedoAdd.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Undo/UndoAdd.h" afterPath="$PROJECT_DIR$/UndoRedo/UndoRedoAdd.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Undo/UndoErase.cpp" afterPath="$PROJECT_DIR$/UndoRedo/UndoRedoErase.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Undo/UndoErase.h" afterPath="$PROJECT_DIR$/UndoRedo/UndoRedoErase.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Undo/UndoUpdate.cpp" afterPath="$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Undo/UndoUpdate.h" afterPath="$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/Tests/Tests.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/Ui_WatchListCustomModel.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/Ui_WatchListCustomModel.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/LAB5_6_automoc.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/MainWindow.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/UI.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/UI/UI.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/LAB5_6" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB5_6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/MovieController.cpp" afterPath="$PROJECT_DIR$/Controller/MovieController.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/MovieController.h" afterPath="$PROJECT_DIR$/Controller/MovieController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Files/shows.txt" afterPath="$PROJECT_DIR$/Files/shows.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/MainWindow.cpp" afterPath="$PROJECT_DIR$/UI/MainWindow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/Ui_MainWindow.h" afterPath="$PROJECT_DIR$/UI/Ui_MainWindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/MainWindow.h" afterPath="$PROJECT_DIR$/UI/MainWindow.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/build.make" />
@@ -56,7 +33,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/AutogenInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/AutogenInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB5_6_automoc.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/LAB5_6.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB5_6.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
     </list>
@@ -77,28 +58,52 @@
       <file leaf-file-name="MainWindow.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/MainWindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4245">
-              <caret line="288" column="0" lean-forward="false" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="300" column="0" lean-forward="true" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+              <folding>
+                <element signature="e#59#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindow.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/MainWindow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="e#102#124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ui_WatchListCustomModel.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UI/Ui_WatchListCustomModel.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moc_MainWindow.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/moc_MainWindow.cpp">
+      <file leaf-file-name="DynamicArray.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/List/DynamicArray.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-825">
-              <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+            <state relative-caret-position="185">
+              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UndoRedoErase.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UndoRedo/UndoRedoErase.cpp">
+      <file leaf-file-name="IWatchListRepository.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,8 +112,8 @@
       <file leaf-file-name="MovieController.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/MovieController.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="92" column="167" lean-forward="false" selection-start-line="92" selection-start-column="167" selection-end-line="92" selection-end-column="167" />
+            <state relative-caret-position="-270">
+              <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
               <folding>
                 <element signature="e#59#87#0" expanded="true" />
               </folding>
@@ -116,55 +121,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ui_MainWindow.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/Ui_MainWindow.h">
+      <file leaf-file-name="Ui_WatchListCustomModel.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/Ui_WatchListCustomModel.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2190">
-              <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainWindow.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/MainWindow.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/MovieController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="e#125#167#0" expanded="true" />
-                <element signature="e#545#558#0" expanded="true" />
+                <element signature="e#59#89#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UndoRedoUpdate.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UndoRedoUpdate.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -173,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>chrome</find>
       <find>watchList</find>
       <find>throw</find>
       <find>Medium</find>
@@ -203,6 +166,7 @@
       <find>undo</find>
       <find>make</find>
       <find>unique</find>
+      <find>getWatchList</find>
     </findStrings>
     <replaceStrings>
       <replace>throw Exception(</replace>
@@ -220,10 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Model/Movie.cpp" />
-        <option value="$PROJECT_DIR$/Model/WatchListItem.h" />
-        <option value="$PROJECT_DIR$/Model/WatchListItem.cpp" />
-        <option value="$PROJECT_DIR$/Repository/HTMLWatchListRepository.h" />
         <option value="$PROJECT_DIR$/Repository/FileMovieRepository.cpp" />
         <option value="$PROJECT_DIR$/Model/Movie.h" />
         <option value="$PROJECT_DIR$/UI/UI.h" />
@@ -251,7 +211,6 @@
         <option value="$PROJECT_DIR$/Undo/UndoErase.cpp" />
         <option value="$PROJECT_DIR$/Undo/UndoUpdate.cpp" />
         <option value="$PROJECT_DIR$/UI/Ui_MainWindow.h" />
-        <option value="$PROJECT_DIR$/UI/MainWindow.h" />
         <option value="$PROJECT_DIR$/Undo/UndoAdd.h" />
         <option value="$PROJECT_DIR$/Undo/UndoErase.h" />
         <option value="$PROJECT_DIR$/Undo/UndoUpdate.h" />
@@ -267,10 +226,15 @@
         <option value="$PROJECT_DIR$/UndoRedo/UndoRedoAdd.cpp" />
         <option value="$PROJECT_DIR$/UndoRedo/UndoRedoErase.cpp" />
         <option value="$PROJECT_DIR$/Controller/MovieController.h" />
-        <option value="$PROJECT_DIR$/UI/MainWindow.cpp" />
         <option value="$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.h" />
         <option value="$PROJECT_DIR$/Controller/MovieController.cpp" />
         <option value="$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.cpp" />
+        <option value="$PROJECT_DIR$/UI/Ui_WatchList.cpp" />
+        <option value="$PROJECT_DIR$/UI/Ui_WatchList.h" />
+        <option value="$PROJECT_DIR$/UI/MainWindow.h" />
+        <option value="$PROJECT_DIR$/UI/Ui_WatchListCustomModel.h" />
+        <option value="$PROJECT_DIR$/UI/MainWindow.cpp" />
+        <option value="$PROJECT_DIR$/UI/Ui_WatchListCustomModel.cpp" />
       </list>
     </option>
   </component>
@@ -693,12 +657,14 @@
       <workItem from="1495637296870" duration="120000" />
       <workItem from="1495645813556" duration="3168000" />
       <workItem from="1495735967791" duration="5773000" />
-      <workItem from="1495797762314" duration="3085000" />
+      <workItem from="1495797762314" duration="3240000" />
+      <workItem from="1495804207594" duration="5434000" />
+      <workItem from="1495812461305" duration="1639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106582000" />
+    <option name="totallyTimeSpent" value="113810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,21 +681,21 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15491259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.4978903" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35306123" sideWeight="0.68414706" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35306123" sideWeight="0.80651" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.48342374" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3510204" sideWeight="0.5684147" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.4954792" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40510204" sideWeight="0.5660036" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3510204" sideWeight="0.43158528" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3510204" sideWeight="0.4159132" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.4954792" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40510204" sideWeight="0.5443038" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40510204" sideWeight="0.43399638" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.4954792" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -742,25 +708,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="98" />
+      <option name="time" value="111" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/List/IDynamicArray.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/List/IDynamicArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/List/DynamicArray.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -768,24 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List/DynamicArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/Exception.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -839,21 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/UI.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1884">
-          <caret line="268" column="7" lean-forward="false" selection-start-line="268" selection-start-column="7" selection-end-line="270" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -934,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="539" column="0" lean-forward="false" selection-start-line="539" selection-start-column="0" selection-end-line="539" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="1739" column="0" lean-forward="false" selection-start-line="1739" selection-start-column="0" selection-end-line="1739" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,15 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/Ui_MainWindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,57 +944,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/MainWindow.h">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/moc_MainWindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UndoRedo/UndoRedoErase.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/moc_MainWindow.cpp">
+    <entry file="file://$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
-          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="480">
+          <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+          <folding>
+            <element signature="e#548#561#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/MainWindow.cpp">
+    <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4245">
-          <caret line="288" column="0" lean-forward="false" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/Ui_MainWindow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+        <state relative-caret-position="-667">
+          <caret line="268" column="7" lean-forward="false" selection-start-line="268" selection-start-column="7" selection-end-line="270" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/UI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/MovieController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="203">
           <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="e#125#167#0" expanded="true" />
@@ -1092,20 +1004,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UI/Ui_MainWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/Ui_MainWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controller/MovieController.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="92" column="167" lean-forward="false" selection-start-line="92" selection-start-column="167" selection-end-line="92" selection-end-column="167" />
+        <state relative-caret-position="-270">
+          <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="e#59#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UndoRedo/UndoRedoUpdate.cpp">
+    <entry file="file://$PROJECT_DIR$/Repository/IWatchListRepository.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List/DynamicArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/MainWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="300" column="0" lean-forward="true" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/Ui_WatchListCustomModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/MainWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#102#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/Ui_WatchListCustomModel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding />
         </state>
       </provider>

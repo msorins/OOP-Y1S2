@@ -283,14 +283,20 @@ QtCharts/QPieSeries
 -
 QtCharts/QPieSlice
 -
+QTableView
+-
 
 /Users/so/Desktop/UBB/OOP2/LAB14/UI/MainWindow.h
 QMainWindow
 -
 QChartView
 -
+QTableView
+-
 UI.h
 /Users/so/Desktop/UBB/OOP2/LAB14/UI/UI.h
+Ui_WatchListCustomModel.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.h
 
 /Users/so/Desktop/UBB/OOP2/LAB14/UI/UI.cpp
 UI.h
@@ -353,6 +359,16 @@ QtWidgets/QVBoxLayout
 -
 QtWidgets/QWidget
 -
+
+/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.cpp
+Ui_WatchListCustomModel.h
+/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.h
+
+/Users/so/Desktop/UBB/OOP2/LAB14/UI/Ui_WatchListCustomModel.h
+QAbstractTableModel
+-
+../Repository/IWatchListRepository.h
+/Users/so/Desktop/UBB/OOP2/LAB14/Repository/IWatchListRepository.h
 
 /Users/so/Desktop/UBB/OOP2/LAB14/UndoRedo/UndoRedo.cpp
 UndoRedo.h
@@ -466,6 +482,20 @@ QtCharts/QChart
 QtWidgets/QGraphicsView
 -
 
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+qabstractitemmodel.h
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+QtCore/qvariant.h
+-
+QtCore/qobject.h
+-
+QtCore/qhash.h
+-
+QtCore/qvector.h
+-
+
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
 qapplication.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
@@ -473,6 +503,10 @@ qapplication.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
 qmainwindow.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
+qtableview.h
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
 QtWidgets/qtwidgetsglobal.h
@@ -498,5 +532,11 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 QtWidgets/qtabwidget.h
+-
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractitemview.h
 -
 
