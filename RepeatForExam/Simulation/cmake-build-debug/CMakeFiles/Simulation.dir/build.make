@@ -81,28 +81,28 @@ CMakeFiles/Simulation.dir/main.cpp.o.provides: CMakeFiles/Simulation.dir/main.cp
 CMakeFiles/Simulation.dir/main.cpp.o.provides.build: CMakeFiles/Simulation.dir/main.cpp.o
 
 
-CMakeFiles/Simulation.dir/UI/ui_list.cpp.o: CMakeFiles/Simulation.dir/flags.make
-CMakeFiles/Simulation.dir/UI/ui_list.cpp.o: ../UI/ui_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simulation.dir/UI/ui_list.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simulation.dir/UI/ui_list.cpp.o -c /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.cpp
+CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o: CMakeFiles/Simulation.dir/flags.make
+CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o: ../UI/UI_ListModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o -c /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.cpp
 
-CMakeFiles/Simulation.dir/UI/ui_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simulation.dir/UI/ui_list.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.cpp > CMakeFiles/Simulation.dir/UI/ui_list.cpp.i
+CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.cpp > CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.i
 
-CMakeFiles/Simulation.dir/UI/ui_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simulation.dir/UI/ui_list.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.cpp -o CMakeFiles/Simulation.dir/UI/ui_list.cpp.s
+CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.cpp -o CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.s
 
-CMakeFiles/Simulation.dir/UI/ui_list.cpp.o.requires:
+CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o.requires:
 
-.PHONY : CMakeFiles/Simulation.dir/UI/ui_list.cpp.o.requires
+.PHONY : CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o.requires
 
-CMakeFiles/Simulation.dir/UI/ui_list.cpp.o.provides: CMakeFiles/Simulation.dir/UI/ui_list.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/ui_list.cpp.o.provides.build
-.PHONY : CMakeFiles/Simulation.dir/UI/ui_list.cpp.o.provides
+CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o.provides: CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o.provides.build
+.PHONY : CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o.provides
 
-CMakeFiles/Simulation.dir/UI/ui_list.cpp.o.provides.build: CMakeFiles/Simulation.dir/UI/ui_list.cpp.o
+CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o.provides.build: CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o
 
 
 CMakeFiles/Simulation.dir/UI/mainwindow.cpp.o: CMakeFiles/Simulation.dir/flags.make
@@ -201,9 +201,33 @@ CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.o.provides: CMakeFiles/Simulat
 CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.o.provides.build: CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.o
 
 
+CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o: CMakeFiles/Simulation.dir/flags.make
+CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o: ../UI/UI_TableModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o -c /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.cpp
+
+CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.cpp > CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.i
+
+CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.cpp -o CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.s
+
+CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o.requires:
+
+.PHONY : CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o.requires
+
+CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o.provides: CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o.provides.build
+.PHONY : CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o.provides
+
+CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o.provides.build: CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o
+
+
 CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o: CMakeFiles/Simulation.dir/flags.make
 CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o: Simulation_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o -c /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.cpp
 
 CMakeFiles/Simulation.dir/Simulation_automoc.cpp.i: cmake_force
@@ -228,22 +252,24 @@ CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o.provides.build: CMakeFiles/Si
 # Object files for target Simulation
 Simulation_OBJECTS = \
 "CMakeFiles/Simulation.dir/main.cpp.o" \
-"CMakeFiles/Simulation.dir/UI/ui_list.cpp.o" \
+"CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o" \
 "CMakeFiles/Simulation.dir/UI/mainwindow.cpp.o" \
 "CMakeFiles/Simulation.dir/Model/Weather.cpp.o" \
 "CMakeFiles/Simulation.dir/Repository/Repository.cpp.o" \
 "CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.o" \
+"CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o" \
 "CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o"
 
 # External object files for target Simulation
 Simulation_EXTERNAL_OBJECTS =
 
 Simulation: CMakeFiles/Simulation.dir/main.cpp.o
-Simulation: CMakeFiles/Simulation.dir/UI/ui_list.cpp.o
+Simulation: CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o
 Simulation: CMakeFiles/Simulation.dir/UI/mainwindow.cpp.o
 Simulation: CMakeFiles/Simulation.dir/Model/Weather.cpp.o
 Simulation: CMakeFiles/Simulation.dir/Repository/Repository.cpp.o
 Simulation: CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.o
+Simulation: CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o
 Simulation: CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o
 Simulation: CMakeFiles/Simulation.dir/build.make
 Simulation: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCharts.framework/QtCharts
@@ -251,7 +277,7 @@ Simulation: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/QtWidgets
 Simulation: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/QtGui
 Simulation: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/QtCore
 Simulation: CMakeFiles/Simulation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Simulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Simulation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Simulation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -260,11 +286,12 @@ CMakeFiles/Simulation.dir/build: Simulation
 .PHONY : CMakeFiles/Simulation.dir/build
 
 CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/main.cpp.o.requires
-CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/UI/ui_list.cpp.o.requires
+CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o.requires
 CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/UI/mainwindow.cpp.o.requires
 CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/Model/Weather.cpp.o.requires
 CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/Repository/Repository.cpp.o.requires
 CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.o.requires
+CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o.requires
 CMakeFiles/Simulation.dir/requires: CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o.requires
 
 .PHONY : CMakeFiles/Simulation.dir/requires

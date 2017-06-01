@@ -4,7 +4,7 @@ project(Simulation)
 set(CMAKE_CXX_STANDARD 11)
 set( CMAKE_AUTOMOC ON )  # to automoc remove the
 
-set(SOURCE_FILES main.cpp UI/mainwindow.h UI/ui_list.cpp UI/ui_list.h UI/ui_mainwindow.h UI/mainwindow.cpp Model/Weather.cpp Model/Weather.h Repository/Repository.cpp Repository/Repository.h UI/CustomProxyModel.cpp UI/CustomProxyModel.h)
+set(SOURCE_FILES main.cpp UI/mainwindow.h UI/UI_ListModel.cpp UI/UI_ListModel.h UI/ui_mainwindow.h UI/mainwindow.cpp Model/Weather.cpp Model/Weather.h Repository/Repository.cpp Repository/Repository.h UI/CustomProxyModel.cpp UI/CustomProxyModel.h UI/UI_TableModel.cpp UI/UI_TableModel.h)
 add_executable(Simulation ${SOURCE_FILES})
 
 

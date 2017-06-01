@@ -32,10 +32,12 @@ bool CustomProxyModel::filterAcceptsRow(int sourceRow,
 bool CustomProxyModel::lessThan(const QModelIndex &left,
                                       const QModelIndex &right) const
 {
+    int leftColumn = left.column();
     int leftRow = left.row();
+    int rightColumn = right.column();
     int rightRow = right.row();
 
-    cout<<"rows: "<<leftRow<<" "<<rightRow<<"\n";
+    cout<<"rows: "<<leftRow<<" "<<leftColumn<<" - " <<rightRow<<" "<<rightColumn<<"\n";
 
     if(this->sortRole() == Qt::InitialSortOrderRole)
         return 0;

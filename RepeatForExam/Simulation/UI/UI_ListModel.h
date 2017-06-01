@@ -4,17 +4,18 @@
 #include <QAbstractListModel>
 #include "../Repository/Repository.h"
 
-class UI_List : public QAbstractListModel
+class UI_ListModel : public QAbstractListModel
 {
     Q_OBJECT
 
 public:
-    explicit UI_List(Repository &repo, QObject *parent = 0);
+    explicit UI_ListModel(Repository &repo, QObject *parent = 0);
 
     // Header:
-    /*
+
     QVariant headerData(int section, Qt::Orientation orientation, int role = Qt::DisplayRole) const override;
 
+    /*
     bool setHeaderData(int section, Qt::Orientation orientation, const QVariant &value, int role = Qt::EditRole) override;
     */
 

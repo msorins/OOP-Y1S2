@@ -23,6 +23,7 @@ public:
     void populateFromFile();
     int getSize();
     Weather getElemetFromPosition(int pos);
+    void setElementToPosition(Weather weather, int pos);
     int computeHoursByDescription(string description);
 
 };

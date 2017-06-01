@@ -138,16 +138,22 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/CustomProxyModel.h">
 			<Option target="Simulation"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.cpp">
+			<Option target="Simulation"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h">
+			<Option target="Simulation"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.cpp">
+			<Option target="Simulation"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.h">
+			<Option target="Simulation"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.cpp">
 			<Option target="Simulation"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.h">
-			<Option target="Simulation"/>
-		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.cpp">
-			<Option target="Simulation"/>
-		</Unit>
-		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h">
 			<Option target="Simulation"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_mainwindow.h">

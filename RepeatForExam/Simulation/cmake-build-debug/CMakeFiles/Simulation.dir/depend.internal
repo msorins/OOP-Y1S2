@@ -12,13 +12,15 @@ CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Model/Weather.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/CustomProxyModel.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.h
- /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.cpp
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_CustomProxyMod_ZBTKNUMWQG6R3V.cpp
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_UI_ListModel_7JLWQUWDBQRLNT.cpp
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_mainwindow_54KY3SPMOWYUHK.cpp
- /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_ui_list_BIE7NYA4PDXJIW.cpp
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractListModel
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QDate
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QSortFilterProxyModel
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
@@ -35,37 +37,52 @@ CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.o
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QSortFilterProxyModel
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qdatetime.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qsortfilterproxymodel.h
+CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Model/Weather.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.cpp
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractListModel
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Model/Weather.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.cpp
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers/QFont
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers/qfont.h
 CMakeFiles/Simulation.dir/UI/mainwindow.cpp.o
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Model/Weather.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/CustomProxyModel.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.cpp
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.h
- /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_mainwindow.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractListModel
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QDate
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QSortFilterProxyModel
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qdatetime.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qsortfilterproxymodel.h
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
-CMakeFiles/Simulation.dir/UI/ui_list.cpp.o
- /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Model/Weather.h
- /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
- /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.cpp
- /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h
- /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractListModel
- /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 CMakeFiles/Simulation.dir/main.cpp.o
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Model/Weather.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/CustomProxyModel.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h
+ /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.h
- /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h
  /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/main.cpp
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractListModel
+ /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QDate
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QSortFilterProxyModel
  /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h

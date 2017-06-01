@@ -3,8 +3,9 @@
 
 #include <QMainWindow>
 #include "../Repository/Repository.h"
-#include "ui_list.h"
+#include "UI_ListModel.h"
 #include "CustomProxyModel.h"
+#include "UI_TableModel.h"
 #include <QSortFilterProxyModel>
 
 namespace Ui {
@@ -24,11 +25,14 @@ private:
 
 public:
     Repository &repo;
-    UI_List *uiListModel;
-    CustomProxyModel* proxyModel;
+    UI_ListModel *uiListModel;
+    UI_TableModel *uiTableModel;
+    CustomProxyModel* customProxyListModel;
+    CustomProxyModel* customProxyMapModel, *customProxyMapModel2;
 
     //Functionality
     void populateWeatherListView();
+    void createAndPopulateWeatherTableView();
     void linkStuff();
 
 public slots:

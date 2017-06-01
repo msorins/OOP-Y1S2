@@ -78,4 +78,8 @@ int Repository::computeHoursByDescription(string description) {
     return hours;
 }
 
+void Repository::setElementToPosition(Weather weather, int pos) {
+    this->list[pos] = weather;
+}
+
 

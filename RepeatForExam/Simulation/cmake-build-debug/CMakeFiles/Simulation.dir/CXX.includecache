@@ -46,7 +46,31 @@ iostream
 ../Repository/Repository.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
 
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.cpp
+UI_ListModel.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h
+QAbstractListModel
+-
+../Repository/Repository.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.cpp
+QFont
+-
+UI_TableModel.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.h
+QAbstractTableModel
+-
+../Repository/Repository.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
+
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.cpp
+QTableView
+-
 mainwindow.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.h
 ui_mainwindow.h
@@ -59,22 +83,14 @@ QMainWindow
 -
 ../Repository/Repository.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
-ui_list.h
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h
+UI_ListModel.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h
 CustomProxyModel.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/CustomProxyModel.h
+UI_TableModel.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.h
 QSortFilterProxyModel
 -
-
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.cpp
-ui_list.h
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h
-
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h
-QAbstractListModel
--
-../Repository/Repository.h
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
 
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_mainwindow.h
 QtCore/QVariant
@@ -107,10 +123,10 @@ QtWidgets/QWidget
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.cpp
 Simulation_automoc.dir/moc_CustomProxyMod_ZBTKNUMWQG6R3V.cpp
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_CustomProxyMod_ZBTKNUMWQG6R3V.cpp
+Simulation_automoc.dir/moc_UI_ListModel_7JLWQUWDBQRLNT.cpp
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_UI_ListModel_7JLWQUWDBQRLNT.cpp
 Simulation_automoc.dir/moc_mainwindow_54KY3SPMOWYUHK.cpp
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_mainwindow_54KY3SPMOWYUHK.cpp
-Simulation_automoc.dir/moc_ui_list_BIE7NYA4PDXJIW.cpp
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_ui_list_BIE7NYA4PDXJIW.cpp
 
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_CustomProxyMod_ZBTKNUMWQG6R3V.cpp
 ../../UI/CustomProxyModel.h
@@ -120,17 +136,17 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_mainwindow_54KY3SPMOWYUHK.cpp
-../../UI/mainwindow.h
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_UI_ListModel_7JLWQUWDBQRLNT.cpp
+../../UI/UI_ListModel.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_ui_list_BIE7NYA4PDXJIW.cpp
-../../UI/ui_list.h
-/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.dir/moc_mainwindow_54KY3SPMOWYUHK.cpp
+../../UI/mainwindow.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -147,6 +163,10 @@ Repository/Repository.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.h
 
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractListModel
+qabstractitemmodel.h
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
 qabstractitemmodel.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
 
@@ -184,6 +204,20 @@ QtCore/qabstractproxymodel.h
 QtCore/qregexp.h
 -
 
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers/QFont
+qfont.h
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers/qfont.h
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers/qfont.h
+QtGui/qtguiglobal.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qstring.h
+-
+QtCore/qsharedpointer.h
+-
+
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
 qapplication.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
@@ -191,6 +225,10 @@ qapplication.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
 qmainwindow.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
+qtableview.h
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
 QtWidgets/qtwidgetsglobal.h
@@ -216,5 +254,11 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 QtWidgets/qtabwidget.h
+-
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractitemview.h
 -
 

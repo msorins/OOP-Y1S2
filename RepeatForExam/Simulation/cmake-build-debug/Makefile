@@ -244,6 +244,60 @@ UI/CustomProxyModel.cpp.s:
 	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.s
 .PHONY : UI/CustomProxyModel.cpp.s
 
+UI/UI_ListModel.o: UI/UI_ListModel.cpp.o
+
+.PHONY : UI/UI_ListModel.o
+
+# target to build an object file
+UI/UI_ListModel.cpp.o:
+	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o
+.PHONY : UI/UI_ListModel.cpp.o
+
+UI/UI_ListModel.i: UI/UI_ListModel.cpp.i
+
+.PHONY : UI/UI_ListModel.i
+
+# target to preprocess a source file
+UI/UI_ListModel.cpp.i:
+	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.i
+.PHONY : UI/UI_ListModel.cpp.i
+
+UI/UI_ListModel.s: UI/UI_ListModel.cpp.s
+
+.PHONY : UI/UI_ListModel.s
+
+# target to generate assembly for a file
+UI/UI_ListModel.cpp.s:
+	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.s
+.PHONY : UI/UI_ListModel.cpp.s
+
+UI/UI_TableModel.o: UI/UI_TableModel.cpp.o
+
+.PHONY : UI/UI_TableModel.o
+
+# target to build an object file
+UI/UI_TableModel.cpp.o:
+	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o
+.PHONY : UI/UI_TableModel.cpp.o
+
+UI/UI_TableModel.i: UI/UI_TableModel.cpp.i
+
+.PHONY : UI/UI_TableModel.i
+
+# target to preprocess a source file
+UI/UI_TableModel.cpp.i:
+	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.i
+.PHONY : UI/UI_TableModel.cpp.i
+
+UI/UI_TableModel.s: UI/UI_TableModel.cpp.s
+
+.PHONY : UI/UI_TableModel.s
+
+# target to generate assembly for a file
+UI/UI_TableModel.cpp.s:
+	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.s
+.PHONY : UI/UI_TableModel.cpp.s
+
 UI/mainwindow.o: UI/mainwindow.cpp.o
 
 .PHONY : UI/mainwindow.o
@@ -270,33 +324,6 @@ UI/mainwindow.s: UI/mainwindow.cpp.s
 UI/mainwindow.cpp.s:
 	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/mainwindow.cpp.s
 .PHONY : UI/mainwindow.cpp.s
-
-UI/ui_list.o: UI/ui_list.cpp.o
-
-.PHONY : UI/ui_list.o
-
-# target to build an object file
-UI/ui_list.cpp.o:
-	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/ui_list.cpp.o
-.PHONY : UI/ui_list.cpp.o
-
-UI/ui_list.i: UI/ui_list.cpp.i
-
-.PHONY : UI/ui_list.i
-
-# target to preprocess a source file
-UI/ui_list.cpp.i:
-	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/ui_list.cpp.i
-.PHONY : UI/ui_list.cpp.i
-
-UI/ui_list.s: UI/ui_list.cpp.s
-
-.PHONY : UI/ui_list.s
-
-# target to generate assembly for a file
-UI/ui_list.cpp.s:
-	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/UI/ui_list.cpp.s
-.PHONY : UI/ui_list.cpp.s
 
 main.o: main.cpp.o
 
@@ -347,12 +374,15 @@ help:
 	@echo "... UI/CustomProxyModel.o"
 	@echo "... UI/CustomProxyModel.i"
 	@echo "... UI/CustomProxyModel.s"
+	@echo "... UI/UI_ListModel.o"
+	@echo "... UI/UI_ListModel.i"
+	@echo "... UI/UI_ListModel.s"
+	@echo "... UI/UI_TableModel.o"
+	@echo "... UI/UI_TableModel.i"
+	@echo "... UI/UI_TableModel.s"
 	@echo "... UI/mainwindow.o"
 	@echo "... UI/mainwindow.i"
 	@echo "... UI/mainwindow.s"
-	@echo "... UI/ui_list.o"
-	@echo "... UI/ui_list.i"
-	@echo "... UI/ui_list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

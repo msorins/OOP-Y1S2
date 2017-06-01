@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/Repository/Repository.cpp" "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir/Repository/Repository.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/Simulation_automoc.cpp" "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir/Simulation_automoc.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/CustomProxyModel.cpp" "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir/UI/CustomProxyModel.cpp.o"
+  "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_ListModel.cpp" "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir/UI/UI_ListModel.cpp.o"
+  "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/UI_TableModel.cpp" "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir/UI/UI_TableModel.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/mainwindow.cpp" "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir/UI/mainwindow.cpp.o"
-  "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/UI/ui_list.cpp" "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir/UI/ui_list.cpp.o"
   "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/main.cpp" "/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
