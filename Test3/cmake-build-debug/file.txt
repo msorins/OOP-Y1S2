@@ -1,0 +1,3 @@
+Digi Sport; 0A33455X; 75.00;false
+E-On; EED36677; 122.00;true
+RDS; SDAOI8977; 32.00;false

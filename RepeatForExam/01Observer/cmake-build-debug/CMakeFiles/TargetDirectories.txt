@@ -1,0 +1,3 @@
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/01Observer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/01Observer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/01Observer/cmake-build-debug/CMakeFiles/01Observer.dir

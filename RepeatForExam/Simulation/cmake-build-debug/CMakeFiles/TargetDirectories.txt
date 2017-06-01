@@ -1,0 +1,4 @@
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation.dir
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/Simulation/cmake-build-debug/CMakeFiles/Simulation_automoc.dir

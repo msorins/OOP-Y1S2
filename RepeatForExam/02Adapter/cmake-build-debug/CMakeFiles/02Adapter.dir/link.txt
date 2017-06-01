@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/02Adapter.dir/main.cpp.o CMakeFiles/02Adapter.dir/Old/OldRectangle.cpp.o CMakeFiles/02Adapter.dir/New/INewRectangle.cpp.o CMakeFiles/02Adapter.dir/Adapter/RectangleAdapter.cpp.o  -o 02Adapter 

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/ISave.cpp
+ISave.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/ISave.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/ISave.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/SaveConsole.cpp
+SaveConsole.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/SaveConsole.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/SaveConsole.h
+ISave.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/ISave.h
+iostream
+-
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/SaveFile.cpp
+SaveFile.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/SaveFile.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/SaveFile.h
+iostream
+-
+fstream
+-
+string
+-
+ISave.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/ISave.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/main.cpp
+iostream
+-
+SaveConsole.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/SaveConsole.h
+SaveFile.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/04Strategy/SaveFile.h
+

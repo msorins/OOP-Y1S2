@@ -337,11 +337,11 @@ QtWidgets/QWidget
 -
 
 /Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/LAB5_6_automoc.cpp
-moc_MainWindow.cpp
-/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/moc_MainWindow.cpp
+LAB5_6_automoc.dir/moc_MainWindow_AYTGBI3HSJCX3W.cpp
+/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/LAB5_6_automoc.dir/moc_MainWindow_AYTGBI3HSJCX3W.cpp
 
-/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/moc_MainWindow.cpp
-../UI/MainWindow.h
+/Users/so/Desktop/UBB/OOP2/LAB5-12/cmake-build-debug/LAB5_6_automoc.dir/moc_MainWindow_AYTGBI3HSJCX3W.cpp
+../../UI/MainWindow.h
 /Users/so/Desktop/UBB/OOP2/LAB5-12/UI/MainWindow.h
 QtCore/qbytearray.h
 -
