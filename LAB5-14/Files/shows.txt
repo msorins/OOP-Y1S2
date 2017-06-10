@@ -14,11 +14,6 @@ Pop
 2017
 150
 youtube
-DoB
-Pop
-2017
-150
-youtube
 MovieA
 Horror
 2017

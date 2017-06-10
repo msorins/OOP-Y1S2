@@ -1,4 +1,4 @@
-# Install script for directory: /Users/so/Desktop/UBB/OOP2/LAB14
+# Install script for directory: /Users/so/Desktop/UBB/OOP2/LAB5-14
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/so/Desktop/UBB/OOP2/LAB14/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/so/Desktop/UBB/OOP2/LAB5-14/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
