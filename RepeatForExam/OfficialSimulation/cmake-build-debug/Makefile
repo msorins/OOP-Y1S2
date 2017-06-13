@@ -163,6 +163,33 @@ Controller/GradingController.cpp.s:
 	$(MAKE) -f CMakeFiles/WTM.dir/build.make CMakeFiles/WTM.dir/Controller/GradingController.cpp.s
 .PHONY : Controller/GradingController.cpp.s
 
+Exception/Exception.o: Exception/Exception.cpp.o
+
+.PHONY : Exception/Exception.o
+
+# target to build an object file
+Exception/Exception.cpp.o:
+	$(MAKE) -f CMakeFiles/WTM.dir/build.make CMakeFiles/WTM.dir/Exception/Exception.cpp.o
+.PHONY : Exception/Exception.cpp.o
+
+Exception/Exception.i: Exception/Exception.cpp.i
+
+.PHONY : Exception/Exception.i
+
+# target to preprocess a source file
+Exception/Exception.cpp.i:
+	$(MAKE) -f CMakeFiles/WTM.dir/build.make CMakeFiles/WTM.dir/Exception/Exception.cpp.i
+.PHONY : Exception/Exception.cpp.i
+
+Exception/Exception.s: Exception/Exception.cpp.s
+
+.PHONY : Exception/Exception.s
+
+# target to generate assembly for a file
+Exception/Exception.cpp.s:
+	$(MAKE) -f CMakeFiles/WTM.dir/build.make CMakeFiles/WTM.dir/Exception/Exception.cpp.s
+.PHONY : Exception/Exception.cpp.s
+
 Model/Student.o: Model/Student.cpp.o
 
 .PHONY : Model/Student.o
@@ -446,6 +473,9 @@ help:
 	@echo "... Controller/GradingController.o"
 	@echo "... Controller/GradingController.i"
 	@echo "... Controller/GradingController.s"
+	@echo "... Exception/Exception.o"
+	@echo "... Exception/Exception.i"
+	@echo "... Exception/Exception.s"
 	@echo "... Model/Student.o"
 	@echo "... Model/Student.i"
 	@echo "... Model/Student.s"

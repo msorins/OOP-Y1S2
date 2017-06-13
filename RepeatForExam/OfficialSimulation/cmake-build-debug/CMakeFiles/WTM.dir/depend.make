@@ -8,6 +8,9 @@ CMakeFiles/WTM.dir/Controller/GradingController.cpp.o: ../Model/Teacher.h
 CMakeFiles/WTM.dir/Controller/GradingController.cpp.o: ../Repository/StudentsRepository.h
 CMakeFiles/WTM.dir/Controller/GradingController.cpp.o: ../Repository/TeachersRepository.h
 
+CMakeFiles/WTM.dir/Exception/Exception.cpp.o: ../Exception/Exception.cpp
+CMakeFiles/WTM.dir/Exception/Exception.cpp.o: ../Exception/Exception.h
+
 CMakeFiles/WTM.dir/Model/Student.cpp.o: ../Model/Student.cpp
 CMakeFiles/WTM.dir/Model/Student.cpp.o: ../Model/Student.h
 
@@ -23,6 +26,7 @@ CMakeFiles/WTM.dir/Repository/TeachersRepository.cpp.o: ../Repository/TeachersRe
 CMakeFiles/WTM.dir/Repository/TeachersRepository.cpp.o: ../Repository/TeachersRepository.h
 
 CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: ../Controller/GradingController.h
+CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: ../Exception/Exception.h
 CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: ../Model/Student.h
 CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: ../Model/Teacher.h
 CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: ../Repository/StudentsRepository.h
@@ -33,22 +37,31 @@ CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_6
 CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QSortFilterProxyModel
 CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qdatetime.h
 CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qsortfilterproxymodel.h
+CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMessageBox
+CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h
 
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../Controller/GradingController.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../Model/Student.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../Model/Teacher.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../Repository/StudentsRepository.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../Repository/TeachersRepository.h
+CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../UI/customProxyTableModel.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../UI/mainwindow.cpp
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../UI/mainwindow.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../UI/tablemodel.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: ../UI/ui_mainwindow.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QDate
+CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QSortFilterProxyModel
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qdatetime.h
+CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qsortfilterproxymodel.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMessageBox
+CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h
+CMakeFiles/WTM.dir/UI/mainwindow.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 
 CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: ../Controller/GradingController.h
 CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: ../Model/Student.h
@@ -58,7 +71,9 @@ CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: ../Repository/TeachersRepository.h
 CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: ../UI/tablemodel.cpp
 CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: ../UI/tablemodel.h
 CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QIdentityProxyModel
 CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qidentityproxymodel.h
 CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers/QFont
 CMakeFiles/WTM.dir/UI/tablemodel.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers/qfont.h
 
@@ -84,20 +99,29 @@ CMakeFiles/WTM.dir/WTM_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.
 CMakeFiles/WTM.dir/WTM_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qdatetime.h
 CMakeFiles/WTM.dir/WTM_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qsortfilterproxymodel.h
 CMakeFiles/WTM.dir/WTM_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/WTM.dir/WTM_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
 CMakeFiles/WTM.dir/WTM_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/WTM.dir/WTM_automoc.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 
 CMakeFiles/WTM.dir/main.cpp.o: ../Controller/GradingController.h
 CMakeFiles/WTM.dir/main.cpp.o: ../Model/Student.h
 CMakeFiles/WTM.dir/main.cpp.o: ../Model/Teacher.h
 CMakeFiles/WTM.dir/main.cpp.o: ../Repository/StudentsRepository.h
 CMakeFiles/WTM.dir/main.cpp.o: ../Repository/TeachersRepository.h
+CMakeFiles/WTM.dir/main.cpp.o: ../UI/customProxyTableModel.h
 CMakeFiles/WTM.dir/main.cpp.o: ../UI/mainwindow.h
 CMakeFiles/WTM.dir/main.cpp.o: ../UI/tablemodel.h
 CMakeFiles/WTM.dir/main.cpp.o: ../main.cpp
 CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QAbstractTableModel
+CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QDate
+CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QSortFilterProxyModel
 CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qabstractitemmodel.h
+CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qdatetime.h
+CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qsortfilterproxymodel.h
 CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QApplication
 CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
 CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
 CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/WTM.dir/main.cpp.o: /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
 

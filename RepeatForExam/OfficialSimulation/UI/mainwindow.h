@@ -7,6 +7,8 @@
 #include "customProxyTableModel.h"
 #include <iostream>
 #include <string>
+#include <QTableView>
+
 using namespace std;
 
 namespace Ui {
@@ -31,18 +33,24 @@ private:
 //Variables + functionality
 public:
     TableModel* tableModel;
+    CustomProxyTableModel* proxyTableModel;
 
-    vector<CustomProxyTableModel *> secondaryTables;
+    vector<CustomProxyTableModel *> secondaryProxyTablesModels;
+    vector<QTableView *> secondaryTablesModels;
+    vector<Teacher> teachers;
     void createViewsForSecondaryTeachers();
+    void updateViewsForSecondaryTeachers();
 
 public:
     void setTableView();
+    void linkSlotWithSignalsOnce();
     void linkSlotsWithSignals();
 
 public slots:
     void deleteStudent();
     void addStudent();
-
+    void updateDataEverywhere(const QModelIndex& A, const QModelIndex& B);
+    void updateDataEverywhereNoParam();
 
 };
 

@@ -49,4 +49,9 @@ void Student::setNameOfTeacher( string &nameOfTeacher) {
     Student::nameOfTeacher = nameOfTeacher;
 }
 
+Student::Student() {
+    this->id = NULL;
+    this->grade = NULL;
+}
+
 

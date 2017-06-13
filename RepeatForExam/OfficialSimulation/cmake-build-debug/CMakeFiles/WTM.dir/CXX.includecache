@@ -22,6 +22,14 @@ vector
 ../Repository/TeachersRepository.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Repository/TeachersRepository.h
 
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Exception/Exception.cpp
+Exception.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Exception/Exception.h
+
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Exception/Exception.h
+iostream
+-
+
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Model/Student.cpp
 Student.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Model/Student.h
@@ -101,8 +109,12 @@ QtWidgets/QWidget
 -
 
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/UI/customProxyTableModel.cpp
+QMessageBox
+-
 customProxyTableModel.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/UI/customProxyTableModel.h
+../Exception/Exception.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Exception/Exception.h
 
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/UI/customProxyTableModel.h
 QSortFilterProxyModel
@@ -131,13 +143,19 @@ tablemodel.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/UI/tablemodel.h
 ../Controller/GradingController.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Controller/GradingController.h
+customProxyTableModel.h
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/UI/customProxyTableModel.h
 iostream
 -
 string
 -
+QTableView
+-
 
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/UI/tablemodel.cpp
 QFont
+-
+QIdentityProxyModel
 -
 tablemodel.h
 /Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/UI/tablemodel.h
@@ -232,6 +250,10 @@ qabstractitemmodel.h
 qdatetime.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qdatetime.h
 
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QIdentityProxyModel
+qidentityproxymodel.h
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qidentityproxymodel.h
+
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/QSortFilterProxyModel
 qsortfilterproxymodel.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qsortfilterproxymodel.h
@@ -254,6 +276,10 @@ QtCore/qnamespace.h
 QtCore/qshareddata.h
 -
 limits
+-
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qidentityproxymodel.h
+QtCore/qabstractproxymodel.h
 -
 
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers/qsortfilterproxymodel.h
@@ -288,6 +314,10 @@ qmainwindow.h
 qmessagebox.h
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h
 
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QTableView
+qtableview.h
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
+
 /Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -318,5 +348,11 @@ QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qdialog.h
+-
+
+/Users/so/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qtableview.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractitemview.h
 -
 

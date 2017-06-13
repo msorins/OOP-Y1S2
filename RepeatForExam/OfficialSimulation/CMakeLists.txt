@@ -4,7 +4,7 @@ project(WTM)
 set(CMAKE_CXX_STANDARD 11)
 set( CMAKE_AUTOMOC ON )  # to automoc remove the
 
-set(SOURCE_FILES main.cpp UI/mainwindow.cpp UI/mainwindow.h UI/tablemodel.cpp UI/tablemodel.h UI/ui_mainwindow.h UI/ui_mainwindow.cpp Model/Student.cpp Model/Student.h Repository/StudentsRepository.cpp Repository/StudentsRepository.h Controller/GradingController.cpp Controller/GradingController.h UI/customProxyTableModel.cpp UI/customProxyTableModel.h Repository/TeachersRepository.cpp Repository/TeachersRepository.h Model/Teacher.cpp Model/Teacher.h)
+set(SOURCE_FILES main.cpp UI/mainwindow.cpp UI/mainwindow.h UI/tablemodel.cpp UI/tablemodel.h UI/ui_mainwindow.h UI/ui_mainwindow.cpp Model/Student.cpp Model/Student.h Repository/StudentsRepository.cpp Repository/StudentsRepository.h Controller/GradingController.cpp Controller/GradingController.h UI/customProxyTableModel.cpp UI/customProxyTableModel.h Repository/TeachersRepository.cpp Repository/TeachersRepository.h Model/Teacher.cpp Model/Teacher.h Exception/Exception.cpp Exception/Exception.h)
 add_executable(WTM ${SOURCE_FILES})
 
 # Qt5 -- BEGIN SECTION --

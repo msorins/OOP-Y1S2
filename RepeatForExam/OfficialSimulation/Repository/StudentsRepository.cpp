@@ -114,6 +114,7 @@ int StudentsRepository::getNewId() {
         if(ok)
             break;
 
+        startingId++;
     }
 
     return startingId;
@@ -125,6 +126,23 @@ Student StudentsRepository::getStudentByPosition(int pos) {
 
 void StudentsRepository::setStudentFromPosition(int pos, Student student) {
     this->teachersList[pos] = student;
+}
+
+void StudentsRepository::setStudentById(int id, Student student) {
+    for(int i = 0; i < this->teachersList.size(); i++) {
+        if(this->teachersList[i].getId() == id) {
+            this->teachersList[i] = student;
+            return ;
+        }
+    }
+}
+
+Student StudentsRepository::getStudentById(int id) {
+    for(int i = 0; i < this->teachersList.size(); i++) {
+        if(this->teachersList[i].getId() == id) {
+            return this->teachersList[i];
+        }
+    }
 }
 
 

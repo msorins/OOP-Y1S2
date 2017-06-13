@@ -38,7 +38,8 @@ void TeachersRepository::load() {
             name+=line[i], i++;
 
         Teacher teacher(name);
-        for(; i < line.size(); i++) {
+
+        for(i = i + 1; i < line.size(); i++) {
             if(line[i] == ';') {
                 teacher.addGroup(atoi(id.c_str()));
                 id.erase(id.begin(), id.end());
@@ -47,6 +48,7 @@ void TeachersRepository::load() {
 
             id += line[i];
         }
+        teacher.addGroup(atoi(id.c_str()));
         this->add(teacher);
     }
 }

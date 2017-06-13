@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/WTM.dir/UI/customProxyTableModel.cpp.o"
   "CMakeFiles/WTM.dir/Repository/TeachersRepository.cpp.o"
   "CMakeFiles/WTM.dir/Model/Teacher.cpp.o"
+  "CMakeFiles/WTM.dir/Exception/Exception.cpp.o"
   "CMakeFiles/WTM.dir/WTM_automoc.cpp.o"
   "WTM.pdb"
   "WTM"

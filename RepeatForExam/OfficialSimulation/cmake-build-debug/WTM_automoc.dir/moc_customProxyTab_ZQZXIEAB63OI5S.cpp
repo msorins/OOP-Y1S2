@@ -20,25 +20,25 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_CustomProxyModel_t {
+struct qt_meta_stringdata_CustomProxyTableModel_t {
     QByteArrayData data[1];
-    char stringdata0[17];
+    char stringdata0[22];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_CustomProxyModel_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_CustomProxyTableModel_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_CustomProxyModel_t qt_meta_stringdata_CustomProxyModel = {
+static const qt_meta_stringdata_CustomProxyTableModel_t qt_meta_stringdata_CustomProxyTableModel = {
     {
-QT_MOC_LITERAL(0, 0, 16) // "CustomProxyModel"
+QT_MOC_LITERAL(0, 0, 21) // "CustomProxyTableModel"
 
     },
-    "CustomProxyModel"
+    "CustomProxyTableModel"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_CustomProxyModel[] = {
+static const uint qt_meta_data_CustomProxyTableModel[] = {
 
  // content:
        7,       // revision
@@ -54,7 +54,7 @@ static const uint qt_meta_data_CustomProxyModel[] = {
        0        // eod
 };
 
-void CustomProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void CustomProxyTableModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
     Q_UNUSED(_id);
@@ -62,26 +62,26 @@ void CustomProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     Q_UNUSED(_a);
 }
 
-const QMetaObject CustomProxyModel::staticMetaObject = {
-    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_CustomProxyModel.data,
-      qt_meta_data_CustomProxyModel,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+const QMetaObject CustomProxyTableModel::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_CustomProxyTableModel.data,
+      qt_meta_data_CustomProxyTableModel,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
 };
 
 
-const QMetaObject *CustomProxyModel::metaObject() const
+const QMetaObject *CustomProxyTableModel::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *CustomProxyModel::qt_metacast(const char *_clname)
+void *CustomProxyTableModel::qt_metacast(const char *_clname)
 {
     if (!_clname) return Q_NULLPTR;
-    if (!strcmp(_clname, qt_meta_stringdata_CustomProxyModel.stringdata0))
-        return static_cast<void*>(const_cast< CustomProxyModel*>(this));
+    if (!strcmp(_clname, qt_meta_stringdata_CustomProxyTableModel.stringdata0))
+        return static_cast<void*>(const_cast< CustomProxyTableModel*>(this));
     return QSortFilterProxyModel::qt_metacast(_clname);
 }
 
-int CustomProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int CustomProxyTableModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
     if (_id < 0)

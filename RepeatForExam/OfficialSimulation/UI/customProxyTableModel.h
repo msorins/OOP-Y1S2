@@ -19,7 +19,7 @@ class CustomProxyTableModel : public QSortFilterProxyModel
 Q_OBJECT
 
 public:
-    CustomProxyTableModel(GradingController *controller, Teacher teacher, QObject *parent = 0);
+    CustomProxyTableModel(GradingController *controller, Teacher *teacher, QObject *parent = 0);
 
     string getFilterTeacherName();
     void setFilterTeacherName(string teacherName);
@@ -32,15 +32,11 @@ protected:
     bool lessThan(const QModelIndex &left, const QModelIndex &right) const override;
 
 public:
-
+    bool setData(const QModelIndex &index, const QVariant &value, int role) override;
 
 public:
     GradingController *controller;
-    Teacher teacher;
-private:
-
-
-    int maxPrecipitation;
+    Teacher *teacher;
 };
 
 

@@ -2,3 +2,5 @@
 2;AndreeaLupascu;915;9.9;Mihaiela
 3;TeodorTeo;916;10;Jujana
 4;CostelaCostica;913;4.35;Mihaiela
+5;JugaruRobert;915;6.73;Mihaiela
+6;BossDestept;917;9.98;Mihaiela

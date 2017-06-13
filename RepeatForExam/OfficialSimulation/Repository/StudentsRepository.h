@@ -39,6 +39,10 @@ public:
 
     Student getStudentByPosition(int pos);
     void setStudentFromPosition(int pos, Student student);
+
+    void setStudentById(int id, Student student);
+
+    Student getStudentById(int id);
 };
 
 

@@ -20,6 +20,7 @@ private:
 
 public:
     //Constructor
+    Student();
     Student(int id, string &name, int group, double grade, string &nameOfTeacher);
 
     //Setters and getters

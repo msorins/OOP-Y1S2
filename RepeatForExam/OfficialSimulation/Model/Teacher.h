@@ -18,6 +18,7 @@ private:
 public:
     //ructors
     Teacher(string name);
+    Teacher();
     
     //Getters and setters
     string getName() ;

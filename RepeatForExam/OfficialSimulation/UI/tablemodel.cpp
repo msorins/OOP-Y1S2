@@ -1,4 +1,5 @@
 #include <QFont>
+#include <QIdentityProxyModel>
 #include "tablemodel.h"
 
 TableModel::TableModel(GradingController *controllerInput, QObject *parent)
@@ -57,7 +58,6 @@ bool TableModel::setHeaderData(int section, Qt::Orientation orientation, const Q
 
 int TableModel::rowCount(const QModelIndex &parent) const
 {
-    cout<<"rowCount: "<< this->controller->getStudentsRepo()->getSize()<<"\n";
     return this->controller->getStudentsRepo()->getSize();
 }
 
@@ -88,25 +88,18 @@ QVariant TableModel::data(const QModelIndex &index, int role) const
             return QString::fromStdString(this->controller->getStudentsRepo()->getStudentByPosition(row).getNameOfTeacher() );
     }
 
-    cout<<"row: "<<row<<"\n";
 
     return QVariant();
 }
 
-bool TableModel::setData(const QModelIndex &index, const QVariant &value, int role)
-{
-    if (data(index, role) != value) {
-        // FIXME: Implement me!
-        emit dataChanged(index, index, QVector<int>() << role);
-        return true;
-    }
-    return false;
-}
 
 Qt::ItemFlags TableModel::flags(const QModelIndex &index) const
 {
     //if (!index.isValid())
         //return Qt::NoItemFlags;
+
+    if(index.column() == 3)
+        return Qt::ItemIsSelectable | Qt::ItemIsEnabled | Qt::ItemIsEditable;
 
     return  Qt::ItemIsSelectable | Qt::ItemIsEnabled;
 }

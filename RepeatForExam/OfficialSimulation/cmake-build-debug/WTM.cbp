@@ -126,6 +126,12 @@
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Controller/GradingController.h">
 			<Option target="WTM"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Exception/Exception.cpp">
+			<Option target="WTM"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Exception/Exception.h">
+			<Option target="WTM"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/Model/Student.cpp">
 			<Option target="WTM"/>
 		</Unit>

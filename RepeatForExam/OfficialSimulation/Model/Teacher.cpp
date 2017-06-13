@@ -21,3 +21,7 @@ void Teacher::setName( string name) {
 void Teacher::addGroup(int group) {
     this->groups.push_back(group);
 }
+
+Teacher::Teacher() {
+
+}

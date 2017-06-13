@@ -56,6 +56,7 @@ bool UI_ListModel::setData(const QModelIndex &index, const QVariant &value, int 
 {
     if (data(index, role) != value) {
         // FIXME: Implement me!
+        cout<<"emiteeed";
         emit dataChanged(index, index, QVector<int>() << role);
         return true;
     }
