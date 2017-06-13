@@ -1,0 +1,4 @@
+1;MirceaSorin;915;9.75;ArhurCostel
+2;AndreeaLupascu;915;9.9;Mihaiela
+3;TeodorTeo;916;10;Jujana
+4;CostelaCostica;913;4.35;Mihaiela

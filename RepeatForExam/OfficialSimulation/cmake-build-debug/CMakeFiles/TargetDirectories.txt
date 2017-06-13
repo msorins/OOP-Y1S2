@@ -1,0 +1,4 @@
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/cmake-build-debug/CMakeFiles/WTM.dir
+/Users/so/Desktop/UBB/OOP2/RepeatForExam/OfficialSimulation/cmake-build-debug/CMakeFiles/WTM_automoc.dir
